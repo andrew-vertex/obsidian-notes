@@ -4,75 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e8475249c4b51bf8",
-        "type": "split",
+        "id": "4129216281cfc1bd",
+        "type": "tabs",
         "children": [
           {
-            "id": "4129216281cfc1bd",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "86819bdc66d0a2f4",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "新标签页"
-                }
-              }
-            ]
-          },
-          {
-            "id": "285acd0e080e9ca2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0bfa014b1c45962f",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/yuanjianwei/Documents/Notes",
-                      "focus": false,
-                      "profile": {
-                        "args": [
-                          "--login"
-                        ],
-                        "executable": "/bin/zsh",
-                        "followTheme": true,
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": null
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "终端：zsh"
-                }
-              }
-            ]
+            "id": "86819bdc66d0a2f4",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,8 +196,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "0bfa014b1c45962f",
+  "active": "86819bdc66d0a2f4",
   "lastOpenFiles": [
+    "Tools/Mac/mole-installation-usage-best-practices.md",
     "Untitled Kanban.md",
     "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
     "未命名.base",
