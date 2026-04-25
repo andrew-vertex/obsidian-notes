@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "4129216281cfc1bd",
+        "id": "bc47eaa34dde90cb",
         "type": "tabs",
         "children": [
           {
-            "id": "86819bdc66d0a2f4",
+            "id": "7f2fb1966fa774b5",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Tools/Mac/mole-installation-usage-best-practices.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "mole-installation-usage-best-practices"
             }
           }
         ]
@@ -94,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tools/Mac/mole-installation-usage-best-practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "mole-installation-usage-best-practices 的反向链接列表"
             }
           },
           {
@@ -112,11 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tools/Mac/mole-installation-usage-best-practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "mole-installation-usage-best-practices 的出链列表"
             }
           },
           {
@@ -154,12 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Tools/Mac/mole-installation-usage-best-practices.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "mole-installation-usage-best-practices 的大纲"
             }
           },
           {
@@ -196,11 +209,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "86819bdc66d0a2f4",
+  "active": "7f2fb1966fa774b5",
   "lastOpenFiles": [
+    "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
     "Tools/Mac/mole-installation-usage-best-practices.md",
     "Untitled Kanban.md",
-    "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
     "未命名.base",
     "Archive/Outdated Information",
     "Archive/History Notes",
