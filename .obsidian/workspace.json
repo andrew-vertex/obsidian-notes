@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Mac/mole-installation-usage-best-practices.md",
+                "file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mole-installation-usage-best-practices"
+              "title": "claude-code-cli-installation-configuration-commands-best-practices"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Mac/mole-installation-usage-best-practices.md",
+                "file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "mole-installation-usage-best-practices 的反向链接列表"
+              "title": "macos-keychain-zsh-api-key-management-best-practices 的反向链接列表"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Mac/mole-installation-usage-best-practices.md",
+                "file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "mole-installation-usage-best-practices 的出链列表"
+              "title": "macos-keychain-zsh-api-key-management-best-practices 的出链列表"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Mac/mole-installation-usage-best-practices.md",
+                "file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "mole-installation-usage-best-practices 的大纲"
+              "title": "claude-code-cli-installation-configuration-commands-best-practices 的大纲"
             }
           },
           {
@@ -209,9 +209,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "7f2fb1966fa774b5",
+  "active": "b35b5611f8d455dc",
   "lastOpenFiles": [
+    "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
     "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
+    "Tools/AI",
+    "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
     "Tools/Mac/mole-installation-usage-best-practices.md",
     "Untitled Kanban.md",
     "未命名.base",
@@ -224,7 +227,6 @@
     "Thinking/Business Insights",
     "Thinking/Cognitive Upgrade",
     "Thinking/Life Philosophy",
-    "Tools",
     "Homebrew 安装、配置、使用、更新与最佳实践.md",
     "主题.md",
     "未命名 1.canvas",

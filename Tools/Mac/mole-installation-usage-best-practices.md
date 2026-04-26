@@ -1,3 +1,9 @@
+---
+tags:
+  - mole
+  - disk
+  - mac
+---
 # Mole 安装、使用与最佳实践
 
 面向 macOS 用户，整理 Mole 的安装方式、核心能力、常见命令、Raycast 集成与安全使用建议。
