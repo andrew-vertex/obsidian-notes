@@ -9,14 +9,16 @@ tags:
 ---
 # OpenCode 安装、配置、命令与最佳实践
 
-面向终端 AI coding agent、工程自动化、团队协作和本地大模型接入场景，整理 OpenCode 的安装方式、配置体系、CLI 与 TUI 命令、自定义模型 API、Ollama 本地模型接入，以及从 0 到 1 的工程实践方法。
+面向终端 AI coding agent、工程自动化、团队协作和本地大模型接入场景，整理 OpenCode 的安装方式、配置体系、CLI 与 TUI 命令、自定义模型 API、Ollama 本地模型接入、MCP 扩展、GitHub 集成、自定义 Commands / Agents，以及从 0 到 1 的工程实践方法。
 
-截至 `2026-04-26` 核对，本文主要依据 OpenCode 官方文档、官方 GitHub README 和 Ollama 官方 OpenCode 集成文档整理。
+截至 `2026-05-03` 核对，本文主要依据 OpenCode 官方文档、官方 GitHub README、官方 changelog、Ollama 官方 OpenCode 集成文档，以及 `oh-my-openagent` 项目文档整理。
 
 说明：
 
 - 本文优先依据 OpenCode 官方文档与官方 GitHub README。
+- 关于 `Timeline / Session` 的部分，官方稳定文档相对少，更多结合 OpenCode 官方 `changelog` 核对，因为这一块在 `Desktop / Web` 侧仍在快速迭代。
 - 关于 `Ollama` 的部分，额外参考了 Ollama 官方集成文档，因为它提供了 OpenCode 本地模型接入的最新官方路径。
+- 关于 `oh-my-openagent` 的部分，额外参考其官方仓库 README 与安装指南；它属于社区生态，不是 OpenCode 官方内建组件。
 - 关于“最佳实践”的部分，凡是官方明确给出约束的，按官方整理；凡是工程方法论部分，则是在官方能力边界内做的实践型建议。
 
 官方地址：
@@ -32,12 +34,14 @@ tags:
 - Rules / `AGENTS.md`：<https://opencode.ai/docs/rules/>
 - Agents：<https://opencode.ai/docs/agents/>
 - Permissions：<https://opencode.ai/docs/permissions/>
+- MCP Servers：<https://opencode.ai/docs/mcp-servers/>
 - Commands：<https://opencode.ai/docs/commands/>
 - Agent Skills：<https://opencode.ai/docs/skills/>
 - Formatters：<https://opencode.ai/docs/formatters>
 - Web：<https://opencode.ai/docs/web/>
 - GitHub Agent：<https://opencode.ai/docs/github/>
 - Share：<https://opencode.ai/docs/share/>
+- Changelog：<https://opencode.ai/changelog>
 - Ollama 集成：<https://docs.ollama.com/integrations/opencode>
 
 ## 目录
@@ -55,7 +59,9 @@ tags:
 - [本地 Ollama 配置](#本地-ollama-配置)
 - [推荐基础配置](#推荐基础配置)
 - [TUI / CLI / Web 的分工](#tui--cli--web-的分工)
+- [Session / Timeline、回滚与分叉](#session--timeline回滚与分叉)
 - [Rules、AGENTS.md 与指令体系](#rulesagentsmd-与指令体系)
+- [MCP 集成：本地 / 远程 与工具编排](#mcp-集成本地--远程-与工具编排)
 - [Agents、Permissions 与安全边界](#agentspermissions-与安全边界)
 - [Commands、Skills、Formatters 与自动化](#commandsskillsformatters-与自动化)
 - [命令速查表](#命令速查表)
@@ -70,7 +76,9 @@ tags:
 - 它不是绑定单一模型的平台；官方文档明确支持 `75+ providers`，也明确支持本地模型。
 - 你要的“自定义模型 API”是官方支持项，不是 hack。OpenCode 官方当前明确支持 `OpenAI-compatible` provider。
 - 你要的“本地 Ollama 模型”也是官方支持项，而且 Ollama 当前还有 `ollama launch opencode` 的官方集成方式。
-- 工程上真正影响体验的不是“装没装上”，而是 6 件事：`Git 仓库`、`AGENTS.md`、`permission`、`custom commands`、`agents`、`formatter`。
+- `Session / Timeline` 的本质不是“聊天记录列表”，而是和 `Git`、snapshot、forked session 一起工作的会话状态系统；`revert`、`fork`、`restore` 比单纯 `copy` 更适合做工程回滚。
+- `MCP` 不是“多装几个插件”这么简单；真正影响稳定性的，是 `本地 / 远程` 选择、`tools` 暴露范围、agent 级工具隔离，以及上下文成本。
+- 工程上真正影响体验的不是“装没装上”，而是 8 件事：`Git 仓库`、`AGENTS.md`、`permission`、`MCP`、`custom commands`、`agents`、`formatter`、`GitHub automation`。
 - 如果是本地模型，当前最重要的现实问题不是“能不能连上”，而是 `上下文长度` 和 `tool calling` 稳定性。Ollama 官方 OpenCode 集成页当前建议至少 `64k` 上下文；OpenCode provider 文档同时提示如果工具调用异常，可先把 `num_ctx` 提到 `16k-32k` 以上。
 
 ## OpenCode 是什么
@@ -900,6 +908,49 @@ opencode run --attach http://localhost:4096 "Explain async/await in JavaScript"
 
 这能减少每次 run 的冷启动成本，尤其是 MCP / provider 初始化比较重的时候。
 
+## Session / Timeline、回滚与分叉
+
+### 1. 先分清 4 个相近但不等价的动作
+
+| 动作 | 本质 | 最适合的场景 | 不要拿它替代什么 |
+| --- | --- | --- | --- |
+| `undo / redo` | 当前会话里的近距离撤销 / 重做 | 刚刚改错一步，想快速退回 | 不适合做长期分支管理 |
+| `revert / restore` | 回到某个既有会话状态或工作点 | 方案走偏了，想回到某个稳定节点 | 不等于保留两条方案并行 |
+| `fork` | 从已有会话节点分叉出新会话 | 想保留原思路，同时试另一个方向 | 不等于“简单复制一段文本” |
+| `copy` | 复制提示词、输出或上下文片段 | 给人看、贴到 issue、迁移到别的工具 | 不能替代真正的状态恢复 |
+
+### 2. 工程上优先级通常是 `revert / fork` 高于 `copy`
+
+原因很简单：
+
+- `revert / restore` 绑定的是会话状态和上下文连续性。
+- `fork` 保留祖先节点，适合做“保守版”和“激进版”并行试验。
+- `copy` 只保留文本，不保留完整执行上下文、权限状态和工具使用轨迹。
+
+### 3. 当前能核实到的 Timeline 现状
+
+截至 `2026-05-03`，OpenCode 官方关于 `Timeline / Session` 的稳定说明，更多散落在 `CLI/TUI` 文档与 `changelog`，而不是一篇独立“Timeline 手册”里。当前可以明确把握的点是：
+
+- `CLI` 侧已经长期支持 `--fork` 这类会话分叉能力。
+- 官方 `changelog` 在 `2026-04-19` 记录过“从 session dialog fork 时可选择 full-session”的改动。
+- 官方 `changelog` 在 `2026-04-17` 记录过 session `restore` 流程修复，以及 `revert diff` 展示真实文件名的改进。
+- 官方 `changelog` 在 `2026-04-15` 记录过 Timeline 的 staged rendering / performance 优化，说明这个 UI 仍在快速演进。
+- 官方 `changelog` 在 `2026-03-17` 甚至记录过一次对 Timeline 实验特性的回退，进一步说明这一块是高频变化区。
+
+结论：
+
+- 如果你写团队笔记，不要把某个按钮位置或某个 UI 文案当成稳定契约。
+- 应该把稳定能力写成：`undo/redo`、`fork session`、`restore session`、`revert diff`、`copy text for sharing`。
+
+### 4. 我建议怎么用
+
+| 场景 | 首选动作 | 原因 |
+| --- | --- | --- |
+| 刚改坏一两步 | `undo` / `redo` | 成本最低 |
+| 已经走偏，但想回到某个节点重来 | `revert` / `restore` | 保留上下文链路 |
+| 同一个需求要试两种实现路线 | `fork` | 不污染主线 |
+| 想把结果发给别人或贴到外部系统 | `copy` | 只传递文本内容 |
+
 ## Rules、AGENTS.md 与指令体系
 
 ### 1. `AGENTS.md` 是 OpenCode 最关键的项目记忆入口
@@ -982,6 +1033,136 @@ opencode run --attach http://localhost:4096 "Explain async/await in JavaScript"
 - 优先写：构建命令、测试命令、目录结构、约束、坑点
 - 不要把临时会议纪要和过期流程写进去
 
+## MCP 集成：本地 / 远程 与工具编排
+
+### 1. 先分清“内置工具”和“外部 MCP”
+
+| 类型 | 来源 | 你主要改什么 | 典型例子 |
+| --- | --- | --- | --- |
+| 内置工具 | OpenCode 自带 | `permission` | `read`、`edit`、`bash`、`task`、`webfetch` |
+| 外部 MCP | 你接入的 server | `mcp` + `tools` | `filesystem`、`GitHub`、`Notion`、`Context7`、自建内部 API |
+
+不要混淆：
+
+- `permission` 解决的是“某类能力能不能执行”。
+- `tools` 解决的是“某个 agent 能不能看见 / 调用某个具体工具”，这一点在 `MCP` 上尤其重要。
+
+### 2. 本地 MCP：适合本机工具链和私有资源
+
+官方文档把本地 MCP 定义为 `stdio` 方式启动的子进程。它最适合：
+
+- 本地文件系统
+- 本机数据库 / DevTools
+- 需要读取本地凭证的私有脚本
+- 团队内部自己写的 MCP server
+
+一个够用的本地配置示意：
+
+```jsonc
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "context7": {
+      "command": ["npx", "-y", "@upstash/context7-mcp"]
+    }
+  }
+}
+```
+
+本地 MCP 的优点：
+
+- 启动和调试简单
+- 不额外暴露网络面
+- 最适合单机研发环境
+
+本地 MCP 的注意点：
+
+- 你得自己维护二进制或 npm / bun / uv 运行环境
+- agent 一多时，stdio 子进程数量会变多
+- 本地 server 挂掉时，表现通常是“工具突然不可用”
+
+### 3. 远程 MCP：适合团队共享和 OAuth 场景
+
+官方文档当前把远程 MCP 作为 `HTTP` / `SSE` 方式接入，并明确支持 OAuth。
+
+适合场景：
+
+- 团队共用一组统一工具
+- 公司内部网关统一鉴权
+- 想把访问控制、审计、速率限制放到服务端
+- 需要跨机器共享同一个 MCP 能力
+
+一个够用的远程配置示意：
+
+```jsonc
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "company-docs": {
+      "url": "https://mcp.example.com"
+    }
+  }
+}
+```
+
+远程 MCP 的优点：
+
+- 多台机器共享一致能力
+- 凭证和审计更容易集中管理
+- 更适合正式团队环境
+
+远程 MCP 的代价：
+
+- 网络稳定性直接影响工具可用性
+- 首次 OAuth / 鉴权链路更复杂
+- 一旦暴露过多工具，agent 的选择空间会膨胀
+
+### 4. `tools` 与 `agent.tools` 才是 MCP 的“暴露面控制器”
+
+这一点很容易和 `permission` 混淆。
+
+实践上建议这样理解：
+
+- `permission` 控制风险边界。
+- `tools` 控制上下文和可见性边界。
+
+一个典型做法是：
+
+```jsonc
+{
+  "$schema": "https://opencode.ai/config.json",
+  "tools": {
+    "mcp__notion__*": false,
+    "mcp__github__*": false
+  },
+  "agent": {
+    "review": {
+      "tools": {
+        "mcp__github__get_pull_request": true,
+        "mcp__context7__*": true
+      }
+    }
+  }
+}
+```
+
+推荐原则：
+
+- 默认先全局关掉高风险或低频 MCP。
+- 只给特定 agent 打开它真的需要的那几个工具。
+- 不要把“搜索、文档、工单、数据库、浏览器、公司内网”一次性全部塞给主 agent。
+
+### 5. 本地 vs 远程 MCP 怎么选
+
+| 维度 | 本地 MCP | 远程 MCP |
+| --- | --- | --- |
+| 部署成本 | 低 | 中到高 |
+| 单机调试 | 最方便 | 一般 |
+| 团队共享 | 弱 | 强 |
+| 安全与审计 | 本机自管 | 服务端更好控 |
+| 离线能力 | 强 | 弱 |
+| 典型建议 | 个人开发机优先 | 团队平台化再上 |
+
 ## Agents、Permissions 与安全边界
 
 ### 1. 当前内建 agents
@@ -1060,12 +1241,17 @@ OpenCode 当前用 `permission` 控制：
 }
 ```
 
-### 7. `tools` 配置已经过时
+### 7. `tools` 配置不要和 `permission` 混为一谈
 
-官方当前明确说明：
+对于内置能力控制，官方当前明确强调：
 
-- `tools` 是 deprecated
+- 旧式“拿 `tools` 管内置工具权限”的思路已经不推荐
 - 新配置优先用 `permission`
+
+但要注意：
+
+- `MCP` 文档当前仍然使用 `tools` / `agent.tools` 来控制哪些具体工具对哪些 agent 可见
+- 所以不是“`tools` 彻底不能用”，而是“不要再拿它代替 `permission` 做风险控制”
 
 ### 8. 每个 agent 单独设权限
 
@@ -1075,7 +1261,46 @@ OpenCode 当前用 `permission` 控制：
 - `docs`：允许 read / grep，禁止 bash
 - `build`：允许 edit，但 bash 仍 ask
 
-### 9. 自定义 agent 示例
+### 9. `primary` / `subagent` 的区别
+
+| 维度 | `primary` | `subagent` |
+| --- | --- | --- |
+| 面向谁 | 直接面向用户 | 面向父 agent |
+| 典型入口 | `--agent`、TUI 切换、GitHub Agent | `task` / delegation |
+| 适合什么任务 | 长链路主流程 | 窄职责子任务 |
+| 是否适合长期对话 | 适合 | 不适合 |
+| 权限策略 | 可以相对完整，但要控风险 | 应该更窄、更专一 |
+
+最实用的理解方式：
+
+- `primary` 是你“坐在前台”的主驾驶。
+- `subagent` 是后台并行干活的专项工种。
+
+官方当前也明确要求：
+
+- `GitHub Agent` 配置的 `agent` 必须是 `primary`
+- `subagent` 更适合 `review`、`explore`、`docs`、`migration-check` 这类窄任务
+
+### 10. 创建自定义 agent
+
+官方当前支持三种主要方式：
+
+- `opencode.json` 里的 `agent`
+- `~/.config/opencode/agents/*.md`
+- `.opencode/agents/*.md`
+
+如果你想快速起步，也可以直接运行：
+
+```bash
+opencode agent create
+```
+
+建议分工：
+
+- 全局 agent 放你个人长期方法论
+- 项目 agent 放仓库专属规则和工具策略
+
+### 11. 自定义 agent 示例
 
 #### JSON 方式
 
@@ -1126,6 +1351,23 @@ Only analyze code and provide findings.
 Focus on correctness, regressions, and missing tests.
 ```
 
+再给一个 `primary` agent 的例子：
+
+```md
+---
+description: Architecture-first primary agent for large changes
+mode: primary
+model: openai/gpt-5.4
+temperature: 0.2
+permission:
+  edit: ask
+  bash: ask
+---
+
+Start with architecture impact, then propose implementation slices.
+Prefer splitting work into subagents for isolated subsystems.
+```
+
 ## Commands、Skills、Formatters 与自动化
 
 ### 1. 自定义 Commands 是最高 ROI 的扩展点之一
@@ -1133,9 +1375,33 @@ Focus on correctness, regressions, and missing tests.
 官方当前支持两种定义方式：
 
 - `opencode.json` 里的 `command`
-- `.opencode/commands/*.md`
+- `~/.config/opencode/commands/*.md` 与 `.opencode/commands/*.md`
 
-### 2. 一个高价值命令示例
+推荐分层：
+
+- 全局 commands：你个人反复使用的动作
+- 项目 commands：只对当前仓库有意义的流程
+
+### 2. 创建 command 文件夹的建议
+
+```text
+~/.config/opencode/commands/
+  review-pr.md
+  summarize-diff.md
+
+<project>/.opencode/commands/
+  fix-ci.md
+  release-check.md
+  migrate-db.md
+```
+
+最实用的经验是：
+
+- 把“稳定可复用的套路”做成 command
+- 把“只在这个仓库里成立的 SOP”放项目目录
+- command 名称尽量动词化，方便 TUI 里直接 `/fix-ci`、`/release-check`
+
+### 3. 一个高价值命令示例
 
 路径：
 
@@ -1159,7 +1425,7 @@ Review the recent changes and identify:
 - risky refactors
 ```
 
-### 3. 命令模板支持的关键能力
+### 4. 命令模板支持的关键能力
 
 | 能力 | 写法 |
 | --- | --- |
@@ -1169,7 +1435,24 @@ Review the recent changes and identify:
 | 注入 shell 输出 | ``!`git log --oneline -10` `` |
 | 注入文件内容 | `@src/foo.ts` |
 
-### 4. Skills
+### 5. 什么样的 command 最值钱
+
+通常是这些：
+
+- `/review-pr`
+- `/fix-failing-test`
+- `/release-check`
+- `/summarize-diff`
+- `/security-scan`
+
+原则不是“越多越好”，而是：
+
+- 高频
+- 结构稳定
+- 输出模板固定
+- 你每周至少会手动做两次
+
+### 6. Skills
 
 官方当前支持 `SKILL.md` 形式的 Agent Skills。
 
@@ -1182,7 +1465,7 @@ Review the recent changes and identify:
 - `.agents/skills/...`
 - `~/.agents/skills/...`
 
-### 5. Skills 适合干什么
+### 7. Skills 适合干什么
 
 很适合固化这些高频工作：
 
@@ -1192,7 +1475,7 @@ Review the recent changes and identify:
 - 数据库迁移规范
 - Monorepo 提交流程
 
-### 6. 最小 Skill 示例
+### 8. 最小 Skill 示例
 
 ```md
 ---
@@ -1209,7 +1492,7 @@ compatibility: opencode
 - Provide a copy-pasteable release command
 ```
 
-### 7. Formatters
+### 9. Formatters
 
 OpenCode 会在写文件或编辑后自动按语言格式化。
 
@@ -1223,7 +1506,7 @@ OpenCode 会在写文件或编辑后自动按语言格式化。
 - `ktlint`
 - `rubocop`
 
-### 8. Formatter 最佳实践
+### 10. Formatter 最佳实践
 
 | 场景 | 建议 |
 | --- | --- |
@@ -1232,7 +1515,7 @@ OpenCode 会在写文件或编辑后自动按语言格式化。
 | 你格式器链很复杂 | 自己配置 custom formatter |
 | 大仓库多语言 | 不要手动格式化，交给 OpenCode |
 
-### 9. 自定义 Formatter
+### 11. 自定义 Formatter
 
 ```jsonc
 {
@@ -1253,7 +1536,7 @@ OpenCode 会在写文件或编辑后自动按语言格式化。
 }
 ```
 
-### 10. GitHub Agent
+### 12. GitHub Agent / `opencode github install`
 
 如果你想把 OpenCode 用进 issue / PR 流程，官方当前支持：
 
@@ -1261,11 +1544,80 @@ OpenCode 会在写文件或编辑后自动按语言格式化。
 opencode github install
 ```
 
-使用场景：
+官方文档当前明确说明的关键点：
+
+- 安装命令会为仓库接入 GitHub Agent 所需的 GitHub 侧配置
+- `github.model` 是必填项
+- `github.agent` 必须指向一个 `primary` agent，不能是 `subagent`
+- 支持通过 issue / PR comment 触发，例如 `/oc` 或 `/opencode`
+
+最适合的场景：
 
 - issue triage
 - 自动修复并发 PR
+- review assist
 - 在 GitHub Actions runner 内安全执行
+
+我的建议是：
+
+- 本地先把 `build` / `review` / `architect` 这类 agent 打磨顺
+- 再把最稳定的 `primary agent + model` 映射给 GitHub
+- 不要把“本地还没验证过的激进 agent”直接丢到仓库自动化里
+
+### 13. `oh-my-openagent`：预设工具 + 预设 MCP + 预设 Agent
+
+先定性：
+
+- 它是 OpenCode 生态里的社区增强层，不是 OpenCode 官方内建功能
+- 它的价值不在于“换个主题”，而在于直接给你一套经过调优的 agent 编排、工具链和默认工作流
+
+当前项目文档里最值得关注的点：
+
+- 发布包名和 CLI 仍然是 `oh-my-opencode`
+- 但 `opencode.json` 里的 plugin entry 现在更推荐写成 `oh-my-openagent`
+- 兼容层会同时识别旧名字和新名字，但旧名字会给迁移警告
+
+它预设和强化的能力包括：
+
+- `Discipline Agents`：例如 `Sisyphus`、`Hephaestus`、`Prometheus`
+- 预设工作流命令：`ultrawork` / `ulw`
+- 自循环执行：`Ralph Loop` / `/ulw-loop`
+- 预设 MCP：`Exa`、`Context7`、`Grep.app`
+- 预设工具增强：`LSP`、`AST-Grep`、`Tmux`
+
+### 14. `oh-my-openagent` 的安装与使用
+
+官方仓库当前最推荐的安装方式，反而不是“自己手动配”，而是把安装指南交给另一个 agent 去执行。
+
+如果你自己手动装，入口是：
+
+```bash
+bunx oh-my-opencode install
+```
+
+更偏自动化的方式是：
+
+```bash
+bunx oh-my-opencode install --no-tui --claude=yes --openai=yes --gemini=no --copilot=no
+```
+
+装完建议立刻校验：
+
+```bash
+bunx oh-my-opencode doctor
+```
+
+日常用法上，最常见的是：
+
+- 输入 `ultrawork` 或 `ulw` 直接启用整套高强度编排
+- 需要自循环长任务时，使用 `Ralph Loop` / `/ulw-loop`
+- 如果只想借用它的 agent / MCP / tool 预设，不一定要完全替代你原本的 `AGENTS.md` 和 commands
+
+使用上的现实建议：
+
+- 如果你没有 `Claude` 订阅，项目安装文档自己也明确提醒：`Sisyphus` 的效果可能不理想
+- 如果你已经有一套很稳定的 OpenCode 配置，先把它当“插件化增强层”试，不要一上来全盘替换
+- 如果你刚开始接触 OpenCode，`oh-my-openagent` 反而可能比手工从零拼 `agent + MCP + command` 更快出效果
 
 ## 命令速查表
 
@@ -1632,6 +1984,28 @@ OPENCODE_SERVER_PASSWORD=replace-me opencode web --hostname 0.0.0.0 --port 4096
 
 全设成裸 `allow` 后再指望人工补救。
 
+### 11. 把 `permission` 和 `tools` 混成一回事
+
+结果通常是：
+
+- 你以为自己“禁掉了工具”，其实只是没给 MCP 做可见性隔离
+- 或者你以为“只给了 agent 一个工具”，但风险权限其实还是开的
+
+记法：
+
+- `permission` 管风险边界
+- `tools` 管工具暴露范围
+
+### 12. 把 `copy` 当成会话分叉或回滚
+
+`copy` 更像文本搬运。
+
+真正有工程价值的分支和回退，还是：
+
+- `undo / redo`
+- `restore / revert`
+- `fork`
+
 ## 参考来源
 
 ### OpenCode 官方
@@ -1645,16 +2019,24 @@ OPENCODE_SERVER_PASSWORD=replace-me opencode web --hostname 0.0.0.0 --port 4096
 - Rules：<https://opencode.ai/docs/rules/>
 - Agents：<https://opencode.ai/docs/agents/>
 - Permissions：<https://opencode.ai/docs/permissions/>
+- MCP Servers：<https://opencode.ai/docs/mcp-servers/>
 - Commands：<https://opencode.ai/docs/commands/>
 - Skills：<https://opencode.ai/docs/skills/>
 - Formatters：<https://opencode.ai/docs/formatters>
 - Web：<https://opencode.ai/docs/web/>
 - GitHub：<https://opencode.ai/docs/github/>
 - Share：<https://opencode.ai/docs/share/>
+- Changelog：<https://opencode.ai/changelog>
+- 中文 MCP：<https://opencode.ai/docs/zh-cn/mcp-servers/>
+- 中文 Commands：<https://opencode.ai/docs/zh-cn/commands/>
+- 中文 Agents：<https://opencode.ai/docs/zh-cn/agents/>
+- 中文 GitHub：<https://opencode.ai/docs/zh-cn/github/>
 
 ### GitHub
 
 - README：<https://github.com/anomalyco/opencode>
+- oh-my-openagent：<https://github.com/code-yeongyu/oh-my-openagent>
+- oh-my-openagent 安装指南：<https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/refs/heads/dev/docs/guide/installation.md>
 
 ### Ollama 官方
 

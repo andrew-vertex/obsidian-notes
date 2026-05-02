@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bc47eaa34dde90cb",
+        "id": "887952549ff82321",
         "type": "tabs",
         "children": [
           {
-            "id": "7f2fb1966fa774b5",
+            "id": "92402f3b62a01a42",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -209,15 +209,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b35b5611f8d455dc",
+  "active": "92402f3b62a01a42",
   "lastOpenFiles": [
+    "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
     "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
     "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
     "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
     "Clippings/If your AI agent keeps failing, read this.md",
     "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
     "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
-    "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
     "Clippings/If your AI agent keeps failing, read this 1.md",
     "Clippings",
     "Tools/Mac/mole-installation-usage-best-practices.md",
