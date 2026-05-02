@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
+                "file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "claude-code-cli-installation-configuration-commands-best-practices"
+              "title": "opencode-installation-configuration-commands-best-practices"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.50312423706055
+    "width": 229.50247192382812
   },
   "right": {
     "id": "c50c1d5cf391a429",
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
+                "file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "claude-code-cli-installation-configuration-commands-best-practices 的大纲"
+              "title": "opencode-installation-configuration-commands-best-practices 的大纲"
             }
           },
           {
@@ -211,11 +211,18 @@
   },
   "active": "b35b5611f8d455dc",
   "lastOpenFiles": [
+    "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
+    "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+    "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+    "Clippings/If your AI agent keeps failing, read this.md",
+    "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
     "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
+    "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+    "Clippings/If your AI agent keeps failing, read this 1.md",
+    "Clippings",
+    "Tools/Mac/mole-installation-usage-best-practices.md",
     "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
     "Tools/AI",
-    "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
-    "Tools/Mac/mole-installation-usage-best-practices.md",
     "Untitled Kanban.md",
     "未命名.base",
     "Archive/Outdated Information",
@@ -226,7 +233,6 @@
     "Thinking/Reading Notes",
     "Thinking/Business Insights",
     "Thinking/Cognitive Upgrade",
-    "Thinking/Life Philosophy",
     "Homebrew 安装、配置、使用、更新与最佳实践.md",
     "主题.md",
     "未命名 1.canvas",
