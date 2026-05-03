@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+                "file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "opencode-installation-configuration-commands-best-practices"
+              "title": "graphify-installation-usage-best-practices"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+                "file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "opencode-installation-configuration-commands-best-practices 的大纲"
+              "title": "graphify-installation-usage-best-practices 的大纲"
             }
           },
           {
@@ -211,6 +211,10 @@
   },
   "active": "92402f3b62a01a42",
   "lastOpenFiles": [
+    "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
+    "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+    "Tools/AI/Skills/README.md",
+    "Tools/AI/Skills",
     "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
     "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
     "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
@@ -232,7 +236,6 @@
     "未命名.md",
     "Thinking/Reading Notes",
     "Thinking/Business Insights",
-    "Thinking/Cognitive Upgrade",
     "Homebrew 安装、配置、使用、更新与最佳实践.md",
     "主题.md",
     "未命名 1.canvas",
