@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "887952549ff82321",
+        "id": "0cfb666d3db51a27",
         "type": "tabs",
         "children": [
           {
-            "id": "92402f3b62a01a42",
+            "id": "f9988ad7987dc2b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+                "file": "Tech/Backend/DateBase/elasticsearch/Elasticsearch 集群与分布式架构.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "graphify-installation-usage-best-practices"
+              "title": "Elasticsearch 集群与分布式架构"
             }
           }
         ]
@@ -83,12 +83,22 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "d97027703b294ce6",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "笔记本导航器"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 229.50247192382812
+    "width": 300.5024719238281
   },
   "right": {
     "id": "c50c1d5cf391a429",
@@ -166,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+                "file": "Tech/Backend/DateBase/elasticsearch/Elasticsearch 集群与分布式架构.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "graphify-installation-usage-best-practices 的大纲"
+              "title": "Elasticsearch 集群与分布式架构 的大纲"
             }
           },
           {
@@ -206,41 +216,59 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "92402f3b62a01a42",
+  "active": "b35b5611f8d455dc",
   "lastOpenFiles": [
-    "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
-    "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
-    "Tools/AI/Skills/README.md",
-    "Tools/AI/Skills",
-    "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
-    "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
-    "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
-    "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
-    "Clippings/If your AI agent keeps failing, read this.md",
-    "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
-    "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
-    "Clippings/If your AI agent keeps failing, read this 1.md",
-    "Clippings",
-    "Tools/Mac/mole-installation-usage-best-practices.md",
-    "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
-    "Tools/AI",
-    "Untitled Kanban.md",
-    "未命名.base",
-    "Archive/Outdated Information",
-    "Archive/History Notes",
-    "Projects/Blog",
-    "Projects/SideProjects",
-    "未命名.md",
-    "Thinking/Reading Notes",
-    "Thinking/Business Insights",
-    "Homebrew 安装、配置、使用、更新与最佳实践.md",
-    "主题.md",
+    "Tech/Backend/DateBase/elasticsearch/Elasticsearch 分词、中文检索与自动提示.md",
+    "Tech/_kb/raw/Elasticsearch Notion 导出来源记录.md",
+    "Tech/Backend/DateBase/elasticsearch/Elasticsearch 数据同步、别名与重建索引.md",
+    "Tech/Backend/DateBase/elasticsearch/Elasticsearch 集群与分布式架构.md",
+    "Tech/Backend/DateBase/elasticsearch/Elasticsearch 深分页与结果遍历.md",
+    "Tech/Backend/DateBase/elasticsearch/Elasticsearch 检索原理、NRT 与相关性评分.md",
+    "Tech/Backend/DateBase/elasticsearch/Elasticsearch 索引设计、文档与查询 DSL.md",
+    "Tech/Backend/DateBase/elasticsearch/elasticsearch-fundamentals.md",
+    "Tech/Backend/DateBase/elasticsearch/Elasticsearch 基础与核心概念.md",
+    "Tech/Backend/DateBase/elasticsearch/elasticsearch-index.md",
+    "Tech/Backend/DateBase/elasticsearch/Elasticsearch 知识索引.md",
+    "Tech/Backend/DateBase/elasticsearch/Elasticsearch 阅读指南.md",
+    "Tech/Backend/DateBase/elasticsearch/elasticsearch-analysis-and-suggest.md",
+    "Tech/Backend/DateBase/elasticsearch/elasticsearch-pagination-and-result-traversal.md",
+    "Tech/Backend/DateBase/elasticsearch/elasticsearch-mapping-documents-and-query-dsl.md",
+    "Tech/Backend/DateBase/elasticsearch/elasticsearch-internals-and-relevance.md",
+    "Tech/Backend/DateBase/elasticsearch/elasticsearch-data-sync-and-index-evolution.md",
+    "Tech/Backend/DateBase/elasticsearch/elasticsearch-cluster-and-distributed-architecture.md",
+    "Tech/_kb/raw/elasticsearch-notion-export-source.md",
+    "_kb/wiki/index.md",
+    "_kb/log.md",
+    "_kb/raw/README.md",
+    "Temp/ElasticSearch/ElasticSearch 高级/Elasticsearch 评分机制与权重控制笔记 73e41e4416b24f45af83e0ba1f208b16.md",
+    "Tech/Backend/DateBase/elasticsearch",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/ElasticSearch 深度分页问题详情/Scroll 原理分析 2fad60c9df5180fe8580f9933058b7a4.md",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/ElasticSearch 深度分页问题详情/Search After 原理 2fad60c9df518074afb8d5d1b416bc55.md",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled.png",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 9.png",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 8.png",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 7.png",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 6.png",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 5.png",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 4.png",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 3.png",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 26.png",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 25.png",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Elasticsearch 评分机制与权重控制笔记 73e41e4416b24f45af83e0ba1f208b16.md",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/ElasticSearch 深度分页问题详情",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 基础",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 原理",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 使用",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch",
+    "Tech/_kb/raw/elasticsearch-notion-export",
+    "Temp/ElasticSearch/ElasticSearch 高级/ElasticSearch 深度分页问题详情",
+    "Temp/ElasticSearch/ElasticSearch 高级",
     "未命名 1.canvas",
-    "未命名.canvas",
-    "2026-04-25.md",
-    "阿娥犬瘟热我去.md"
+    "未命名.canvas"
   ]
 }

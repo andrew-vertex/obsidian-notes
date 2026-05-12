@@ -265,3 +265,9 @@ printf "%s\n" "${#DEEPSEEK_API_KEY}"
 - 对非交互式脚本显式加载环境，别假设它会自动读 `~/.zshrc`
 - key 泄漏后先在 provider 后台吊销，再更新本地 Keychain
 
+## 参考来源
+
+- Apple Developer: <https://developer.apple.com/>
+- Apple 关于 `man` 手册的说明：<https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/manpages/man1/man.1.html>
+- `zsh` 官方文档：<https://zsh.sourceforge.io/Doc/>
+- 本地命令参考：`man security`、`man zsh`、`man zshparam`

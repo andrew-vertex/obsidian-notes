@@ -1,0 +1,209 @@
+{
+  "communities": {
+    "0": [
+      "openclaw_best_practices_doc",
+      "openclaw_best_practices_openclaw",
+      "openclaw_best_practices_workspace_markdown",
+      "opencode_best_practices_agents_md",
+      "opencode_best_practices_doc",
+      "opencode_best_practices_mcp",
+      "opencode_best_practices_opencode",
+      "opencode_best_practices_skills",
+      "skills_readme_ai_skills_index",
+      "skills_readme_doc"
+    ],
+    "1": [
+      "homebrew_best_practices_brew_services",
+      "homebrew_best_practices_brewfile",
+      "homebrew_best_practices_doc",
+      "homebrew_best_practices_homebrew",
+      "mole_best_practices_doc",
+      "mole_best_practices_mole",
+      "mole_best_practices_raycast"
+    ],
+    "2": [
+      "youtube_dubbing_workflow_doc",
+      "youtube_dubbing_workflow_faster_whisper",
+      "youtube_dubbing_workflow_ffmpeg",
+      "youtube_dubbing_workflow_pipeline",
+      "youtube_dubbing_workflow_whisperx",
+      "youtube_dubbing_workflow_xtts"
+    ],
+    "3": [
+      "caveman_best_practices_caveman",
+      "caveman_best_practices_doc",
+      "caveman_best_practices_token_optimization",
+      "claude_code_best_practices_claude_code",
+      "claude_code_best_practices_doc",
+      "claude_code_best_practices_plugins"
+    ],
+    "4": [
+      "if_your_ai_agent_keeps_failing_deterministic_guardrails",
+      "if_your_ai_agent_keeps_failing_doc",
+      "if_your_ai_agent_keeps_failing_entropy_management",
+      "if_your_ai_agent_keeps_failing_harness_engineering",
+      "if_your_ai_agent_keeps_failing_json_validation_script"
+    ],
+    "5": [
+      "hermes_best_practices_doc",
+      "hermes_best_practices_hermes_agent",
+      "hermes_best_practices_honcho",
+      "if_your_ai_agent_keeps_failing_state_management",
+      "opencode_best_practices_session_timeline"
+    ],
+    "6": [
+      "graphify_best_practices_doc",
+      "graphify_best_practices_graphify",
+      "graphify_best_practices_graphify_out",
+      "graphify_best_practices_knowledge_graph",
+      "if_your_ai_agent_keeps_failing_progressive_disclosure"
+    ],
+    "7": [
+      "keychain_zsh_api_keys_doc",
+      "keychain_zsh_api_keys_keychain",
+      "keychain_zsh_api_keys_security_command",
+      "keychain_zsh_api_keys_zsh"
+    ]
+  },
+  "cohesion": {
+    "0": 0.33,
+    "1": 0.43,
+    "2": 0.6,
+    "3": 0.4,
+    "4": 0.5,
+    "5": 0.5,
+    "6": 0.5,
+    "7": 0.83
+  },
+  "gods": [
+    {
+      "id": "opencode_best_practices_skills",
+      "label": "Skills Ecosystem",
+      "degree": 8
+    },
+    {
+      "id": "opencode_best_practices_agents_md",
+      "label": "AGENTS.md",
+      "degree": 7
+    },
+    {
+      "id": "claude_code_best_practices_claude_code",
+      "label": "Claude Code CLI",
+      "degree": 7
+    },
+    {
+      "id": "if_your_ai_agent_keeps_failing_harness_engineering",
+      "label": "Harness Engineering",
+      "degree": 6
+    },
+    {
+      "id": "opencode_best_practices_opencode",
+      "label": "OpenCode",
+      "degree": 6
+    },
+    {
+      "id": "opencode_best_practices_mcp",
+      "label": "MCP Servers",
+      "degree": 6
+    },
+    {
+      "id": "graphify_best_practices_graphify",
+      "label": "graphify",
+      "degree": 6
+    },
+    {
+      "id": "caveman_best_practices_caveman",
+      "label": "caveman",
+      "degree": 6
+    },
+    {
+      "id": "homebrew_best_practices_homebrew",
+      "label": "Homebrew",
+      "degree": 5
+    },
+    {
+      "id": "youtube_dubbing_workflow_doc",
+      "label": "YouTube Tech Video Chinese Dubbing Workflow",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Progressive Disclosure",
+      "target": "Skills Ecosystem",
+      "source_files": [
+        "Clippings/If your AI agent keeps failing, read this.md",
+        "Tools/AI/opencode-installation-configuration-commands-best-practices.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "State Management",
+      "target": "Session and Timeline State System",
+      "source_files": [
+        "Clippings/If your AI agent keeps failing, read this.md",
+        "Tools/AI/opencode-installation-configuration-commands-best-practices.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "State Management",
+      "target": "Honcho Memory Layer",
+      "source_files": [
+        "Clippings/If your AI agent keeps failing, read this.md",
+        "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Knowledge Graph Construction Skill",
+      "target": "Progressive Disclosure",
+      "source_files": [
+        "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+        "Clippings/If your AI agent keeps failing, read this.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "macOS Keychain",
+      "target": "OpenClaw",
+      "source_files": [
+        "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+        "Tools/AI/openclaw-installation-configuration-commands-best-practices.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Skills Ecosystem` connect `Agent Extension Stack` to `Claude Code and Caveman`, `Persistent Agent State`, `graphify Knowledge Graph`?",
+      "why": "High betweenness centrality (0.314) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Claude Code CLI` connect `Claude Code and Caveman` to `Agent Extension Stack`, `macOS Package Tooling`, `graphify Knowledge Graph`?",
+      "why": "High betweenness centrality (0.291) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Homebrew` connect `macOS Package Tooling` to `Claude Code and Caveman`?",
+      "why": "High betweenness centrality (0.203) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `If your AI agent keeps failing, read this`, `Entropy Management`, `Claude Code CLI Installation, Configuration, Commands, and Best Practices` to the rest of the system?",
+      "why": "5 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

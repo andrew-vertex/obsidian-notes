@@ -1,0 +1,19 @@
+# Maintenance Rules
+
+## Ingest
+- keep `Clippings/` as inbox when the source was captured by browser clipping or quick import
+- promote durable cross-domain sources into root `_kb/raw/`
+- add domain-specific sources to the nearest domain `_kb/raw/`
+- update an existing note before creating a duplicate
+- update the nearest relevant index
+- append a short entry to the nearest relevant log
+
+## Query
+- read the nearest relevant index first
+- save durable answers back into the appropriate domain note tree
+- keep root `_kb/wiki/` for cross-domain hubs and method pages
+
+## Lint
+- check for orphan pages
+- check for missing source sections
+- check for stale or contradictory claims

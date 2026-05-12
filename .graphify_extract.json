@@ -1,0 +1,1354 @@
+{
+  "nodes": [
+    {
+      "id": "if_your_ai_agent_keeps_failing_doc",
+      "label": "If your AI agent keeps failing, read this",
+      "file_type": "document",
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "source_url": "https://strategizeyourcareer.com/p/harness-engineering-ai-agents",
+      "captured_at": null,
+      "author": "Fran Soto",
+      "contributor": null
+    },
+    {
+      "id": "if_your_ai_agent_keeps_failing_harness_engineering",
+      "label": "Harness Engineering",
+      "file_type": "rationale",
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "source_url": "https://strategizeyourcareer.com/p/harness-engineering-ai-agents",
+      "captured_at": null,
+      "author": "Fran Soto",
+      "contributor": null
+    },
+    {
+      "id": "if_your_ai_agent_keeps_failing_state_management",
+      "label": "State Management",
+      "file_type": "rationale",
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "source_url": "https://strategizeyourcareer.com/p/harness-engineering-ai-agents",
+      "captured_at": null,
+      "author": "Fran Soto",
+      "contributor": null
+    },
+    {
+      "id": "if_your_ai_agent_keeps_failing_progressive_disclosure",
+      "label": "Progressive Disclosure",
+      "file_type": "rationale",
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "source_url": "https://strategizeyourcareer.com/p/harness-engineering-ai-agents",
+      "captured_at": null,
+      "author": "Fran Soto",
+      "contributor": null
+    },
+    {
+      "id": "if_your_ai_agent_keeps_failing_deterministic_guardrails",
+      "label": "Deterministic Guardrails",
+      "file_type": "rationale",
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "source_url": "https://strategizeyourcareer.com/p/harness-engineering-ai-agents",
+      "captured_at": null,
+      "author": "Fran Soto",
+      "contributor": null
+    },
+    {
+      "id": "if_your_ai_agent_keeps_failing_entropy_management",
+      "label": "Entropy Management",
+      "file_type": "rationale",
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "source_url": "https://strategizeyourcareer.com/p/harness-engineering-ai-agents",
+      "captured_at": null,
+      "author": "Fran Soto",
+      "contributor": null
+    },
+    {
+      "id": "if_your_ai_agent_keeps_failing_json_validation_script",
+      "label": "Deterministic JSON Validation Script",
+      "file_type": "rationale",
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "source_url": "https://strategizeyourcareer.com/p/harness-engineering-ai-agents",
+      "captured_at": null,
+      "author": "Fran Soto",
+      "contributor": null
+    },
+    {
+      "id": "homebrew_best_practices_doc",
+      "label": "Homebrew Installation, Configuration, Usage, and Best Practices",
+      "file_type": "document",
+      "source_file": "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "homebrew_best_practices_homebrew",
+      "label": "Homebrew",
+      "file_type": "rationale",
+      "source_file": "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "homebrew_best_practices_brewfile",
+      "label": "Brewfile",
+      "file_type": "rationale",
+      "source_file": "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "homebrew_best_practices_brew_services",
+      "label": "brew services",
+      "file_type": "rationale",
+      "source_file": "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "keychain_zsh_api_keys_doc",
+      "label": "macOS Keychain + zsh API Key Management Best Practices",
+      "file_type": "document",
+      "source_file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "keychain_zsh_api_keys_keychain",
+      "label": "macOS Keychain",
+      "file_type": "rationale",
+      "source_file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "keychain_zsh_api_keys_zsh",
+      "label": "zsh",
+      "file_type": "rationale",
+      "source_file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "keychain_zsh_api_keys_security_command",
+      "label": "security Command",
+      "file_type": "rationale",
+      "source_file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "mole_best_practices_doc",
+      "label": "Mole Installation, Usage, and Best Practices",
+      "file_type": "document",
+      "source_file": "Tools/Mac/mole-installation-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "mole_best_practices_mole",
+      "label": "Mole",
+      "file_type": "rationale",
+      "source_file": "Tools/Mac/mole-installation-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "mole_best_practices_raycast",
+      "label": "Raycast",
+      "file_type": "rationale",
+      "source_file": "Tools/Mac/mole-installation-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "youtube_dubbing_workflow_doc",
+      "label": "YouTube Tech Video Chinese Dubbing Workflow",
+      "file_type": "document",
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "youtube_dubbing_workflow_pipeline",
+      "label": "Chinese Video Dubbing Workflow",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "youtube_dubbing_workflow_faster_whisper",
+      "label": "faster-whisper",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "youtube_dubbing_workflow_whisperx",
+      "label": "WhisperX",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "youtube_dubbing_workflow_xtts",
+      "label": "XTTS",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "youtube_dubbing_workflow_ffmpeg",
+      "label": "FFmpeg",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "opencode_best_practices_doc",
+      "label": "OpenCode Installation, Configuration, Commands, and Best Practices",
+      "file_type": "document",
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "opencode_best_practices_opencode",
+      "label": "OpenCode",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "opencode_best_practices_agents_md",
+      "label": "AGENTS.md",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "opencode_best_practices_mcp",
+      "label": "MCP Servers",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "opencode_best_practices_skills",
+      "label": "Skills Ecosystem",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "opencode_best_practices_session_timeline",
+      "label": "Session and Timeline State System",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openclaw_best_practices_doc",
+      "label": "OpenClaw Installation, Configuration, Commands, and Best Practices",
+      "file_type": "document",
+      "source_file": "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openclaw_best_practices_openclaw",
+      "label": "OpenClaw",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openclaw_best_practices_workspace_markdown",
+      "label": "Workspace Markdown Control Files",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hermes_best_practices_doc",
+      "label": "Hermes Agent Installation, Configuration, Commands, and Best Practices",
+      "file_type": "document",
+      "source_file": "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hermes_best_practices_hermes_agent",
+      "label": "Hermes Agent",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hermes_best_practices_honcho",
+      "label": "Honcho Memory Layer",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude_code_best_practices_doc",
+      "label": "Claude Code CLI Installation, Configuration, Commands, and Best Practices",
+      "file_type": "document",
+      "source_file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude_code_best_practices_claude_code",
+      "label": "Claude Code CLI",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude_code_best_practices_plugins",
+      "label": "Plugins",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphify_best_practices_doc",
+      "label": "graphify Installation, Usage, and Cross-Agent Integration",
+      "file_type": "document",
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphify_best_practices_graphify",
+      "label": "graphify",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphify_best_practices_knowledge_graph",
+      "label": "Knowledge Graph Construction Skill",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphify_best_practices_graphify_out",
+      "label": "graphify-out Persistent Graph Artifacts",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_readme_doc",
+      "label": "AI Skills Notes Index and Organization Rules",
+      "file_type": "document",
+      "source_file": "Tools/AI/Skills/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_readme_ai_skills_index",
+      "label": "AI Skills Index",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/Skills/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "caveman_best_practices_doc",
+      "label": "caveman Installation, Usage, and Cross-Agent Integration",
+      "file_type": "document",
+      "source_file": "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "caveman_best_practices_caveman",
+      "label": "caveman",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "caveman_best_practices_token_optimization",
+      "label": "Token-Optimized Communication Mode",
+      "file_type": "rationale",
+      "source_file": "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "if_your_ai_agent_keeps_failing_doc",
+      "target": "if_your_ai_agent_keeps_failing_harness_engineering",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "if_your_ai_agent_keeps_failing_harness_engineering",
+      "target": "if_your_ai_agent_keeps_failing_state_management",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "if_your_ai_agent_keeps_failing_harness_engineering",
+      "target": "if_your_ai_agent_keeps_failing_progressive_disclosure",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "if_your_ai_agent_keeps_failing_harness_engineering",
+      "target": "if_your_ai_agent_keeps_failing_deterministic_guardrails",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "if_your_ai_agent_keeps_failing_harness_engineering",
+      "target": "if_your_ai_agent_keeps_failing_entropy_management",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "if_your_ai_agent_keeps_failing_json_validation_script",
+      "target": "if_your_ai_agent_keeps_failing_deterministic_guardrails",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "if_your_ai_agent_keeps_failing_json_validation_script",
+      "target": "if_your_ai_agent_keeps_failing_harness_engineering",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "homebrew_best_practices_doc",
+      "target": "homebrew_best_practices_homebrew",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "homebrew_best_practices_doc",
+      "target": "homebrew_best_practices_brewfile",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "homebrew_best_practices_doc",
+      "target": "homebrew_best_practices_brew_services",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "homebrew_best_practices_brewfile",
+      "target": "homebrew_best_practices_homebrew",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "homebrew_best_practices_brew_services",
+      "target": "homebrew_best_practices_homebrew",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/homebrew-installation-configuration-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "keychain_zsh_api_keys_doc",
+      "target": "keychain_zsh_api_keys_keychain",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "keychain_zsh_api_keys_doc",
+      "target": "keychain_zsh_api_keys_zsh",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "keychain_zsh_api_keys_doc",
+      "target": "keychain_zsh_api_keys_security_command",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "keychain_zsh_api_keys_security_command",
+      "target": "keychain_zsh_api_keys_keychain",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "keychain_zsh_api_keys_zsh",
+      "target": "keychain_zsh_api_keys_keychain",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "mole_best_practices_doc",
+      "target": "mole_best_practices_mole",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/mole-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "mole_best_practices_doc",
+      "target": "mole_best_practices_raycast",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/mole-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "mole_best_practices_mole",
+      "target": "homebrew_best_practices_homebrew",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/mole-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "mole_best_practices_mole",
+      "target": "mole_best_practices_raycast",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/Mac/mole-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "youtube_dubbing_workflow_doc",
+      "target": "youtube_dubbing_workflow_pipeline",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "youtube_dubbing_workflow_doc",
+      "target": "youtube_dubbing_workflow_faster_whisper",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "youtube_dubbing_workflow_doc",
+      "target": "youtube_dubbing_workflow_whisperx",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "youtube_dubbing_workflow_doc",
+      "target": "youtube_dubbing_workflow_xtts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "youtube_dubbing_workflow_doc",
+      "target": "youtube_dubbing_workflow_ffmpeg",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "youtube_dubbing_workflow_pipeline",
+      "target": "youtube_dubbing_workflow_faster_whisper",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "youtube_dubbing_workflow_pipeline",
+      "target": "youtube_dubbing_workflow_whisperx",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "youtube_dubbing_workflow_pipeline",
+      "target": "youtube_dubbing_workflow_xtts",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "youtube_dubbing_workflow_pipeline",
+      "target": "youtube_dubbing_workflow_ffmpeg",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/youtube-tech-video-zh-dubbing-workflow-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_best_practices_doc",
+      "target": "opencode_best_practices_opencode",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_best_practices_doc",
+      "target": "opencode_best_practices_agents_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_best_practices_doc",
+      "target": "opencode_best_practices_mcp",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_best_practices_doc",
+      "target": "opencode_best_practices_skills",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_best_practices_doc",
+      "target": "opencode_best_practices_session_timeline",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_best_practices_opencode",
+      "target": "opencode_best_practices_agents_md",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_best_practices_opencode",
+      "target": "opencode_best_practices_mcp",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_best_practices_opencode",
+      "target": "opencode_best_practices_skills",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "openclaw_best_practices_doc",
+      "target": "openclaw_best_practices_openclaw",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "openclaw_best_practices_doc",
+      "target": "openclaw_best_practices_workspace_markdown",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "openclaw_best_practices_openclaw",
+      "target": "opencode_best_practices_agents_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "openclaw_best_practices_openclaw",
+      "target": "opencode_best_practices_skills",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "openclaw_best_practices_openclaw",
+      "target": "opencode_best_practices_mcp",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "openclaw_best_practices_workspace_markdown",
+      "target": "opencode_best_practices_agents_md",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/openclaw-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hermes_best_practices_doc",
+      "target": "hermes_best_practices_hermes_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hermes_best_practices_doc",
+      "target": "hermes_best_practices_honcho",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hermes_best_practices_hermes_agent",
+      "target": "opencode_best_practices_agents_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hermes_best_practices_hermes_agent",
+      "target": "opencode_best_practices_skills",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hermes_best_practices_hermes_agent",
+      "target": "opencode_best_practices_mcp",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hermes_best_practices_honcho",
+      "target": "hermes_best_practices_hermes_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "claude_code_best_practices_doc",
+      "target": "claude_code_best_practices_claude_code",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "claude_code_best_practices_claude_code",
+      "target": "opencode_best_practices_skills",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "claude_code_best_practices_claude_code",
+      "target": "opencode_best_practices_mcp",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "claude_code_best_practices_claude_code",
+      "target": "claude_code_best_practices_plugins",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_best_practices_doc",
+      "target": "graphify_best_practices_graphify",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_best_practices_doc",
+      "target": "graphify_best_practices_knowledge_graph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_best_practices_doc",
+      "target": "graphify_best_practices_graphify_out",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_best_practices_graphify",
+      "target": "claude_code_best_practices_claude_code",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_best_practices_graphify",
+      "target": "opencode_best_practices_opencode",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_best_practices_graphify",
+      "target": "opencode_best_practices_agents_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_best_practices_graphify",
+      "target": "opencode_best_practices_mcp",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_best_practices_graphify_out",
+      "target": "graphify_best_practices_graphify",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "skills_readme_doc",
+      "target": "skills_readme_ai_skills_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "skills_readme_ai_skills_index",
+      "target": "opencode_best_practices_skills",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "caveman_best_practices_doc",
+      "target": "caveman_best_practices_caveman",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "caveman_best_practices_doc",
+      "target": "caveman_best_practices_token_optimization",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "caveman_best_practices_caveman",
+      "target": "claude_code_best_practices_claude_code",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "caveman_best_practices_caveman",
+      "target": "opencode_best_practices_opencode",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "caveman_best_practices_caveman",
+      "target": "opencode_best_practices_agents_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "caveman_best_practices_caveman",
+      "target": "opencode_best_practices_skills",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "caveman_best_practices_token_optimization",
+      "target": "caveman_best_practices_caveman",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/caveman-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "if_your_ai_agent_keeps_failing_state_management",
+      "target": "opencode_best_practices_session_timeline",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "if_your_ai_agent_keeps_failing_state_management",
+      "target": "hermes_best_practices_honcho",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.76,
+      "source_file": "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "if_your_ai_agent_keeps_failing_progressive_disclosure",
+      "target": "opencode_best_practices_skills",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "Tools/AI/hermes-agent-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_best_practices_knowledge_graph",
+      "target": "if_your_ai_agent_keeps_failing_progressive_disclosure",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.69,
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "keychain_zsh_api_keys_keychain",
+      "target": "openclaw_best_practices_openclaw",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.63,
+      "source_file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "homebrew_best_practices_homebrew",
+      "target": "claude_code_best_practices_claude_code",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/claude-code-cli-installation-configuration-commands-best-practices.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "harness_engineering_four_pillars",
+      "label": "Four Pillars of Harness Engineering",
+      "nodes": [
+        "if_your_ai_agent_keeps_failing_harness_engineering",
+        "if_your_ai_agent_keeps_failing_state_management",
+        "if_your_ai_agent_keeps_failing_progressive_disclosure",
+        "if_your_ai_agent_keeps_failing_deterministic_guardrails",
+        "if_your_ai_agent_keeps_failing_entropy_management"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Clippings/If your AI agent keeps failing, read this.md"
+    },
+    {
+      "id": "cross_agent_graphify_integration",
+      "label": "graphify Cross-Agent Integration Pattern",
+      "nodes": [
+        "graphify_best_practices_graphify",
+        "claude_code_best_practices_claude_code",
+        "opencode_best_practices_opencode",
+        "opencode_best_practices_agents_md",
+        "opencode_best_practices_mcp"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Tools/AI/Skills/graphify-installation-usage-best-practices.md"
+    },
+    {
+      "id": "agent_context_and_extension_stack",
+      "label": "Agent Context and Extension Stack",
+      "nodes": [
+        "opencode_best_practices_agents_md",
+        "opencode_best_practices_skills",
+        "opencode_best_practices_mcp",
+        "claude_code_best_practices_plugins",
+        "openclaw_best_practices_workspace_markdown",
+        "hermes_best_practices_honcho"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "Tools/AI/opencode-installation-configuration-commands-best-practices.md"
+    }
+  ],
+  "input_tokens": 337542,
+  "output_tokens": 14860
+}

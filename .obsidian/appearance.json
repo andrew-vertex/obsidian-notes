@@ -3,7 +3,7 @@
   "cssTheme": "Things",
   "monospaceFontFamily": "JetBrains Mono",
   "textFontFamily": "JetBrains Mono",
-  "baseFontSize": 17,
+  "baseFontSize": 14,
   "baseFontSizeAction": true,
   "interfaceFontFamily": "JetBrains Mono"
 }
