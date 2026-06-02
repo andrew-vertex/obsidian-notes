@@ -155,4 +155,4 @@ flowchart TD
 ## 参考来源
 
 - [Karpathy LLM wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
-- [Raw source record](../raw/karpathy-llm-wiki-gist-source.md)
+- [Raw source record](../raw/Karpathy LLM Wiki Gist 来源记录.md)

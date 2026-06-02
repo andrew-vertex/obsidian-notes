@@ -1,5 +1,5 @@
 ---
-title: Harness Engineering Article Source Record
+title: Harness Engineering 文章来源记录
 created: 2026-05-07
 description: 来源记录，指向微信剪藏文章《从玩具到生产力：用真实项目讲透 AI Agent 的 Harness Engineering》。
 tags:
@@ -7,9 +7,9 @@ tags:
   - harness-engineering
   - ai-agent
 ---
-# Harness Engineering Article Source Record
+# Harness Engineering 文章来源记录
 
-## Source Metadata
+## 来源元数据
 
 - Original title: `从玩具到生产力：用真实项目讲透 AI Agent 的 Harness Engineering`
 - Source URL: <https://mp.weixin.qq.com/s/xLdQ9Z3n3SNwaQtmrM28FA?click_id=2>
@@ -28,7 +28,7 @@ tags:
 
 ## Candidate Canonical Note
 
-- [[../../Agent/harness-engineering-for-ai-agents]]
+- [[../../Agent/AI Agent 的 Harness Engineering]]
 
 ## Key Source Claims
 

@@ -1,5 +1,5 @@
 ---
-title: Tech Domain Index
+title: Tech 领域索引
 created: 2026-05-07
 description: Tech 领域知识库入口，负责把问题路由到 Architecture、Backend、DevOps 等子域。
 tags:
@@ -7,7 +7,7 @@ tags:
   - tech
   - knowledge-base
 ---
-# Tech Domain Index
+# Tech 领域索引
 
 `Tech/` 下的现有主题目录就是正式 wiki 层，`Tech/_kb/` 只负责 source、schema、index 和 log。
 
@@ -24,5 +24,5 @@ tags:
 
 ## Canonical Notes
 
-- [[Agent/harness-engineering-for-ai-agents]]: AI Agent 从 demo 走向生产力时的控制面方法论，包括真相源、执行边界、能力路由与验证闭环。
-- [[Backend/DateBase/elasticsearch/Elasticsearch 阅读指南]]: Elasticsearch 主题第一入口，先给出阅读顺序，再路由到基础、查询、分词、原理、分页、集群与数据同步页面。
+- [[../Agent/AI Agent 的 Harness Engineering]]: AI Agent 从 demo 走向生产力时的控制面方法论，包括真相源、执行边界、能力路由与验证闭环。
+- [[../Backend/DateBase/elasticsearch/Elasticsearch 阅读指南]]: Elasticsearch 主题第一入口，先给出阅读顺序，再路由到基础、查询、分词、原理、分页、集群与数据同步页面。

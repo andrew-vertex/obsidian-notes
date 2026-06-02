@@ -1,6 +1,6 @@
-# Wiki Log
+# Wiki 维护日志
 
-Append-only activity log for vault-level ingests, queries, and lint passes.
+vault 级 ingest、query、lint 的追加式维护日志。
 
 ## [2026-05-07] seed | initialize knowledge base
 - created `_kb/raw/`, `_kb/wiki/`, and `_kb/schema/` control-plane folders
@@ -9,3 +9,9 @@ Append-only activity log for vault-level ingests, queries, and lint passes.
 - added a raw source record for Karpathy's gist
 - created the first compiled wiki page
 - linked the page from `_kb/wiki/index.md`
+
+## [2026-06-03] maintenance | 中文文件名规范更新
+- renamed formal notes, schema long-form pages, wiki method pages, and promoted source records to Chinese filenames
+- kept `index.md`, `log.md`, and `README.md` as stable control entry files
+- added root `AGENTS.md` and `agent.md`
+- synchronized naming rules in the note/wiki related skills

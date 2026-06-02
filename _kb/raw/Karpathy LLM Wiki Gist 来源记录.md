@@ -1,11 +1,11 @@
-# Karpathy LLM Wiki Gist Source
+# Karpathy LLM Wiki Gist 来源记录
 
 - Title: How I use LLMs to help me write code
 - Author: Andrej Karpathy
 - Source URL: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 - Captured: 2026-05-07
 - Source Type: GitHub Gist
-- Purpose: Source record for the compiled wiki page in `_kb/wiki/karpathy-llm-wiki-method.md`
+- Purpose: compiled wiki page `_kb/wiki/Karpathy LLM Wiki 知识库方法.md` 的来源记录
 
 ## Key Takeaways
 

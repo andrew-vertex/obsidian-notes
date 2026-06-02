@@ -1,8 +1,9 @@
-# Domain Maintenance Rules
+# Tools 维护规则
 
 ## Ingest
 - add domain-specific sources to _kb/raw/
 - update an existing note before creating a near-duplicate
+- use Chinese filenames for new formal notes and source records
 - update _kb/index.md
 - append a short entry to _kb/log.md
 

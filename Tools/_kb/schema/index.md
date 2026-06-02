@@ -1,5 +1,5 @@
 ---
-title: Tools Schema Index
+title: Tools Schema 索引
 created: 2026-05-07
 description: Tools 领域 schema 文档入口，维护分类规则与维护规则。
 tags:
@@ -7,7 +7,7 @@ tags:
   - index
   - tools
 ---
-# Tools Schema Index
+# Tools Schema 索引
 
 这个 index 只维护 `Tools/_kb/schema/` 下的规则文档，不维护 Tools 正式笔记列表。
 
@@ -15,10 +15,10 @@ tags:
 
 [TOC]
 
-## Structure
+## 结构
 
-- [[taxonomy]]: Tools 领域子域和放置规则
+- [[Tools 领域分类]]: Tools 领域子域和放置规则
 
-## Operating Rules
+## 运行规则
 
-- [[maintenance]]: Tools 领域 ingest、query、lint 规则
+- [[Tools 维护规则]]: Tools 领域 ingest、query、lint 规则

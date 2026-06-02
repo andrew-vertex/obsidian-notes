@@ -17,7 +17,7 @@ tags:
 
 - 微信文章：<https://mp.weixin.qq.com/s/xLdQ9Z3n3SNwaQtmrM28FA?click_id=2>
 - vault 原始剪藏：[[../../Clippings/从玩具到生产力：用真实项目讲透 AI Agent 的 Harness Engineering]]
-- 域内 raw 记录：[[../_kb/raw/harness-engineering-article-source]]
+- 域内 raw 记录：[[../_kb/raw/Harness Engineering 文章来源记录]]
 
 [TOC]
 
@@ -177,10 +177,10 @@ flowchart TD
 ## Related Pages
 
 - [[../_kb/index]]
-- [[../_kb/raw/harness-engineering-article-source]]
+- [[../_kb/raw/Harness Engineering 文章来源记录]]
 
 ## 参考来源
 
 - 微信文章：<https://mp.weixin.qq.com/s/xLdQ9Z3n3SNwaQtmrM28FA?click_id=2>
 - Vault 原始剪藏：[[../../Clippings/从玩具到生产力：用真实项目讲透 AI Agent 的 Harness Engineering]]
-- 域内 raw 记录：[[../_kb/raw/harness-engineering-article-source]]
+- 域内 raw 记录：[[../_kb/raw/Harness Engineering 文章来源记录]]
