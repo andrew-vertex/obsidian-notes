@@ -11,10 +11,24 @@
             "id": "b9c71147b8b2fad4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AGENTS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "AGENTS"
             }
           }
         ]
@@ -206,10 +220,15 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "b35b5611f8d455dc",
+  "active": "b9c71147b8b2fad4",
   "lastOpenFiles": [
     "agent.md",
     "AGENTS.md",
+    "未命名.canvas",
+    "Tools/_kb/log.md",
+    "Tools/AI/Skills/README.md",
+    "Tools/AI/Skills/caveman 安装使用最佳实践.md",
+    "Tools/AI/Skills/graphify 安装使用最佳实践.md",
     "Excalidraw/绘图 2026-06-03 02.39.13.excalidraw.md",
     "Work/design/TPA 理赔业务术语词典.md",
     "Work/design/进件方式、流程类型与对接模式差异.md",
@@ -227,15 +246,9 @@
     "Resume/project/TPA 商业健康保险智能理赔服务平台项目经历.md",
     "Resume/project/LinkLabel 标注平台项目经历.md",
     "Resume/个人简历.md",
-    "Tools/AI/Skills/graphify 安装使用最佳实践.md",
-    "Tools/AI/Skills/caveman 安装使用最佳实践.md",
     "Tools/AI/Claude Code CLI 安装配置命令与最佳实践.md",
     "Tools/AI/Hermes Agent 安装配置命令与最佳实践.md",
-    "Tools/AI/OpenClaw 安装配置命令与最佳实践.md",
-    "Tools/AI/OpenCode 安装配置命令与最佳实践.md",
-    "Tools/AI/YouTube 科技视频中文配音工作流最佳实践.md",
     "Excalidraw",
-    "未命名.canvas",
     "AI/Web",
     "AI",
     "Tech/Backend/DateBase/elasticsearch",
