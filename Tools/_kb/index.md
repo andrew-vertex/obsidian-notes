@@ -23,7 +23,7 @@ tags:
 - [[AI/Skills/README]]: AI skills 目录定位与整理规范
 - [[AI/Skills/caveman-installation-usage-best-practices]]: caveman 压缩模式与跨 agent 使用
 - [[AI/Skills/graphify-installation-usage-best-practices]]: graphify 安装、使用与跨 agent 集成
-- [[AI/claude-code-cli-installation-configuration-commands-best-practices]]: Claude Code CLI 安装与实践
+- [[claude-code-cli-installation-configuration-commands-best-practices]]: Claude Code CLI 安装与实践
 - [[AI/hermes-agent-installation-configuration-commands-best-practices]]: Hermes Agent 与持久状态层
 - [[AI/openclaw-installation-configuration-commands-best-practices]]: OpenClaw 安装、配置与使用
 - [[AI/opencode-installation-configuration-commands-best-practices]]: OpenCode 安装、配置与最佳实践
