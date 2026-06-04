@@ -27,6 +27,7 @@ tags:
 - [[../AI/Hermes Agent 安装配置命令与最佳实践]]: Hermes Agent 与持久状态层
 - [[../AI/OpenClaw 安装配置命令与最佳实践]]: OpenClaw 安装、配置与使用
 - [[../AI/OpenCode 安装配置命令与最佳实践]]: OpenCode 安装、配置与最佳实践
+- [[../AI/Spec Kit 与 SDD 规范驱动开发实践指南]]: GitHub Spec Kit 的安装、Agent 集成、SDD 工作流、核心命令和新老项目落地实践
 - [[../AI/YouTube 科技视频中文配音工作流最佳实践]]: YouTube 技术视频中文配音工作流
 - [[../Mac/Homebrew 安装配置使用最佳实践]]: Homebrew 安装与维护
 - [[../Mac/macOS Keychain 与 zsh API Key 管理最佳实践]]: macOS Keychain 与 zsh API Key 管理

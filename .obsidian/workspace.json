@@ -4,34 +4,91 @@
     "type": "split",
     "children": [
       {
-        "id": "22fc225b74c26792",
-        "type": "tabs",
+        "id": "ee0c04be8345fe41",
+        "type": "split",
         "children": [
           {
-            "id": "b9c71147b8b2fad4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGENTS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+            "id": "77c0c2491b7b09e2",
+            "type": "tabs",
+            "dimension": 75,
+            "children": [
+              {
+                "id": "d8750bfa3ae16b2d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Work/skills/Yibao飞书工单闭环WorkflowPlugin使用手册.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Yibao飞书工单闭环WorkflowPlugin使用手册"
                 }
-              },
-              "icon": "lucide-file",
-              "title": "AGENTS"
-            }
+              }
+            ]
+          },
+          {
+            "id": "3d89b21b2966c67e",
+            "type": "tabs",
+            "dimension": 25,
+            "children": [
+              {
+                "id": "8f28e44d7b263ad7",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/yuanjianwei/knowledge/notes",
+                      "focus": false,
+                      "profile": {
+                        "args": [
+                          "--login"
+                        ],
+                        "executable": "/bin/zsh",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "终端：zsh"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -98,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 499.5024719238281
+    "width": 200
   },
   "right": {
     "id": "c50c1d5cf391a429",
@@ -176,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+                "file": "Work/skills/Yibao飞书工单闭环WorkflowPlugin使用手册.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "macos-keychain-zsh-api-key-management-best-practices 的大纲"
+              "title": "Yibao飞书工单闭环WorkflowPlugin使用手册 的大纲"
             }
           },
           {
@@ -217,13 +274,20 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
       "terminal:Open terminal": false,
-      "notebook-navigator:笔记本导航器": false
+      "notebook-navigator:笔记本导航器": false,
+      "hide-folders:Show hidden folders": false
     }
   },
-  "active": "b9c71147b8b2fad4",
+  "active": "b35b5611f8d455dc",
   "lastOpenFiles": [
-    "agent.md",
+    "Work/skills/Yibao飞书工单闭环WorkflowPlugin使用手册.md",
+    "Work/skills/亿保技术支持排障-Agent-落地方案与使用指南.md",
+    "Work/skills",
+    "Work/development/核赔和中台分案表使用情况.md",
+    "AI/未命名.md",
+    "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
     "AGENTS.md",
+    "agent.md",
     "未命名.canvas",
     "Tools/_kb/log.md",
     "Tools/AI/Skills/README.md",
@@ -244,10 +308,6 @@
     "Work/design/票据风控专题：废票、假票、未查验票、红冲票、重复票、忽略重复、风险提示之间的关系.md",
     "Resume/project/sekiro 智能报销审批平台项目经历.md",
     "Resume/project/TPA 商业健康保险智能理赔服务平台项目经历.md",
-    "Resume/project/LinkLabel 标注平台项目经历.md",
-    "Resume/个人简历.md",
-    "Tools/AI/Claude Code CLI 安装配置命令与最佳实践.md",
-    "Tools/AI/Hermes Agent 安装配置命令与最佳实践.md",
     "Excalidraw",
     "AI/Web",
     "AI",
@@ -267,7 +327,6 @@
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 基础",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 原理",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 使用",
-    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch",
     "未命名 1.canvas"
   ]
 }
