@@ -31,4 +31,5 @@ tags:
 - [[../AI/YouTube 科技视频中文配音工作流最佳实践]]: YouTube 技术视频中文配音工作流
 - [[../Mac/Homebrew 安装配置使用最佳实践]]: Homebrew 安装与维护
 - [[../Mac/macOS Keychain 与 zsh API Key 管理最佳实践]]: macOS Keychain 与 zsh API Key 管理
+- [[../Mac/macOS tmux 安装使用与 AI 研发工作流最佳实践]]: tmux 在 macOS 与远程 GPU 服务器中的安装、会话保活、分屏、自动化和 AI 训练工作流
 - [[../Mac/Mole 安装使用最佳实践]]: Mole 安装、使用与实践

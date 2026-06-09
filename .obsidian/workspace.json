@@ -4,91 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "ee0c04be8345fe41",
-        "type": "split",
+        "id": "5e0541e5b5728c72",
+        "type": "tabs",
         "children": [
           {
-            "id": "77c0c2491b7b09e2",
-            "type": "tabs",
-            "dimension": 75,
-            "children": [
-              {
-                "id": "d8750bfa3ae16b2d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Work/skills/Yibao飞书工单闭环WorkflowPlugin使用手册.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Yibao飞书工单闭环WorkflowPlugin使用手册"
+            "id": "9a8d75789080003a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
-              }
-            ]
-          },
-          {
-            "id": "3d89b21b2966c67e",
-            "type": "tabs",
-            "dimension": 25,
-            "children": [
-              {
-                "id": "8f28e44d7b263ad7",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/yuanjianwei/knowledge/notes",
-                      "focus": false,
-                      "profile": {
-                        "args": [
-                          "--login"
-                        ],
-                        "executable": "/bin/zsh",
-                        "followTheme": true,
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": null
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "终端：zsh"
-                }
-              }
-            ]
+              },
+              "icon": "lucide-file",
+              "title": "Spec Kit 与 SDD 规范驱动开发实践指南"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c50c1d5cf391a429",
@@ -171,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Mac/macos-keychain-zsh-api-key-management-best-practices.md",
+                "file": "AI/AI Developer/Agent/第一章 初识智能体.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "macos-keychain-zsh-api-key-management-best-practices 的反向链接列表"
+              "title": "第一章 初识智能体 的反向链接列表"
             }
           },
           {
@@ -233,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/skills/Yibao飞书工单闭环WorkflowPlugin使用手册.md",
-                "followCursor": false,
+                "file": "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Yibao飞书工单闭环WorkflowPlugin使用手册 的大纲"
+              "title": "Spec Kit 与 SDD 规范驱动开发实践指南 的大纲"
             }
           },
           {
@@ -280,13 +224,32 @@
   },
   "active": "b35b5611f8d455dc",
   "lastOpenFiles": [
+    "Thinking/_kb/log.md",
+    "Thinking/_kb/index.md",
+    "Thinking/Cognitive Upgrade/高杠杆思维模型实战手册.md",
+    "Thinking/_kb",
+    "AI/AI Developer/Agent/第一章 初识智能体.md",
+    "Tools/Mac/macOS tmux 安装使用与 AI 研发工作流最佳实践.md",
+    "Pasted image 20260606152548.png",
+    "AI/AI Developer/AI 应用学习路线.md",
+    "Users/yuanjianwei/workspace/learning/hello-agents.md",
+    "Users/yuanjianwei/workspace/learning",
+    "Users/yuanjianwei/workspace",
+    "Users/yuanjianwei",
+    "Users",
     "Work/skills/Yibao飞书工单闭环WorkflowPlugin使用手册.md",
+    "AI/AI Developer/Agent",
+    "AGENTS.md",
+    "Pasted image 20260605013912.png",
+    "AI/AI Developer/AI Interview/RAG.md",
+    "AI/AI Developer/未命名/未命名",
+    "AI/AI Developer/AI Interview",
+    "AI/AI Developer",
     "Work/skills/亿保技术支持排障-Agent-落地方案与使用指南.md",
     "Work/skills",
     "Work/development/核赔和中台分案表使用情况.md",
     "AI/未命名.md",
     "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
-    "AGENTS.md",
     "agent.md",
     "未命名.canvas",
     "Tools/_kb/log.md",
@@ -300,18 +263,6 @@
     "Work/design/资金与结算专题：冻结、解冻、打款、回传、回销、返还票据、挂账、结算状态.md",
     "Work/design/按一个典型真实案件走一遍：从进件到结案.md",
     "Work/design/案件生产系统的全过程.md",
-    "Work/design/案件生命周期以及流程.md",
-    "Work/design/案件排查与诊断手册.md",
-    "Work/design/核赔、复核、回传与结案分流.md",
-    "Work/design/案件的理算设计.md",
-    "Work/design/特殊概念、边界场景与历史词汇词典.md",
-    "Work/design/票据风控专题：废票、假票、未查验票、红冲票、重复票、忽略重复、风险提示之间的关系.md",
-    "Resume/project/sekiro 智能报销审批平台项目经历.md",
-    "Resume/project/TPA 商业健康保险智能理赔服务平台项目经历.md",
-    "Excalidraw",
-    "AI/Web",
-    "AI",
-    "Tech/Backend/DateBase/elasticsearch",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled.png",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 9.png",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 8.png",
@@ -320,13 +271,6 @@
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 5.png",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 4.png",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 3.png",
-    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 26.png",
-    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 25.png",
-    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/ElasticSearch 深度分页问题详情",
-    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级",
-    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 基础",
-    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 原理",
-    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 使用",
     "未命名 1.canvas"
   ]
 }

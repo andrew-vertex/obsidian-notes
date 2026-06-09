@@ -299,22 +299,22 @@ specify init . --integration generic --integration-options="--commands-dir .myag
 
 ### 核心命令
 
-| 命令 | Skill 名 | 阶段 | 作用 | 输入重点 | 产物 | 人类 Review 点 |
-| --- | --- | --- | --- | --- | --- | --- |
-| `/speckit.constitution` | `speckit-constitution` | 准备期 | 创建或更新项目治理原则 | 技术栈底线、测试标准、安全要求、架构禁区 | `.specify/memory/constitution.md` | 原则是否长期有效，是否过度细节化 |
-| `/speckit.specify` | `speckit-specify` | 需求期 | 定义要构建什么 | 业务目标、用户故事、输入输出、非目标 | feature 目录下的 `spec.md` | 是否只写 what/why，是否混入太多 how |
-| `/speckit.plan` | `speckit-plan` | 设计期 | 生成技术实现计划 | 技术栈、架构约束、文件范围、依赖 | `plan.md` | 架构是否合理，是否误改老系统边界 |
-| `/speckit.tasks` | `speckit-tasks` | 拆解期 | 生成可执行任务列表 | 已评审的 spec 和 plan | `tasks.md` | 任务是否足够小，是否测试先行 |
-| `/speckit.taskstoissues` | `speckit-taskstoissues` | 跟踪期 | 把任务清单转换成 GitHub Issues | 已生成的 `tasks.md` | GitHub issues | 是否适合团队协作，是否需要 MCP/GitHub 支持 |
-| `/speckit.implement` | `speckit-implement` | 编码期 | 按任务执行实现 | `tasks.md`、上下文、测试脚本 | 代码、测试、任务完成状态 | 是否允许 agent 执行命令，是否要分批放行 |
+| 命令                       | Skill 名                 | 阶段                   | 作用                     | 输入重点                 | 产物                                | 人类 Review 点                 |
+| ------------------------ | ----------------------- | -------------------- | ---------------------- | -------------------- | --------------------------------- | --------------------------- |
+| `/speckit.constitution`  | `speckit-constitution`  | 准备期                  | 创建或更新项目治理原则            | 技术栈底线、测试标准、安全要求、架构禁区 | `.specify/memory/constitution.md` | 原则是否长期有效，是否过度细节化            |
+| `/speckit.specify`       | `speckit-specify`       | 需求期                  | 定义要构建什么                | 业务目标、用户故事、输入输出、非目标   | feature 目录下的 `spec.md`            | 是否只写 what/why，是否混入太多 how    |
+| `/speckit.clarify`       | `speckit-clarify`       | `specify` 后、`plan` 前 | 盘问需求中的模糊、冲突和风险点        | 老项目、复杂业务、边界多的需求      | 把它的问题当作需求评审清单                     |                             |
+| `/speckit.plan`          | `speckit-plan`          | 设计期                  | 生成技术实现计划               | 技术栈、架构约束、文件范围、依赖     | `plan.md`                         | 架构是否合理，是否误改老系统边界            |
+| `/speckit.tasks`         | `speckit-tasks`         | 拆解期                  | 生成可执行任务列表              | 已评审的 spec 和 plan     | `tasks.md`                        | 任务是否足够小，是否测试先行              |
+| `/speckit.taskstoissues` | `speckit-taskstoissues` | 跟踪期                  | 把任务清单转换成 GitHub Issues | 已生成的 `tasks.md`      | GitHub issues                     | 是否适合团队协作，是否需要 MCP/GitHub 支持 |
+| `/speckit.implement`     | `speckit-implement`     | 编码期                  | 按任务执行实现                | `tasks.md`、上下文、测试脚本  | 代码、测试、任务完成状态                      | 是否允许 agent 执行命令，是否要分批放行     |
 
 ### 可选质量命令
 
-| 命令 | Skill 名 | 建议时机 | 作用 | 适合场景 | 输出怎么看 |
-| --- | --- | --- | --- | --- | --- |
-| `/speckit.clarify` | `speckit-clarify` | `specify` 后、`plan` 前 | 盘问需求中的模糊、冲突和风险点 | 老项目、复杂业务、边界多的需求 | 把它的问题当作需求评审清单 |
-| `/speckit.checklist` | `speckit-checklist` | `clarify` 后或 `plan` 前后 | 生成需求完整性、清晰度和一致性清单 | 生产功能、多人协作、PR review | 未通过项要回写 Spec 或 Plan |
-| `/speckit.analyze` | `speckit-analyze` | `tasks` 后、`implement` 前 | 检查 Spec、Plan、Tasks 跨资产一致性 | 防止任务偏离需求或计划 | 阻断 critical mismatch，先修文档再写代码 |
+| 命令                   | Skill 名             | 建议时机                    | 作用                        | 适合场景                | 输出怎么看                         |
+| -------------------- | ------------------- | ----------------------- | ------------------------- | ------------------- | ----------------------------- |
+| `/speckit.checklist` | `speckit-checklist` | `clarify` 后或 `plan` 前后  | 生成需求完整性、清晰度和一致性清单         | 生产功能、多人协作、PR review | 未通过项要回写 Spec 或 Plan           |
+| `/speckit.analyze`   | `speckit-analyze`   | `tasks` 后、`implement` 前 | 检查 Spec、Plan、Tasks 跨资产一致性 | 防止任务偏离需求或计划         | 阻断 critical mismatch，先修文档再写代码 |
 
 ### 未核实的命令
 

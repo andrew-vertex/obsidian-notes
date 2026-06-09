@@ -21,6 +21,7 @@ tags:
 
 - [[../../Tech/_kb/index]]: Tech 领域入口
 - [[../../Tools/_kb/index]]: Tools 领域入口
+- [[../../Thinking/_kb/index]]: Thinking 领域入口
 
 ## Projects
 

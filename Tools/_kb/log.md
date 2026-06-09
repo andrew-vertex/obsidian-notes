@@ -1,5 +1,9 @@
 # Tools 领域日志
 
+## [2026-06-06] ingest | macOS tmux 安装使用与 AI 研发工作流
+- added canonical note `Tools/Mac/macOS tmux 安装使用与 AI 研发工作流最佳实践.md`
+- updated `Tools/_kb/index.md`
+
 ## [2026-06-03] ingest | Spec Kit 与 SDD 实践指南
 - added canonical note `Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md`
 - updated `Tools/_kb/index.md`
