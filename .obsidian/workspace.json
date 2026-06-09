@@ -11,10 +11,14 @@
             "id": "2826371dce35a863",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -162,13 +166,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Spec Kit 与 SDD 规范驱动开发实践指南 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -207,8 +210,9 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "b35b5611f8d455dc",
+  "active": "2826371dce35a863",
   "lastOpenFiles": [
+    "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
     "Thinking/_kb/log.md",
     "Thinking/_kb/index.md",
     "Thinking/Cognitive Upgrade/高杠杆思维模型实战手册.md",
@@ -234,7 +238,6 @@
     "Work/skills",
     "Work/development/核赔和中台分案表使用情况.md",
     "AI/未命名.md",
-    "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
     "agent.md",
     "未命名.canvas",
     "Tools/_kb/log.md",
