@@ -146,13 +146,13 @@ sequenceDiagram
 
 下面对比以你提供的学习材料为基础，OpenSpec 细节未在本次官方源中逐项核对，使用前需确认对应版本文档。
 
-| 维度 | Spec Kit | OpenSpec | 纯提示词 |
-| --- | --- | --- | --- |
-| 工具定位 | 系统化 SDD 工具包 | 轻量、增量式 SDD 框架 | 无工具约束 |
-| 工作流 | `Constitution -> Specify -> Clarify -> Plan -> Tasks -> Analyze -> Implement` | `Propose -> Apply -> Archive`，需确认版本 | 直接聊天生成 |
-| 更适合 | 新项目开荒、企业规范、多人协作、严肃工程 | 老项目迭代、小步增量、个人或小团队 | 单文件、小脚本、临时探索 |
-| 优势 | 官方生态、30+ agent 集成、模板/扩展/工作流完整 | 手感轻、增量规范友好 | 启动最快 |
-| 风险 | 流程较重，需要维护文档资产 | 多人冲突和版本治理需确认 | 容易幻觉、遗漏、漂移 |
+| 维度   | Spec Kit                                                                      | OpenSpec                            | 纯提示词         |
+| ---- | ----------------------------------------------------------------------------- | ----------------------------------- | ------------ |
+| 工具定位 | 系统化 SDD 工具包                                                                   | 轻量、增量式 SDD 框架                       | 无工具约束        |
+| 工作流  | `Constitution -> Specify -> Clarify -> Plan -> Tasks -> Analyze -> Implement` | `Propose -> Apply -> Archive`，需确认版本 | 直接聊天生成       |
+| 更适合  | 新项目开荒、企业规范、多人协作、严肃工程                                                          | 老项目迭代、小步增量、个人或小团队                   | 单文件、小脚本、临时探索 |
+| 优势   | 官方生态、30+ agent 集成、模板/扩展/工作流完整                                                 | 手感轻、增量规范友好                          | 启动最快         |
+| 风险   | 流程较重，需要维护文档资产                                                                 | 多人冲突和版本治理需确认                        | 容易幻觉、遗漏、漂移   |
 
 ## 安装与初始化
 
@@ -453,13 +453,13 @@ specify -> review-spec gate -> plan -> review-plan gate -> tasks -> implement
 
 新项目最容易的问题是技术栈跑偏、过度设计、脚手架凌乱。重点卡在 constitution 和 plan。
 
-| 阶段 | 命令 | 输入范例 | Review 重点 |
-| --- | --- | --- | --- |
-| 建立宪法 | `/speckit.constitution` | `这是 Spring Boot 3.3 + JDK 21 后端项目，必须遵循 DDD，Controller 禁止写业务逻辑，单元测试覆盖率不低于 80%。` | 技术栈、分层、测试、安全底线是否长期有效 |
-| 写 Spec | `/speckit.specify` | `实现理赔单初始化 API，校验用户 ID 和保单合法性，初始状态为 DRAFT。` | 是否写清业务终态、输入输出、非目标 |
-| 生成 Plan | `/speckit.plan` | `采用 MyBatis-Plus，状态流转使用 COLA StateMachine，接口遵循 RESTful。` | 包结构、领域模型、状态机、数据库设计 |
-| 拆 Tasks | `/speckit.tasks` | 无需额外输入 | 是否先测试后实现，是否可以分阶段验收 |
-| 实现 | `/speckit.implement` | 无需额外输入 | 是否按任务顺序改，是否跑测试 |
+| 阶段      | 命令                      | 输入范例                                                                           | Review 重点            |
+| ------- | ----------------------- | ------------------------------------------------------------------------------ | -------------------- |
+| 建立宪法    | `/speckit.constitution` | `这是 Spring Boot 3.3 + JDK 21 后端项目，必须遵循 DDD，Controller 禁止写业务逻辑，单元测试覆盖率不低于 80%。` | 技术栈、分层、测试、安全底线是否长期有效 |
+| 写 Spec  | `/speckit.specify`      | `实现理赔单初始化 API，校验用户 ID 和保单合法性，初始状态为 DRAFT。`                                     | 是否写清业务终态、输入输出、非目标    |
+| 生成 Plan | `/speckit.plan`         | `采用 MyBatis-Plus，状态流转使用 COLA StateMachine，接口遵循 RESTful。`                       | 包结构、领域模型、状态机、数据库设计   |
+| 拆 Tasks | `/speckit.tasks`        | 无需额外输入                                                                         | 是否先测试后实现，是否可以分阶段验收   |
+| 实现      | `/speckit.implement`    | 无需额外输入                                                                         | 是否按任务顺序改，是否跑测试       |
 
 新项目 constitution 模板：
 
@@ -517,17 +517,17 @@ specify -> review-spec gate -> plan -> review-plan gate -> tasks -> implement
 
 大型重构不能让 AI 一口气写完。正确做法是逐层卡点。
 
-| 战役 | 步骤 | 命令 | AI 应产出 | 人类卡点 |
-| --- | --- | --- | --- | --- |
-| 底线防御 | 1 | `/speckit.constitution` | 全局工程底线 | 明确禁止改哪些公共类、底层依赖和数据库结构 |
-| 契约输入 | 2 | `/speckit.specify` | 重构 spec | 写清重构前后行为不变项、允许改动范围 |
-| 契约输入 | 3 | `/speckit.clarify` | 风险问题清单 | 认真回答历史兼容、边界状态、失败处理 |
-| 推演沙盘 | 4 | `/speckit.plan` | 技术计划 | 如果 AI 想大改数据库或绕开现有框架，立即打回 |
-| 推演沙盘 | 5 | `/speckit.checklist` | 自检清单 | 看是否覆盖并发、空值、兼容、回归 |
-| 拆弹执行 | 6 | `/speckit.tasks` | 原子任务看板 | 确保顺序是测试、适配、新逻辑、迁移、清理 |
-| 拆弹执行 | 7 | `/speckit.analyze` | 一致性审计 | critical 问题必须先修文档 |
-| 拆弹执行 | 8 | `/speckit.implement` | 代码和测试 | 分批允许，不要一次放行太多任务 |
-| 合并收尾 | 9 | 人工 PR / CI | PR 和验证结果 | 以 Git/CI 为准，不要只信 agent 自述 |
+| 战役   | 步骤  | 命令                      | AI 应产出   | 人类卡点                      |
+| ---- | --- | ----------------------- | -------- | ------------------------- |
+| 底线防御 | 1   | `/speckit.constitution` | 全局工程底线   | 明确禁止改哪些公共类、底层依赖和数据库结构     |
+| 契约输入 | 2   | `/speckit.specify`      | 重构 spec  | 写清重构前后行为不变项、允许改动范围        |
+| 契约输入 | 3   | `/speckit.clarify`      | 风险问题清单   | 认真回答历史兼容、边界状态、失败处理        |
+| 推演沙盘 | 4   | `/speckit.plan`         | 技术计划     | 如果 AI 想大改数据库或绕开现有框架，立即打回  |
+| 推演沙盘 | 5   | `/speckit.checklist`    | 自检清单     | 看是否覆盖并发、空值、兼容、回归          |
+| 拆弹执行 | 6   | `/speckit.tasks`        | 原子任务看板   | 确保顺序是测试、适配、新逻辑、迁移、清理      |
+| 拆弹执行 | 7   | `/speckit.analyze`      | 一致性审计    | critical 问题必须先修文档         |
+| 拆弹执行 | 8   | `/speckit.implement`    | 代码和测试    | 分批允许，不要一次放行太多任务           |
+| 合并收尾 | 9   | 人工 PR / CI              | PR 和验证结果 | 以 Git/CI 为准，不要只信 agent 自述 |
 
 如果需要 rollback/diagnose/archive：
 

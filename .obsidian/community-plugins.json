@@ -8,5 +8,7 @@
   "obsidian-kanban",
   "terminal",
   "notebook-navigator",
-  "hide-folders"
+  "hide-folders",
+  "editing-toolbar",
+  "slash-commander"
 ]

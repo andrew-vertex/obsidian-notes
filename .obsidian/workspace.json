@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "4a8585420939cb00",
+        "id": "17b6a3699dd6ec5e",
         "type": "tabs",
         "children": [
           {
-            "id": "2826371dce35a863",
+            "id": "f6800e40b5ec860d",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "LLM 运行机制：Token、上下文窗口与采样参数"
             }
           }
         ]
@@ -35,7 +45,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "744ebb6398bf3d15",
+            "id": "de720f9b7c46c0e3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -45,23 +55,6 @@
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
-            }
-          },
-          {
-            "id": "3bf3f7488f3773ec",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "搜索"
             }
           },
           {
@@ -83,6 +76,23 @@
               "icon": "notebook-navigator",
               "title": "笔记本导航器"
             }
+          },
+          {
+            "id": "b6b7b5cd6b603e0f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "java-to",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
           }
         ]
       }
@@ -98,25 +108,6 @@
         "id": "64736a3d150fe9fd",
         "type": "tabs",
         "children": [
-          {
-            "id": "f0d9e0bca0b1e42d",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "AI/AI Developer/Agent/第一章 初识智能体.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "第一章 初识智能体 的反向链接列表"
-            }
-          },
           {
             "id": "cd8ae18a4fa3e1fd",
             "type": "leaf",
@@ -147,31 +138,18 @@
             }
           },
           {
-            "id": "543c75ec61f14c3b",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
             "id": "bf5e544ff9345423",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "LLM 运行机制：Token、上下文窗口与采样参数 的大纲"
             }
           },
           {
@@ -183,9 +161,42 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "810f4accd9bc6c7b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线 的反向链接列表"
+            }
+          },
+          {
+            "id": "605799d8cadebbda",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -194,12 +205,9 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
       "obsidian-importer:Open Importer": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
@@ -210,55 +218,55 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "2826371dce35a863",
+  "active": "b35b5611f8d455dc",
   "lastOpenFiles": [
-    "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
-    "Thinking/_kb/log.md",
-    "Thinking/_kb/index.md",
-    "Thinking/Cognitive Upgrade/高杠杆思维模型实战手册.md",
-    "Thinking/_kb",
-    "AI/AI Developer/Agent/第一章 初识智能体.md",
-    "Tools/Mac/macOS tmux 安装使用与 AI 研发工作流最佳实践.md",
-    "Pasted image 20260606152548.png",
-    "AI/AI Developer/AI 应用学习路线.md",
-    "Users/yuanjianwei/workspace/learning/hello-agents.md",
-    "Users/yuanjianwei/workspace/learning",
-    "Users/yuanjianwei/workspace",
-    "Users/yuanjianwei",
-    "Users",
-    "Work/skills/Yibao飞书工单闭环WorkflowPlugin使用手册.md",
-    "AI/AI Developer/Agent",
-    "AGENTS.md",
-    "Pasted image 20260605013912.png",
-    "AI/AI Developer/AI Interview/RAG.md",
-    "AI/AI Developer/未命名/未命名",
-    "AI/AI Developer/AI Interview",
-    "AI/AI Developer",
-    "Work/skills/亿保技术支持排障-Agent-落地方案与使用指南.md",
-    "Work/skills",
-    "Work/development/核赔和中台分案表使用情况.md",
-    "AI/未命名.md",
-    "agent.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/Java AI 框架选型.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM API 调用工程.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数.md",
+    "Tech/_kb/raw/JavaGuide 大模型结构化输出来源记录.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/结构化输出与工具调用.md",
+    "Tech/AI/Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线.md",
+    "Tech/_kb/raw/JavaGuide LLM 运行机制来源记录.md",
+    "Tech/AI/Java 转 AI 应用开发/index.md",
+    "Tech/AI/Java 转 AI 应用开发/00-转型定位/后端开发者转型 AI Agent.md",
+    "Tech/AI/AI 应用开发学习体系.md",
+    "Tech/Agent/AI Agent 的 Harness Engineering.md",
+    "Inbox/JavaGuide 草稿.md",
+    "Tech/AI/Java 转 AI 应用开发/07-进阶与复盘/AI 应用开发面试复盘.md",
+    "Tech/AI/Java 转 AI 应用开发/07-进阶与复盘/AI 语音技术.md",
+    "Tech/AI/Java 转 AI 应用开发/06-项目实战/智能面试平台项目.md",
+    "Tech/AI/Java 转 AI 应用开发/06-项目实战/多工具 Agent 项目.md",
+    "Tech/AI/Java 转 AI 应用开发/06-项目实战/企业知识库问答项目.md",
+    "Tech/AI/Java 转 AI 应用开发/05-工程化/AI 应用安全与合规.md",
+    "Tech/AI/Java 转 AI 应用开发/05-工程化/AI 应用评测体系.md",
+    "Tech/AI/Java 转 AI 应用开发/05-工程化/大模型网关.md",
+    "Tech/AI/Java 转 AI 应用开发/05-工程化/AI 应用系统设计.md",
+    "Tech/AI/Java 转 AI 应用开发/04-Agent/Workflow、Graph 与 Loop.md",
+    "Tech/AI/Java 转 AI 应用开发/04-Agent/Harness Engineering.md",
+    "Tech/AI/Java 转 AI 应用开发/04-Agent/MCP 协议.md",
+    "Tech/AI/Java 转 AI 应用开发/04-Agent/Agent Skills.md",
+    "Tech/AI/Java 转 AI 应用开发/07-进阶与复盘",
+    "Tech/AI/Java 转 AI 应用开发/06-项目实战",
+    "Tech/AI/Java 转 AI 应用开发/05-工程化",
+    "Tech/AI/Java 转 AI 应用开发/04-Agent",
+    "Tech/AI/Java 转 AI 应用开发/03-RAG",
+    "Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础",
+    "Tech/AI/Java 转 AI 应用开发/00-转型定位",
+    "Tech/AI/Java 转 AI 应用开发",
+    "Inbox/未命名.base",
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 原理/Untitled 6.png",
     "未命名.canvas",
-    "Tools/_kb/log.md",
-    "Tools/AI/Skills/README.md",
-    "Tools/AI/Skills/caveman 安装使用最佳实践.md",
-    "Tools/AI/Skills/graphify 安装使用最佳实践.md",
-    "Excalidraw/绘图 2026-06-03 02.39.13.excalidraw.md",
-    "Work/design/TPA 理赔业务术语词典.md",
-    "Work/design/进件方式、流程类型与对接模式差异.md",
-    "Work/design/问题件、打回、恢复与回退手册.md",
-    "Work/design/资金与结算专题：冻结、解冻、打款、回传、回销、返还票据、挂账、结算状态.md",
-    "Work/design/按一个典型真实案件走一遍：从进件到结案.md",
-    "Work/design/案件生产系统的全过程.md",
+    "未命名 1.canvas",
+    "Pasted image 20260606152548.png",
+    "Pasted image 20260605013912.png",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled.png",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 9.png",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 8.png",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 7.png",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 6.png",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 5.png",
-    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 4.png",
-    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 3.png",
-    "未命名 1.canvas"
+    "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 高级/Untitled 4.png"
   ]
 }
