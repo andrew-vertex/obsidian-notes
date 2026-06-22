@@ -535,7 +535,7 @@ public final class ToolCallDispatcher {
 
 - [[LLM 运行机制：Token、上下文窗口与采样参数]]
 - [[LLM API 调用工程]]
-- [[../02-Prompt 与上下文/Prompt 工程]]
+- [[../02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？]]
 - [[../04-Agent/AI Agent 基础]]
 - [[../04-Agent/MCP 协议]]
 - [[../04-Agent/Agent Skills]]
@@ -552,4 +552,3 @@ public final class ToolCallDispatcher {
 - [MCP：Tools](https://modelcontextprotocol.io/specification/latest/server/tools)
 - [JSON Schema：Objects](https://json-schema.org/understanding-json-schema/reference/object)
 - [JSON Schema：Enumerated Values](https://json-schema.org/understanding-json-schema/reference/enum)
-

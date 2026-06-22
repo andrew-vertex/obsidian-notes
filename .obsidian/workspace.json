@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数.md",
+                "file": "Tech/AI/Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LLM 运行机制：Token、上下文窗口与采样参数"
+              "title": "Java 后端转 AI 应用开发学习路线"
             }
           }
         ]
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java-to",
+                "query": "specif",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数.md",
+                "file": "Tech/AI/Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LLM 运行机制：Token、上下文窗口与采样参数 的大纲"
+              "title": "Java 后端转 AI 应用开发学习路线 的大纲"
             }
           },
           {
@@ -218,34 +218,36 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "b35b5611f8d455dc",
+  "active": "f6800e40b5ec860d",
   "lastOpenFiles": [
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/Java AI 框架选型.md",
     "Tech/AI/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM API 调用工程.md",
+    "Tech/AI/Java 转 AI 应用开发/00-转型定位/后端开发者转型 AI Agent.md",
+    "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
+    "AI/AI Developer/AI 应用学习路线.md",
+    "Tech/_kb/raw/Hello-Agents 第一章来源记录.md",
+    "Tech/AI/Hello-Agents/index.md",
+    "AI/AI Developer/Agent/第一章 初识智能体.md",
+    "Tech/AI/Hello-Agents/第一部分：智能体与语言模型基础/第一章 初识智能体.md",
+    "Tech/_kb/raw/JavaGuide 大模型提示词工程来源记录.md",
+    "Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md",
+    "Tech/AI/Hello-Agents/第一部分：智能体与语言模型基础",
+    "Tech/AI/Hello-Agents",
+    "AI/AI Developer/AI Interview/RAG.md",
+    "Inbox/JavaGuide 草稿.md",
+    "Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线.md",
+    "Inbox/大语言模型基础-草稿.md",
+    "Tech/Agent/AI Agent 的 Harness Engineering.md",
     "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/Java AI 框架选型.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM API 调用工程.md",
     "Tech/_kb/raw/JavaGuide 大模型结构化输出来源记录.md",
     "Tech/AI/Java 转 AI 应用开发/01-大模型基础/结构化输出与工具调用.md",
     "Tech/AI/Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线.md",
     "Tech/_kb/raw/JavaGuide LLM 运行机制来源记录.md",
     "Tech/AI/Java 转 AI 应用开发/index.md",
-    "Tech/AI/Java 转 AI 应用开发/00-转型定位/后端开发者转型 AI Agent.md",
     "Tech/AI/AI 应用开发学习体系.md",
-    "Tech/Agent/AI Agent 的 Harness Engineering.md",
-    "Inbox/JavaGuide 草稿.md",
     "Tech/AI/Java 转 AI 应用开发/07-进阶与复盘/AI 应用开发面试复盘.md",
     "Tech/AI/Java 转 AI 应用开发/07-进阶与复盘/AI 语音技术.md",
-    "Tech/AI/Java 转 AI 应用开发/06-项目实战/智能面试平台项目.md",
-    "Tech/AI/Java 转 AI 应用开发/06-项目实战/多工具 Agent 项目.md",
-    "Tech/AI/Java 转 AI 应用开发/06-项目实战/企业知识库问答项目.md",
-    "Tech/AI/Java 转 AI 应用开发/05-工程化/AI 应用安全与合规.md",
-    "Tech/AI/Java 转 AI 应用开发/05-工程化/AI 应用评测体系.md",
-    "Tech/AI/Java 转 AI 应用开发/05-工程化/大模型网关.md",
-    "Tech/AI/Java 转 AI 应用开发/05-工程化/AI 应用系统设计.md",
-    "Tech/AI/Java 转 AI 应用开发/04-Agent/Workflow、Graph 与 Loop.md",
-    "Tech/AI/Java 转 AI 应用开发/04-Agent/Harness Engineering.md",
-    "Tech/AI/Java 转 AI 应用开发/04-Agent/MCP 协议.md",
-    "Tech/AI/Java 转 AI 应用开发/04-Agent/Agent Skills.md",
     "Tech/AI/Java 转 AI 应用开发/07-进阶与复盘",
     "Tech/AI/Java 转 AI 应用开发/06-项目实战",
     "Tech/AI/Java 转 AI 应用开发/05-工程化",
@@ -254,8 +256,6 @@
     "Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文",
     "Tech/AI/Java 转 AI 应用开发/01-大模型基础",
     "Tech/AI/Java 转 AI 应用开发/00-转型定位",
-    "Tech/AI/Java 转 AI 应用开发",
-    "Inbox/未命名.base",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 原理/Untitled 6.png",
     "未命名.canvas",
     "未命名 1.canvas",

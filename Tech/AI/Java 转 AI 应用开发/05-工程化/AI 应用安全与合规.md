@@ -37,7 +37,7 @@ status: planned
 
 ## 相关页面
 
-- [[../02-Prompt 与上下文/Prompt 工程]]
+- [[../02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？]]
 - [[../04-Agent/AI Agent 基础]]
 - [[AI 应用系统设计]]
 

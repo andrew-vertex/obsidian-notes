@@ -40,7 +40,7 @@ tags:
 
 ## 阶段 2：Prompt 与上下文
 
-- [[02-Prompt 与上下文/Prompt 工程]]
+- [[02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？]]
 - [[02-Prompt 与上下文/上下文工程]]
 
 ## 阶段 3：RAG 与知识库

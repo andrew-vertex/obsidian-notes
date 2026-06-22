@@ -46,3 +46,17 @@ Tech 领域 ingest、query、lint 的追加式维护日志。
 - verified provider-specific boundaries against current OpenAI, Anthropic, Gemini, MCP, and JSON Schema documentation
 - separated model-facing parameters from trusted runtime metadata and added Java validation, security, retry, observability, and rollout guidance
 - updated all Java-to-AI workspace backlinks to the canonical filename
+
+## [2026-06-22] ingest | Hello-Agents 第一章初识智能体
+- moved the existing chapter note from `AI/AI Developer/Agent/` into the canonical Tech AI learning layer
+- created `Tech/AI/Hello-Agents/index.md` as the 16-chapter course map and progress entry
+- rewrote `第一章 初识智能体.md` with frontmatter, TOC, key takeaways, comparison tables, Mermaid diagrams, safer tool-call patterns, production boundaries, and evaluation guidance
+- added source record `Tech/_kb/raw/Hello-Agents 第一章来源记录.md`
+- linked the course and chapter from `Tech/_kb/index.md`
+
+## [2026-06-22] ingest | 大模型提示词工程
+- added source record `Tech/_kb/raw/JavaGuide 大模型提示词工程来源记录.md`
+- expanded and renamed the planned Prompt skeleton as `Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md`
+- restructured the topic around prompt anatomy, six technique families, evidence handling, evaluation, lifecycle governance, injection defense, and Agent context boundaries
+- verified the Spring AI example against the current 2.0.0 reference and normalized reasoning-model guidance against current provider documentation
+- updated all Java-to-AI workspace backlinks to the canonical filename

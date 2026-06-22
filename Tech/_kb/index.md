@@ -25,6 +25,8 @@ tags:
 
 ## Canonical Notes
 
+- [[../AI/Hello-Agents/index|Hello-Agents 学习索引]]: Datawhale《从零开始构建智能体》的个人课程地图、学习进度和章节笔记入口。
+- [[../AI/Hello-Agents/第一部分：智能体与语言模型基础/第一章 初识智能体]]: 从经典 AI 与 LLM 工程视角理解 Agent 定义、分类、PEAS、运行循环、协作模式和生产边界。
 - [[../AI/Java 转 AI 应用开发/index|Java 转 AI 应用开发索引]]: Java 后端转向 AI 应用工程的主入口，包含 8 阶段路线、专题阅读骨架与实践验收清单。
 - [[../AI/AI 应用开发学习体系]]: JavaGuide AI 专题的旧版粗粒度主题总览，已回链到新版学习工作区。
 - [[../Agent/AI Agent 的 Harness Engineering]]: AI Agent 从 demo 走向生产力时的控制面方法论，包括真相源、执行边界、能力路由与验证闭环。
