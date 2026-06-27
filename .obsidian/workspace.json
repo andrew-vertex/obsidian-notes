@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech/AI/Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线.md",
+                "file": "Tools/AI/Superpowers 安装使用与 AI 编程工作流实践指南.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Java 后端转 AI 应用开发学习路线"
+              "title": "Superpowers 安装使用与 AI 编程工作流实践指南"
             }
           }
         ]
@@ -83,18 +83,19 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "specif",
+                "query": "superpower",
                 "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -143,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech/AI/Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线.md",
+                "file": "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Java 后端转 AI 应用开发学习路线 的大纲"
+              "title": "Spec Kit 与 SDD 规范驱动开发实践指南 的大纲"
             }
           },
           {
@@ -220,9 +221,17 @@
   },
   "active": "f6800e40b5ec860d",
   "lastOpenFiles": [
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
-    "Tech/AI/Java 转 AI 应用开发/00-转型定位/后端开发者转型 AI Agent.md",
+    "Tools/_kb/raw/Superpowers GitHub 来源记录.md",
+    "Tools/AI/Superpowers 安装使用与 AI 编程工作流实践指南.md",
+    "Tools/_kb/index.md",
     "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
+    "Clippings/从玩具到生产力：用真实项目讲透 AI Agent 的 Harness Engineering.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/Java AI 框架选型.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM API 调用工程.md",
+    "Tech/AI/Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线.md",
+    "Tech/AI/Java 转 AI 应用开发/00-转型定位/后端开发者转型 AI Agent.md",
     "AI/AI Developer/AI 应用学习路线.md",
     "Tech/_kb/raw/Hello-Agents 第一章来源记录.md",
     "Tech/AI/Hello-Agents/index.md",
@@ -237,17 +246,9 @@
     "Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线.md",
     "Inbox/大语言模型基础-草稿.md",
     "Tech/Agent/AI Agent 的 Harness Engineering.md",
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数.md",
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/Java AI 框架选型.md",
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM API 调用工程.md",
     "Tech/_kb/raw/JavaGuide 大模型结构化输出来源记录.md",
     "Tech/AI/Java 转 AI 应用开发/01-大模型基础/结构化输出与工具调用.md",
-    "Tech/AI/Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线.md",
     "Tech/_kb/raw/JavaGuide LLM 运行机制来源记录.md",
-    "Tech/AI/Java 转 AI 应用开发/index.md",
-    "Tech/AI/AI 应用开发学习体系.md",
-    "Tech/AI/Java 转 AI 应用开发/07-进阶与复盘/AI 应用开发面试复盘.md",
-    "Tech/AI/Java 转 AI 应用开发/07-进阶与复盘/AI 语音技术.md",
     "Tech/AI/Java 转 AI 应用开发/07-进阶与复盘",
     "Tech/AI/Java 转 AI 应用开发/06-项目实战",
     "Tech/AI/Java 转 AI 应用开发/05-工程化",

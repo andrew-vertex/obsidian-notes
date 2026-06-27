@@ -1,5 +1,10 @@
 # Tools 领域日志
 
+## [2026-06-27] ingest | Superpowers 安装使用与 AI 编程工作流
+- added source record `Tools/_kb/raw/Superpowers GitHub 来源记录.md`
+- added canonical note `Tools/AI/Superpowers 安装使用与 AI 编程工作流实践指南.md`
+- updated `Tools/_kb/index.md`
+
 ## [2026-06-06] ingest | macOS tmux 安装使用与 AI 研发工作流
 - added canonical note `Tools/Mac/macOS tmux 安装使用与 AI 研发工作流最佳实践.md`
 - updated `Tools/_kb/index.md`
