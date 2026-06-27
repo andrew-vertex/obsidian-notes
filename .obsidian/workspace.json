@@ -4,20 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "3189121df4a7e3b4",
+        "id": "e0c7968d0992bf84",
         "type": "tabs",
         "children": [
           {
-            "id": "20ae2256d559afc8",
+            "id": "53b6b8d64fee8200",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Thinking/Cognitive Upgrade/英语音标 IPA 学习笔记.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "英语音标 IPA 学习笔记"
+            }
+          },
+          {
+            "id": "e8c7ab1a5a117e3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thinking/Cognitive Upgrade/英语音标 IPA 学习笔记.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "英语音标 IPA 学习笔记"
+            }
+          },
+          {
+            "id": "07e780c08329041b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thinking/Cognitive Upgrade/英语音标 IPA 学习笔记.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "英语音标 IPA 学习笔记"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "superpower",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -80,11 +143,13 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c50c1d5cf391a429",
@@ -204,10 +269,11 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "de720f9b7c46c0e3",
+  "active": "07e780c08329041b",
   "lastOpenFiles": [
-    "Tools/_kb/raw/Superpowers GitHub 来源记录.md",
+    "Thinking/Cognitive Upgrade/英语音标 IPA 学习笔记.md",
     "Tools/AI/Superpowers 安装使用与 AI 编程工作流实践指南.md",
+    "Tools/_kb/raw/Superpowers GitHub 来源记录.md",
     "Tools/_kb/index.md",
     "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
     "Tech/AI/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
@@ -233,7 +299,6 @@
     "Tech/Agent/AI Agent 的 Harness Engineering.md",
     "Tech/_kb/raw/JavaGuide 大模型结构化输出来源记录.md",
     "Tech/AI/Java 转 AI 应用开发/01-大模型基础/结构化输出与工具调用.md",
-    "Tech/_kb/raw/JavaGuide LLM 运行机制来源记录.md",
     "Tech/AI/Java 转 AI 应用开发/07-进阶与复盘",
     "Tech/AI/Java 转 AI 应用开发/06-项目实战",
     "Tech/AI/Java 转 AI 应用开发/05-工程化",
