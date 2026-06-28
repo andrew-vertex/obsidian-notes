@@ -17,7 +17,7 @@ tags:
 
 - Reindex：<https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html>
 - Aliases：<https://www.elastic.co/guide/en/elasticsearch/reference/current/aliases.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 [TOC]
 
@@ -206,10 +206,10 @@ flowchart TD
 - [[Elasticsearch 知识索引]]
 - [[Elasticsearch 索引设计、文档与查询 DSL]]
 - [[Elasticsearch 集群与分布式架构]]
-- [[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- [[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 ## 参考来源
 
 - Reindex：<https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html>
 - Aliases：<https://www.elastic.co/guide/en/elasticsearch/reference/current/aliases.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]

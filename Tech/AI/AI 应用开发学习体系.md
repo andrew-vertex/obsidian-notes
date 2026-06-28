@@ -22,7 +22,7 @@ tags:
 
 - JavaGuide AI 应用开发知识体系：<https://javaguide.cn/ai/>
 - GitHub 原始 Markdown：<https://raw.githubusercontent.com/Snailclimb/JavaGuide/main/docs/ai/README.md>
-- 域内 raw 记录：[[../_kb/raw/JavaGuide AI 应用开发知识体系来源记录]]
+- 域内 raw 记录：[[.raw/articles/JavaGuide AI 应用开发知识体系来源记录]]
 
 [TOC]
 
@@ -211,8 +211,8 @@ flowchart TD
 - [[Java 转 AI 应用开发/index|Java 转 AI 应用开发索引]]
 - [[Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线]]
 - [[../Agent/AI Agent 的 Harness Engineering]]
-- [[../_kb/index]]
-- [[../_kb/raw/JavaGuide AI 应用开发知识体系来源记录]]
+- [[wiki/learning/_index]]
+- [[.raw/articles/JavaGuide AI 应用开发知识体系来源记录]]
 
 ## 参考来源
 

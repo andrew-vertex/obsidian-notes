@@ -17,7 +17,7 @@ tags:
 
 - Analysis：<https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis.html>
 - Suggester：<https://www.elastic.co/guide/en/elasticsearch/reference/current/search-suggesters.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 [TOC]
 
@@ -188,10 +188,10 @@ IK 的工程价值不只是“能切中文”，还在于可控：
 - [[Elasticsearch 知识索引]]
 - [[Elasticsearch 索引设计、文档与查询 DSL]]
 - [[Elasticsearch 检索原理、NRT 与相关性评分]]
-- [[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- [[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 ## 参考来源
 
 - Analysis：<https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis.html>
 - Suggester：<https://www.elastic.co/guide/en/elasticsearch/reference/current/search-suggesters.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]

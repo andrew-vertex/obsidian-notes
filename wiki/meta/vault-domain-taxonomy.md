@@ -1,14 +1,14 @@
 ---
 title: "Vault 领域分类"
 created: 2026-05-07
-description: "当前 vault 的顶层知识域定义，从旧 _kb/schema/全局知识分类.md 迁移"
+description: "当前 vault 的顶层知识域定义，从旧 wiki/meta/全局知识分类.md 迁移"
 tags: [meta, schema, taxonomy]
 status: developing
 ---
 
 # Vault 领域分类
 
-> 从旧 `_kb/schema/全局知识分类.md` 迁移。领域定义用于指导新内容的路由和 MOC 组织。
+> 从旧体系迁移。领域定义用于指导新内容的路由和 MOC 组织。
 
 ## 知识域
 

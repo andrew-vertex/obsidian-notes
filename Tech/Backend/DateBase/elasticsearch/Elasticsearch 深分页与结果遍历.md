@@ -17,7 +17,7 @@ tags:
 
 - Paginate search results：<https://www.elastic.co/guide/en/elasticsearch/reference/current/paginate-search-results.html>
 - Scroll API：<https://www.elastic.co/guide/en/elasticsearch/reference/current/scroll-api.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 [TOC]
 
@@ -184,10 +184,10 @@ flowchart TD
 - [[Elasticsearch 知识索引]]
 - [[Elasticsearch 检索原理、NRT 与相关性评分]]
 - [[Elasticsearch 集群与分布式架构]]
-- [[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- [[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 ## 参考来源
 
 - Paginate search results：<https://www.elastic.co/guide/en/elasticsearch/reference/current/paginate-search-results.html>
 - Scroll API：<https://www.elastic.co/guide/en/elasticsearch/reference/current/scroll-api.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]

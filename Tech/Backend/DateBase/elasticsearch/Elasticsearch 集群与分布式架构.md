@@ -16,7 +16,7 @@ tags:
 官方/来源：
 
 - Node settings and roles：<https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-node.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 [TOC]
 
@@ -187,9 +187,9 @@ flowchart TD
 - [[Elasticsearch 知识索引]]
 - [[Elasticsearch 检索原理、NRT 与相关性评分]]
 - [[Elasticsearch 数据同步、别名与重建索引]]
-- [[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- [[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 ## 参考来源
 
 - Node settings and roles：<https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-node.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]

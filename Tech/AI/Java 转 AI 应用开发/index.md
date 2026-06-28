@@ -90,8 +90,8 @@ tags:
 
 ## 相关页面
 
-- [[Tech/_kb/index|Tech 领域索引]]
-- [[../../_kb/raw/JavaGuide Java Go 开发者 AI 应用开发路线来源记录|来源记录]]
+- [[wiki/learning/_index|Tech 领域索引]]
+- [[.raw/articles/JavaGuide Java Go 开发者 AI 应用开发路线来源记录|来源记录]]
 - [[../../../Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线|原始阅读笔记]]
 
 ## 参考来源

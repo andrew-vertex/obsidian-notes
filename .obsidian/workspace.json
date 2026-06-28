@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/Karpathy LLM Wiki 知识库方法.md",
+                "file": "Tools/claude-obsidian 插件使用指南.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Karpathy LLM Wiki 知识库方法"
+              "title": "claude-obsidian 插件使用指南"
             }
           }
         ]
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " claude-obsidian",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -94,7 +94,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -220,32 +221,32 @@
   },
   "active": "bb8fb0e4d6e6ae98",
   "lastOpenFiles": [
+    "wiki/learning/claude-obsidian-快速上手.md",
+    "Tools/claude-obsidian 插件使用指南.md",
+    "wiki/meta/2026-06-28-wiki-scaffold-design.md",
+    "wiki/concepts/Karpathy LLM Wiki 知识库方法.md",
     "wiki/concepts/高杠杆思维模型.md",
+    "_templates/source.md",
+    "_templates/question.md",
+    "_templates/howto.md",
+    "_templates/entity.md",
+    "_templates/design.md",
+    "_templates/course.md",
+    "_templates/concept.md",
+    "AGENTS.md",
     "wiki/concepts/_index.md",
     "wiki/meta/vault-domain-taxonomy.md",
     "wiki/concepts/kb-wiki-旧索引.md",
-    "wiki/concepts/Karpathy LLM Wiki 知识库方法.md",
     "wiki/log.md",
-    "wiki/learning/claude-obsidian-快速上手.md",
     "wiki/work/案件生命周期设计.md",
     "wiki/learning/agentic-ai-课程.md",
-    "_templates/design.md",
-    "_templates/course.md",
-    "_templates/howto.md",
-    "wiki/meta/2026-06-28-wiki-scaffold-design.md",
     "wiki/hot.md",
     "wiki/index.md",
     "wiki/learning/_index.md",
     "wiki/goals/_index.md",
     "wiki/entities/_index.md",
-    "_templates/entity.md",
-    "_templates/concept.md",
-    "_templates/question.md",
-    "_templates/source.md",
-    "Tools/claude-obsidian 插件使用指南.md",
     "wiki/thinking/_index.md",
     "wiki/work/_index.md",
-    "wiki/overview.md",
     "_templates",
     "wiki/work",
     "wiki/thinking",

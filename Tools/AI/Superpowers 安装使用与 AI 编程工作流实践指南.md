@@ -573,4 +573,4 @@ export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=true
 - Superpowers for OpenCode：<https://github.com/obra/superpowers/blob/main/docs/README.opencode.md>
 - OpenCode INSTALL：<https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.opencode/INSTALL.md>
 - Superpowers release announcement：<https://blog.fsck.com/2025/10/09/superpowers/>
-- 本地来源记录：[[../_kb/raw/Superpowers GitHub 来源记录]]
+- 本地来源记录：[[.raw/articles/Superpowers GitHub 来源记录]]

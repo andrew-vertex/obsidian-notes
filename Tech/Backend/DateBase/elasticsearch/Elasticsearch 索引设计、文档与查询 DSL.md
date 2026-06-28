@@ -18,7 +18,7 @@ tags:
 - Mapping：<https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html>
 - Query DSL：<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html>
 - Java API Client：<https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 [TOC]
 
@@ -239,11 +239,11 @@ tags:
 - [[Elasticsearch 基础与核心概念]]
 - [[Elasticsearch 分词、中文检索与自动提示]]
 - [[Elasticsearch 数据同步、别名与重建索引]]
-- [[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- [[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 ## 参考来源
 
 - Mapping：<https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html>
 - Query DSL：<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html>
 - Java API Client：<https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]

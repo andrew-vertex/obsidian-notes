@@ -220,7 +220,7 @@ flowchart TD
 - [[index|Java 转 AI 应用开发索引]]
 - [[Tech/AI/AI 应用开发学习体系|AI 应用开发学习体系]]
 - [[Tech/Agent/AI Agent 的 Harness Engineering|AI Agent 的 Harness Engineering]]
-- [[../../_kb/raw/JavaGuide Java Go 开发者 AI 应用开发路线来源记录|来源记录]]
+- [[.raw/articles/JavaGuide Java Go 开发者 AI 应用开发路线来源记录|来源记录]]
 - [[../../../Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线|原始阅读笔记]]
 
 ## 参考来源

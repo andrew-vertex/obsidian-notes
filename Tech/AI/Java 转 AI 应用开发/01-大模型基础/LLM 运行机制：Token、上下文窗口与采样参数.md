@@ -498,7 +498,7 @@ Prompt Caching 通常复用请求中的稳定前缀。要提高命中率：
 
 - JavaGuide，LLM 运行机制：<https://javaguide.cn/ai/llm-basis/llm-operation-mechanism.html>
 - OpenAI Tokenizer：<https://platform.openai.com/tokenizer>
-- [[../../../_kb/raw/JavaGuide LLM 运行机制来源记录]]
+- [[.raw/articles/JavaGuide LLM 运行机制来源记录]]
 
 ## 待确认
 

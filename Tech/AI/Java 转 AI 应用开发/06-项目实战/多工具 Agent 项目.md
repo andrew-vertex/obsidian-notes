@@ -47,4 +47,4 @@ status: planned
 
 ## 参考来源
 
-- [[../../../_kb/raw/JavaGuide Java Go 开发者 AI 应用开发路线来源记录]]
+- [[.raw/articles/JavaGuide Java Go 开发者 AI 应用开发路线来源记录]]

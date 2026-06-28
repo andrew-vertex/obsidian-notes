@@ -108,10 +108,10 @@ tags:
 ## Related Pages
 
 - [[Elasticsearch 知识索引]]
-- [[../../../_kb/index]]
-- [[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- [[wiki/learning/_index]]
+- [[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 ## 参考来源
 
 - canonical index：[[Elasticsearch 知识索引]]
-- raw source record：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source record：[[.raw/articles/Elasticsearch Notion 导出来源记录]]

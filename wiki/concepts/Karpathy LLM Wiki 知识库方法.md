@@ -19,7 +19,7 @@ Karpathy 这套方法的核心不是“临时检索”，而是把原始资料�
 - `raw/` 保存证据，`wiki/` 保存编译后的知识页，`schema/` 负责治理规则。
 - 这套方法的核心是长期维护的 compiled wiki，而不是一次性检索结果。
 - 对已有明显一级分类的 Obsidian vault，更适合用“全局控制面 + 分域知识面”的混合结构。
-- `note-curator` 适合负责单页整理，`llm-wiki-curator` 适合负责整个知识库的 ingest、routing 和 lint。
+- note-curator 适合负责单页整理，claude-obsidian 插件负责整个知识库的 ingest、routing 和 lint。
 
 ## Overview
 
@@ -129,7 +129,7 @@ flowchart TD
 
 两者组合时，比较自然的分工是：
 
-- `llm-wiki-curator` 负责知识库生命周期
+- claude-obsidian 插件负责知识库生命周期
 - `note-curator` 负责单个 wiki 页面的高质量 Markdown 成形
 
 ## Pitfalls and Best Practices

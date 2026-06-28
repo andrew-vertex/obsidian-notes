@@ -19,7 +19,7 @@ tags:
 
 - Elasticsearch Reference：<https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html>
 - Java API Client：<https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html>
-- 域内 raw 记录：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- 域内 raw 记录：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 [TOC]
 
@@ -38,7 +38,7 @@ tags:
 - 这套笔记以 `Elasticsearch` 作为“搜索与分析引擎”来组织，而不是把它误当作事务型数据库替代品。
 - 原始来源以 `7.17.3` 为主，但正式知识页会对客户端、分页、集群角色与安全配置按当前官方最佳实践做标注。
 - 建议把知识分成四层理解：数据模型、检索与分析、分布式运行机制、工程演进与同步。
-- canonical page 放在 `Tech/Backend/DateBase/elasticsearch/`，raw 证据保留在 `Tech/_kb/raw/elasticsearch-notion-export/`。
+- canonical page 放在 `Tech/Backend/DateBase/elasticsearch/`，raw 证据保留在 `.raw/data/elasticsearch-notion-export/`。
 
 ## 推荐阅读路径
 
@@ -97,11 +97,11 @@ tags:
 ## Related Pages
 
 - [[Elasticsearch 阅读指南]]
-- [[../../../_kb/index]]
-- [[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- [[wiki/learning/_index]]
+- [[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 ## 参考来源
 
 - Elasticsearch Reference：<https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html>
 - Java API Client：<https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html>
-- raw source record：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source record：[[.raw/articles/Elasticsearch Notion 导出来源记录]]

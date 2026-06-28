@@ -16,7 +16,7 @@ tags:
 官方/来源：
 
 - Elasticsearch Guide：<https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 [TOC]
 
@@ -174,9 +174,9 @@ Elasticsearch 是基于 Lucene 的分布式搜索和分析引擎，核心能力�
 - [[Elasticsearch 知识索引]]
 - [[Elasticsearch 索引设计、文档与查询 DSL]]
 - [[Elasticsearch 检索原理、NRT 与相关性评分]]
-- [[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- [[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 ## 参考来源
 
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 - Elasticsearch Guide：<https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html>

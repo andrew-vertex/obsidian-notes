@@ -16,7 +16,7 @@ tags:
 官方/来源：
 
 - Near real-time search：<https://www.elastic.co/guide/en/elasticsearch/reference/current/near-real-time.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 [TOC]
 
@@ -246,9 +246,9 @@ flowchart TD
 - [[Elasticsearch 知识索引]]
 - [[Elasticsearch 基础与核心概念]]
 - [[Elasticsearch 深分页与结果遍历]]
-- [[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- [[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
 ## 参考来源
 
 - Near real-time search：<https://www.elastic.co/guide/en/elasticsearch/reference/current/near-real-time.html>
-- raw source：[[../../../_kb/raw/Elasticsearch Notion 导出来源记录]]
+- raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
