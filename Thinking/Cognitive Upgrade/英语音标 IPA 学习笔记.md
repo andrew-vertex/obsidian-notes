@@ -19,6 +19,7 @@ IPA，全称 `International Phonetic Alphabet`，是一套用符号标记语音�
 ## 目录
 
 - [Key Takeaways](#key-takeaways)
+- [分类总览](#分类总览)
 - [IPA 学习框架](#ipa-学习框架)
 - [元音 Vowels](#元音-vowels)
 - [辅音 Consonants](#辅音-consonants)
@@ -35,6 +36,34 @@ IPA，全称 `International Phonetic Alphabet`，是一套用符号标记语音�
 - 中文母语者最容易混淆的不是所有音，而是少数高频对立：`/i/ vs /ɪ/`、`/ɛ/ vs /æ/`、`/ʌ/ vs /ɑ/`、`/θ/ vs /s/`、`/ð/ vs /z/`、`/l/ vs /r/`、`/v/ vs /w/`。
 - 学 IPA 要“听辨优先，发音跟上”：先能听出差异，再稳定模仿，最后放入单词和句子。
 - 单词拼写不能可靠推出发音。英语发音学习要以词典音标和真人音频为准。
+
+## 分类总览
+
+先记住这棵树，再进入具体符号表，会更容易判断一个音属于哪一类、应该从哪个发音维度入手。
+
+```mermaid
+flowchart LR
+    IPA["英语音标<br/>International Phonetic Alphabet for English, IPA"]
+
+    IPA --> V["元音 Vowels"]
+    IPA --> C["辅音 Consonants"]
+
+    V --> VF["发音特点<br/>气流不受口腔部位明显阻碍"]
+    V --> VS["声音来源<br/>声带振动 + 口腔形状调节"]
+    V --> VM["单元音 Monophthongs"]
+    V --> VD["双元音 Diphthongs"]
+    VM --> VMN["音质相对固定<br/>包括常说的短元音和部分长/紧元音"]
+    VD --> VDN["从一个元音<br/>自然滑向另一个元音"]
+
+    C --> CF["发音特点<br/>气流受到唇、齿、舌、软腭或声门的阻碍、爆破或摩擦"]
+    C --> CVL["清辅音 Voiceless"]
+    C --> CVD["浊辅音 Voiced"]
+    CVL --> CVLN["声带不振动<br/>/p/ /t/ /k/ /f/ /s/ /ʃ/"]
+    CVD --> CVDN["声带振动<br/>/b/ /d/ /g/ /v/ /z/ /ʒ/"]
+    CVD --> SON["鼻音 /m/ /n/ /ŋ/<br/>边音 /l/<br/>半元音 /j/ /w/"]
+```
+
+这份总览解决的是“分类定位”问题：看到一个 IPA 符号时，先判断它是元音还是辅音；如果是元音，再看舌位、唇形和滑动；如果是辅音，再看发音部位、发音方式和清浊。
 
 ## IPA 学习框架
 

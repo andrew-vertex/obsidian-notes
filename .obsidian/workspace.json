@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e0c7968d0992bf84",
+        "id": "94ee607d161e1eb1",
         "type": "tabs",
         "children": [
           {
-            "id": "53b6b8d64fee8200",
+            "id": "bb8fb0e4d6e6ae98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thinking/Cognitive Upgrade/英语音标 IPA 学习笔记.md",
+                "file": "wiki/concepts/Karpathy LLM Wiki 知识库方法.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "英语音标 IPA 学习笔记"
-            }
-          },
-          {
-            "id": "e8c7ab1a5a117e3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Thinking/Cognitive Upgrade/英语音标 IPA 学习笔记.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "英语音标 IPA 学习笔记"
-            }
-          },
-          {
-            "id": "07e780c08329041b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Thinking/Cognitive Upgrade/英语音标 IPA 学习笔记.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "英语音标 IPA 学习笔记"
+              "title": "Karpathy LLM Wiki 知识库方法"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,13 +94,11 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c50c1d5cf391a429",
@@ -269,44 +218,44 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "07e780c08329041b",
+  "active": "bb8fb0e4d6e6ae98",
   "lastOpenFiles": [
-    "Thinking/Cognitive Upgrade/英语音标 IPA 学习笔记.md",
-    "Tools/AI/Superpowers 安装使用与 AI 编程工作流实践指南.md",
-    "Tools/_kb/raw/Superpowers GitHub 来源记录.md",
-    "Tools/_kb/index.md",
-    "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
-    "Clippings/从玩具到生产力：用真实项目讲透 AI Agent 的 Harness Engineering.md",
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/Java AI 框架选型.md",
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数.md",
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM API 调用工程.md",
-    "Tech/AI/Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线.md",
-    "Tech/AI/Java 转 AI 应用开发/00-转型定位/后端开发者转型 AI Agent.md",
-    "AI/AI Developer/AI 应用学习路线.md",
-    "Tech/_kb/raw/Hello-Agents 第一章来源记录.md",
-    "Tech/AI/Hello-Agents/index.md",
-    "AI/AI Developer/Agent/第一章 初识智能体.md",
-    "Tech/AI/Hello-Agents/第一部分：智能体与语言模型基础/第一章 初识智能体.md",
-    "Tech/_kb/raw/JavaGuide 大模型提示词工程来源记录.md",
-    "Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md",
-    "Tech/AI/Hello-Agents/第一部分：智能体与语言模型基础",
-    "Tech/AI/Hello-Agents",
-    "AI/AI Developer/AI Interview/RAG.md",
-    "Inbox/JavaGuide 草稿.md",
-    "Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线.md",
-    "Inbox/大语言模型基础-草稿.md",
-    "Tech/Agent/AI Agent 的 Harness Engineering.md",
-    "Tech/_kb/raw/JavaGuide 大模型结构化输出来源记录.md",
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/结构化输出与工具调用.md",
-    "Tech/AI/Java 转 AI 应用开发/07-进阶与复盘",
-    "Tech/AI/Java 转 AI 应用开发/06-项目实战",
-    "Tech/AI/Java 转 AI 应用开发/05-工程化",
-    "Tech/AI/Java 转 AI 应用开发/04-Agent",
-    "Tech/AI/Java 转 AI 应用开发/03-RAG",
-    "Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文",
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础",
-    "Tech/AI/Java 转 AI 应用开发/00-转型定位",
+    "wiki/concepts/高杠杆思维模型.md",
+    "wiki/concepts/_index.md",
+    "wiki/meta/vault-domain-taxonomy.md",
+    "wiki/concepts/kb-wiki-旧索引.md",
+    "wiki/concepts/Karpathy LLM Wiki 知识库方法.md",
+    "wiki/log.md",
+    "wiki/learning/claude-obsidian-快速上手.md",
+    "wiki/work/案件生命周期设计.md",
+    "wiki/learning/agentic-ai-课程.md",
+    "_templates/design.md",
+    "_templates/course.md",
+    "_templates/howto.md",
+    "wiki/meta/2026-06-28-wiki-scaffold-design.md",
+    "wiki/hot.md",
+    "wiki/index.md",
+    "wiki/learning/_index.md",
+    "wiki/goals/_index.md",
+    "wiki/entities/_index.md",
+    "_templates/entity.md",
+    "_templates/concept.md",
+    "_templates/question.md",
+    "_templates/source.md",
+    "Tools/claude-obsidian 插件使用指南.md",
+    "wiki/thinking/_index.md",
+    "wiki/work/_index.md",
+    "wiki/overview.md",
+    "_templates",
+    "wiki/work",
+    "wiki/thinking",
+    "wiki/sources",
+    "wiki/meta",
+    "wiki/learning",
+    "wiki/goals",
+    "wiki/entities",
+    "wiki/concepts",
+    "wiki",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 原理/Untitled 6.png",
     "未命名.canvas",
     "未命名 1.canvas",
