@@ -26,6 +26,4 @@ tags: [meta, index]
 
 ## 来源
 
-- [[wiki/sources/claude-code-best-practice|claude-code-best-practice]] — Claude Code 最佳实践的权威参考仓库，覆盖 subagents/skills/commands/hooks/MCP 等全部扩展机制
-
 > 将文件放入 `.raw/` 后摄入

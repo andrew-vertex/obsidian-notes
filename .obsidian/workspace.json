@@ -11,10 +11,14 @@
             "id": "ff235424677979cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Tools/AI/claude-code-best-practice.md",
+                "bFile": "Tools/AI/claude-code-best-practice.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: claude-code-best-practice  (Working Tree)"
             }
           }
         ]
@@ -206,10 +210,11 @@
   },
   "active": "ff235424677979cf",
   "lastOpenFiles": [
+    "wiki/sources/claude-code-best-practice.md",
+    "Tools/AI/claude-code-best-practice.md",
     "Inbox/2026-06-30.md",
     "Users/yuanjianwei/workspace/learning/hello-agents.md",
     "Tools/claude-obsidian 插件使用指南.md",
-    "wiki/sources/claude-code-best-practice.md",
     "config/mcporter.json",
     "config",
     "skills-lock.json",
@@ -234,7 +239,6 @@
     "wiki/hot.md",
     "wiki/index.md",
     "wiki/learning/_index.md",
-    "wiki/goals/_index.md",
     "_templates",
     "wiki/work",
     "wiki/thinking",
