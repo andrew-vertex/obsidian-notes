@@ -15,14 +15,24 @@
                 "id": "fde836c98f074925",
                 "type": "leaf",
                 "state": {
-                  "type": "split-diff-view",
+                  "type": "markdown",
                   "state": {
-                    "aFile": ".obsidian/workspace.json",
-                    "bFile": ".obsidian/workspace.json",
-                    "aRef": ""
+                    "file": "Tools/AI/Claude CLI Tool 使用说明（本机版）.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
-                  "icon": "diff",
-                  "title": "Diff: workspace.json  (Working Tree)"
+                  "icon": "lucide-file",
+                  "title": "Claude CLI Tool 使用说明（本机版）"
                 }
               }
             ]
@@ -131,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:claud",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -142,7 +152,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
