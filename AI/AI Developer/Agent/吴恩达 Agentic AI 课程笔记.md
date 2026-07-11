@@ -79,7 +79,7 @@ Andrew Ng（吴恩达）关于 Agentic AI（智能体人工智能）的系列课
 
 > **核心观点**：掌握如何构建 Agentic 应用是当今 AI 领域最重要的技能之一。
 
-## 第一节：Agentic AI 与 Agentic 工作流
+### 第一节：Agentic AI 与 Agentic 工作流
 
 ### 什么是 Agentic AI Workflow
 

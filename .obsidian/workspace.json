@@ -4,24 +4,92 @@
     "type": "split",
     "children": [
       {
-        "id": "9abe2aa5c188ce82",
-        "type": "tabs",
+        "id": "c488422753c27847",
+        "type": "split",
         "children": [
           {
-            "id": "ff235424677979cf",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Tools/AI/claude-code-best-practice.md",
-                "bFile": "Tools/AI/claude-code-best-practice.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: claude-code-best-practice  (Working Tree)"
-            }
+            "id": "f135b1010d18e03c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fde836c98f074925",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Tech/AI/Java-to-AI/Java-Go 开发者 AI 应用开发与 Agent 学习路线.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Java-Go 开发者 AI 应用开发与 Agent 学习路线"
+                }
+              }
+            ]
+          },
+          {
+            "id": "731cf87556679ba9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cd476c67b79b12fd",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/yuanjianwei/knowledge/notes",
+                      "focus": false,
+                      "profile": {
+                        "args": [
+                          "--login"
+                        ],
+                        "environment": [],
+                        "executable": "/bin/zsh",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "darwinIntegratedDefault",
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "终端：yuanjianwei@yuanjianweidebijibendiannao:~/knowledge/notes"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -73,12 +141,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "java",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
               "title": "搜索"
@@ -88,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 391.5,
+    "collapsed": true
   },
   "right": {
     "id": "c50c1d5cf391a429",
@@ -208,44 +277,44 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "ff235424677979cf",
+  "active": "cd476c67b79b12fd",
   "lastOpenFiles": [
-    "wiki/sources/claude-code-best-practice.md",
-    "Tools/AI/claude-code-best-practice.md",
-    "Inbox/2026-06-30.md",
-    "Users/yuanjianwei/workspace/learning/hello-agents.md",
-    "Tools/claude-obsidian 插件使用指南.md",
+    "Tech/AI/Java-to-AI/Java-Go 开发者 AI 应用开发与 Agent 学习路线.md",
+    "Inbox/未命名.md",
+    "Work/design/资金与结算专题：冻结、解冻、打款、回传、回销、返还票据、挂账、结算状态.md",
+    "Tech/AI/Java 转 AI 应用开发/index.md",
+    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
+    "Tech/AI/Java 转 AI 应用开发/00-转型定位/后端开发者转型 AI Agent.md",
+    "Tech/AI/Java-to-AI",
+    "Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md",
+    "Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线.md",
+    "Tech/AI/Hello-Agents/第一部分：智能体与语言模型基础/第一章 初识智能体.md",
+    "Tech/AI/Hello-Agents/index.md",
+    "wiki/learning/_index.md",
+    "AI/AI Developer/Agent/吴恩达 Agentic AI 课程笔记.md",
+    "AI/AI Developer/Agent/吴恩达 Agentic AI 课程笔记~.md",
+    "wiki/index.md",
+    "Resume/个人简历.md",
+    "Inbox/2026-07-06.md",
+    "Inbox/JavaGuide 草稿.md",
+    "Inbox/大语言模型基础-草稿.md",
+    "Tools/AI/Superpowers 安装使用与 AI 编程工作流实践指南.md",
+    "Clippings/Agent 评测：方法论与体系设计.md",
+    "wiki/learning/Learn Claude Code Harness Engineering/experiments/_experiment-template.md",
+    "wiki/learning/Learn Claude Code Harness Engineering/concepts/_concept-template.md",
+    "wiki/learning/Learn Claude Code Harness Engineering/chapters/s20-comprehensive-agent.md",
+    "wiki/learning/Learn Claude Code Harness Engineering/chapters/s19-mcp-plugin.md",
+    "wiki/learning/Learn Claude Code Harness Engineering/chapters/s18-worktree-isolation.md",
+    "wiki/learning/Learn Claude Code Harness Engineering/chapters/s17-autonomous-agents.md",
+    "wiki/learning/Learn Claude Code Harness Engineering/experiments",
+    "wiki/learning/Learn Claude Code Harness Engineering/concepts",
+    "wiki/learning/Learn Claude Code Harness Engineering/chapters",
+    "wiki/learning/Learn Claude Code Harness Engineering",
     "config/mcporter.json",
     "config",
     "skills-lock.json",
-    "wiki/learning/claude-obsidian-快速上手.md",
-    "wiki/meta/2026-06-28-wiki-scaffold-design.md",
-    "wiki/concepts/Karpathy LLM Wiki 知识库方法.md",
-    "wiki/concepts/高杠杆思维模型.md",
-    "_templates/source.md",
-    "_templates/question.md",
-    "_templates/howto.md",
-    "_templates/entity.md",
-    "_templates/design.md",
-    "_templates/course.md",
-    "_templates/concept.md",
-    "AGENTS.md",
-    "wiki/concepts/_index.md",
-    "wiki/meta/vault-domain-taxonomy.md",
-    "wiki/concepts/kb-wiki-旧索引.md",
-    "wiki/log.md",
-    "wiki/work/案件生命周期设计.md",
-    "wiki/learning/agentic-ai-课程.md",
-    "wiki/hot.md",
-    "wiki/index.md",
-    "wiki/learning/_index.md",
     "_templates",
     "wiki/work",
-    "wiki/thinking",
-    "wiki/sources",
-    "wiki/meta",
-    "wiki/learning",
-    "wiki/goals",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 原理/Untitled 6.png",
     "未命名.canvas",
     "未命名 1.canvas",

@@ -15,6 +15,7 @@ tags: [meta, moc, learning]
 
 | 主题 | 进度 | 关键收获 |
 |------|------|---------|
+| [[learning/Learn Claude Code Harness Engineering/_index|Learn Claude Code Harness Engineering]] | 0/20 | 从 agent loop 到完整 harness 的系统源码学习 |
 | [[吴恩达 Agentic AI 课程笔记\|Agentic AI 课程]] | 第 5/X 节 | Agentic 工作流 > 单次 Prompt |
 | [[英语音标 IPA 学习笔记\|英语音标]] | 练习中 | 元音区分是最大难点 |
 | [[英语单词学习最佳实践：词根词缀、词源与间隔重复\|英语单词]] | 持续 | 词根词缀 + 间隔重复 |
@@ -48,6 +49,7 @@ tags: [meta, moc, learning]
 - [[Tech/AI/Hello-Agents/index|Hello-Agents]] — 智能体基础到进阶
 - [[第一章 初识智能体]] — Hello-Agents 第一章
 - [[MCP 协议]] — Model Context Protocol
+- [[Git 实用技巧：worktree、rebase 与日常分支管理]] — Git worktree、rebase、stash、cherry-pick、reflog 等日常开发技巧
 
 ### 项目实战
 

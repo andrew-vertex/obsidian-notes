@@ -3,8 +3,11 @@
   "cssTheme": "Things",
   "monospaceFontFamily": "JetBrains Mono",
   "textFontFamily": "JetBrains Mono",
-  "baseFontSize": 13,
+  "baseFontSize": 14,
   "baseFontSizeAction": true,
   "interfaceFontFamily": "JetBrains Mono",
-  "translucency": true
+  "translucency": true,
+  "nativeMenus": true,
+  "enabledCssSnippets": [],
+  "showRibbon": true
 }

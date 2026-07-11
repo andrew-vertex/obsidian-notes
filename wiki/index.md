@@ -16,9 +16,17 @@ tags: [meta, index]
 - [[thinking/_index|思考 MOC]]
 - [[goals/_index|目标 MOC]]
 
+## 课程与项目学习
+
+- [[learning/Learn Claude Code Harness Engineering/_index|Learn Claude Code Harness Engineering]] — Claude Code 风格 agent harness 系统学习笔记
+
 ## 概念
 
 > 摄入来源后自动填充
+
+## 工具与流程
+
+- [[learning/Git 实用技巧：worktree、rebase 与日常分支管理|Git 实用技巧：worktree、rebase 与日常分支管理]] — Git worktree、rebase 与日常分支管理速查
 
 ## 实体
 

@@ -10,11 +10,48 @@ tags: [meta, log]
 
 | 日期 | 操作 | 说明 |
 |------|------|------|
+| 2026-07-05 | 🧱 scaffold | 创建 Learn Claude Code Harness Engineering 课程笔记骨架 |
+| 2026-07-05 | 📝 note | 新增 Git 实用技巧笔记：worktree、rebase、stash、cherry-pick、reflog |
 | 2026-06-28 | 🔧 scaffold | 四合一原则重构 wiki：7 模板 + Home MOC + 4 领域 MOC |
 
 ---
 
 ## 详情
+
+### 2026-07-05 · scaffold
+
+**操作：** 为系统学习 `learn-claude-code` 项目创建课程型笔记骨架
+
+**创建内容：**
+- `wiki/learning/Learn Claude Code Harness Engineering/_index.md`
+- `wiki/learning/Learn Claude Code Harness Engineering/00-学习总览.md`
+- `wiki/learning/Learn Claude Code Harness Engineering/01-章节笔记目录.md`
+- `wiki/learning/Learn Claude Code Harness Engineering/02-源码阅读路线.md`
+- `wiki/learning/Learn Claude Code Harness Engineering/03-概念地图.md`
+- `wiki/learning/Learn Claude Code Harness Engineering/04-问题与实验.md`
+- `wiki/learning/Learn Claude Code Harness Engineering/chapters/` 下 20 个章节骨架
+
+**更新内容：**
+- `wiki/learning/_index.md`
+- `wiki/index.md`
+- `wiki/hot.md`
+- `wiki/log.md`
+
+**关键收获：** 将项目学习固定为课程型 MOC：先导航，再逐章沉淀源码阅读、机制理解和实验记录。
+
+### 2026-07-05 · note
+
+**操作：** 保存对话中的 Git 学习需求，整理为长期可读的 how-to 笔记
+
+**创建内容：**
+- `wiki/learning/Git 实用技巧：worktree、rebase 与日常分支管理.md`
+
+**更新内容：**
+- `wiki/learning/_index.md`
+- `wiki/index.md`
+- `wiki/hot.md`
+
+**关键收获：** worktree 用来隔离多个工作目录，rebase 用来把个人分支重放到新基底上；二者都服务于更清晰、更可控的分支管理。
 
 ### 2026-06-28 · scaffold
 
