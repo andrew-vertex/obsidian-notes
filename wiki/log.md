@@ -10,6 +10,8 @@ tags: [meta, log]
 
 | 日期 | 操作 | 说明 |
 |------|------|------|
+| 2026-07-14 | 🗂️ move | 命令行效率工具指南移至 `Tools/Mac/`，保留 wiki 导航链接 |
+| 2026-07-14 | 📝 note | 新增命令行效率工具指南：bat、fd、fzf、eza、tree、zoxide、coreutils、ast-grep |
 | 2026-07-05 | 🧱 scaffold | 创建 Learn Claude Code Harness Engineering 课程笔记骨架 |
 | 2026-07-05 | 📝 note | 新增 Git 实用技巧笔记：worktree、rebase、stash、cherry-pick、reflog |
 | 2026-06-28 | 🔧 scaffold | 四合一原则重构 wiki：7 模板 + Home MOC + 4 领域 MOC |
@@ -17,6 +19,32 @@ tags: [meta, log]
 ---
 
 ## 详情
+
+### 2026-07-14 · move
+
+**操作：** 将命令行效率工具指南从 `wiki/learning/` 移至既有工具分类 `Tools/Mac/`。
+
+**更新内容：**
+- `wiki/learning/_index.md`
+- `wiki/index.md`
+- `wiki/hot.md`
+
+**关键收获：** 工具操作指南放入 `Tools/Mac/`；wiki 目录负责导航、索引与知识关联。
+
+### 2026-07-14 · note
+
+**操作：** 整理常用命令行效率工具为 how-to 笔记，并为每个工具提供独立命令表。
+
+**创建内容：**
+- `Tools/Mac/命令行效率工具使用指南.md`
+
+**更新内容：**
+- `wiki/learning/_index.md`
+- `wiki/index.md`
+- `wiki/hot.md`
+- `wiki/log.md`
+
+**关键收获：** 用 `rg` 搜内容、`fd + fzf + bat` 定位和预览文件，用 `zoxide` 跳转项目目录，用 `ast-grep` 按代码语法结构搜索。
 
 ### 2026-07-05 · scaffold
 

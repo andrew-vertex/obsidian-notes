@@ -50,6 +50,7 @@ tags: [meta, moc, learning]
 - [[第一章 初识智能体]] — Hello-Agents 第一章
 - [[MCP 协议]] — Model Context Protocol
 - [[Git 实用技巧：worktree、rebase 与日常分支管理]] — Git worktree、rebase、stash、cherry-pick、reflog 等日常开发技巧
+- [[Tools/Mac/命令行效率工具使用指南|命令行效率工具使用指南]] — ripgrep、bat、fd、fzf、eza、tree、zoxide、coreutils、ast-grep 的高频命令与组合工作流
 
 ### 项目实战
 

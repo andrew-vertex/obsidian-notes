@@ -4,70 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "731cf87556679ba9",
+        "id": "72c3fcd58ffc8dfb",
         "type": "tabs",
         "children": [
           {
-            "id": "cd476c67b79b12fd",
+            "id": "59fb10b535bfbb05",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "terminal:terminal",
+              "type": "markdown",
               "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/yuanjianwei/knowledge/notes",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "environment": [],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "profileSourceId": "darwinIntegratedDefault",
-                  "serial": null,
-                  "userTitle": ""
+                "file": "AI/AI Developer/OpenCode与DeepSeek多模态代码开发最佳实践.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "终端：yuanjianwei@yuanjianweidebijibendiannao:~/knowledge/notes"
-            }
-          },
-          {
-            "id": "c54c52b868815a1e",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Inbox/2026-07-12.md",
-                "bFile": "Inbox/2026-07-12.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 2026-07-12  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "OpenCode与DeepSeek多模态代码开发最佳实践"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:claude",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -130,13 +94,11 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 391.5,
-    "collapsed": true
+    "width": 391.5
   },
   "right": {
     "id": "c50c1d5cf391a429",
@@ -248,16 +210,32 @@
       "command-palette:打开命令面板": false,
       "obsidian-importer:Open Importer": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
       "terminal:Open terminal": false,
       "notebook-navigator:笔记本导航器": false,
-      "hide-folders:Show hidden folders": false
+      "hide-folders:Show hidden folders": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b35b5611f8d455dc",
+  "active": "de720f9b7c46c0e3",
   "lastOpenFiles": [
+    "AI/AI Developer/OpenCode与DeepSeek多模态代码开发最佳实践.md",
+    "Tech/Architecture/Distributed Design/Spring-State-Machine-分布式落地与局限.md",
+    "Tech/Architecture/Distributed Design/Camunda-工作流引擎详解.md",
+    "Tech/Architecture/Distributed Design/Temporal-io-分布式工作流引擎详解.md",
+    "Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md",
+    "Tech/AI/Java 转 AI 应用开发/03-RAG/RAG 基础.md",
+    "Tech/AI/Java 转 AI 应用开发/03-RAG/GraphRAG.md",
+    "Tech/AI/Java 转 AI 应用开发/03-RAG/RAG 知识库更新.md",
+    "Tech/AI/Java 转 AI 应用开发/03-RAG/RAG 向量索引与向量数据库.md",
+    "Tech/AI/Java 转 AI 应用开发/03-RAG/RAG 文档处理与切分.md",
+    "Tech/AI/Java 转 AI 应用开发/03-RAG/RAG 检索优化.md",
+    "Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/上下文工程.md",
+    "Clippings/JavaGo 开发者 AI 应用开发与 Agent 学习路线（2026 最新版）.md",
+    "Tools/AI/Superpowers 安装使用与 AI 编程工作流实践指南.md",
+    "Tools/Mac/命令行效率工具使用指南.md",
+    "wiki/learning/命令行效率工具使用指南.md",
     "Inbox/2026-07-12.md",
     "Tech/AI/Java-to-AI/Java-Go 开发者 AI 应用开发与 Agent 学习路线.md",
     "Tools/AI/Claude CLI Tool 使用说明.md",
@@ -268,23 +246,7 @@
     "Tech/AI/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
     "Tech/AI/Java 转 AI 应用开发/00-转型定位/后端开发者转型 AI Agent.md",
     "Tech/AI/Java-to-AI",
-    "Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md",
     "Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线.md",
-    "Tech/AI/Hello-Agents/第一部分：智能体与语言模型基础/第一章 初识智能体.md",
-    "Tech/AI/Hello-Agents/index.md",
-    "wiki/learning/_index.md",
-    "AI/AI Developer/Agent/吴恩达 Agentic AI 课程笔记.md",
-    "AI/AI Developer/Agent/吴恩达 Agentic AI 课程笔记~.md",
-    "wiki/index.md",
-    "Resume/个人简历.md",
-    "Inbox/2026-07-06.md",
-    "Inbox/JavaGuide 草稿.md",
-    "Inbox/大语言模型基础-草稿.md",
-    "Tools/AI/Superpowers 安装使用与 AI 编程工作流实践指南.md",
-    "Clippings/Agent 评测：方法论与体系设计.md",
-    "wiki/learning/Learn Claude Code Harness Engineering/experiments/_experiment-template.md",
-    "wiki/learning/Learn Claude Code Harness Engineering/concepts/_concept-template.md",
-    "wiki/learning/Learn Claude Code Harness Engineering/chapters/s20-comprehensive-agent.md",
     "wiki/learning/Learn Claude Code Harness Engineering/experiments",
     "wiki/learning/Learn Claude Code Harness Engineering/concepts",
     "wiki/learning/Learn Claude Code Harness Engineering/chapters",

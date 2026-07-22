@@ -1,7 +1,7 @@
 {
-  "hidden": true,
+  "hidden": false,
   "hiddenList": [
-    "wiki",
-    "_templates"
+    "_templates",
+    "wiki"
   ]
 }

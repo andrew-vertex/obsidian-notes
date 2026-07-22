@@ -27,6 +27,7 @@ tags: [meta, index]
 ## 工具与流程
 
 - [[learning/Git 实用技巧：worktree、rebase 与日常分支管理|Git 实用技巧：worktree、rebase 与日常分支管理]] — Git worktree、rebase 与日常分支管理速查
+- [[Tools/Mac/命令行效率工具使用指南|命令行效率工具使用指南]] — 常用 macOS 命令行效率工具速查与实践
 
 ## 实体
 

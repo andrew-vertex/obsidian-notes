@@ -1,7 +1,7 @@
 ---
 title: "Hot Cache"
 created: 2026-06-28
-updated: 2026-07-05T00:00:00
+updated: 2026-07-14T00:00:00
 ---
 
 # Hot Cache
@@ -10,8 +10,10 @@ updated: 2026-07-05T00:00:00
 - 正在系统学习 [[learning/Learn Claude Code Harness Engineering/_index|Learn Claude Code Harness Engineering]]，目标是从 agent loop 理解到完整 harness 工程
 - 个人第二大脑维持渐进式摘要 + MOC + 结构契约 + 可扫读四原则
 - 用户正在补齐 AI 编程与工程化基础能力，尤其是 agent harness、Git worktree、任务隔离和工具调用
+- 新增 [[Tools/Mac/命令行效率工具使用指南|命令行效率工具使用指南]]，用于日常文件检索、终端导航和结构化代码搜索
 
 ## 📝 最近变化
+- 2026-07-14: 创建命令行效率工具指南，覆盖 bat、fd、fzf、eza、tree、zoxide、coreutils、ast-grep，并更新学习 MOC、平面索引与日志
 - 2026-07-05: 创建 Learn Claude Code 课程型笔记骨架，包含总览、章节目录、源码阅读路线、概念地图、问题实验页和 20 个章节页
 - 2026-07-05: 创建 Git how-to 笔记，并更新学习 MOC、平面索引和操作日志
 - 2026-06-28: 创建 7 个模板、4 个领域 MOC、Home MOC、hot cache 和操作日志

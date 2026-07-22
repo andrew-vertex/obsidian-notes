@@ -7,10 +7,10 @@
 ## 目录约定
 
 - `Clippings/` — 临时收集入口（inbox），不当作正式知识页。
-- `wiki/` — 正式知识库层。所有经过整理的知识页、MOC（内容地图）、概念、实体、来源摘要的存放处。
+- `wiki/` — 知识库的导航与知识建模层：存放 MOC（内容地图）、索引、概念卡、实体卡、来源摘要、日志和热缓存；它通过 wikilink 连接各主题目录中的笔记，而不是所有正式笔记的默认物理位置。
 - `.raw/` — 不可变来源文件层（articles / transcripts / screenshots / data / assets）。只读，不修改原始文件。
 - `_templates/` — 7 个笔记模板（concept / howto / course / design / entity / source / question），定义每种笔记类型的结构契约。
-- `Tech/`、`Tools/`、`Work/`、`Thinking/`、`Life/`、`Projects/` — 已有笔记目录。新内容直接进入 `wiki/`，已有笔记通过 wikilink 被 wiki/MOC 引用，无需搬迁。
+- `Tech/`、`Tools/`、`Work/`、`Thinking/`、`Life/`、`Projects/`、`AI/`、`Resume/` — 内容的主分类目录。新笔记应优先按主题归入这些既有目录及其子目录（例如 macOS 工具指南放入 `Tools/Mac/`）；`wiki/` 中保留指向它们的 wikilink，使笔记能从知识地图被发现，无需为了导航而搬迁文件。
 
 ## 命名规则
 
@@ -51,7 +51,7 @@
 5. 为每个重要实体在 `wiki/entities/` 创建或更新页面。参考 `_templates/entity.md`。
 6. 为每个重要概念在 `wiki/concepts/` 创建或更新页面。参考 `_templates/concept.md`。
 7. **优先更新已有页面**，避免为相近主题创建重复笔记。如果已有页面覆盖了相同概念，合并而非新建。
-8. 更新相关领域 MOC（`wiki/learning/_index.md` 等），将新页面加入对应分区（🎯/📚/🔮）。
+8. 将主笔记归入最匹配的主题目录；如其具有导航价值，再更新相关领域 MOC（`wiki/learning/_index.md` 等），用 wikilink 加入对应分区（🎯/📚/🔮）。
 9. 在 `wiki/log.md` 顶部追加操作记录：日期、操作类型、影响的页面列表、关键收获一句话。
 10. 重写 `wiki/hot.md`：更新当前焦点、最近变化、待处理事项。保持 ~500 字以内。
 
@@ -62,7 +62,7 @@
 1. 先读 `wiki/hot.md` — 热缓存可能已经有答案。
 2. 再读 `wiki/index.md` — 找到相关页面的文件名。
 3. 打开 3-5 个最相关页面（不要超过 10 个，控制上下文消耗）。
-4. 综合回答，使用 `[[page-name]]` 或 `[[path/page-name|显示名]]` 引用 wiki 页面。
+4. 综合回答，使用 `[[page-name]]` 或 `[[path/page-name|显示名]]` 引用相关笔记页面。
 5. 如果回答有长期价值，主动提出将其保存为 `wiki/questions/` 下的问答页。参考 `_templates/question.md`。
 6. 如果发现知识缺口（某个主题没有对应页面），主动告知用户。
 
@@ -72,8 +72,8 @@
 
 1. 分析对话中具有长期价值的内容（决策、概念澄清、方法论、对比结论）。
 2. 按内容类型选择最合适的模板（concept / howto / design / question）。
-3. 在 `wiki/` 下创建或更新对应页面。
-4. 更新相关领域 MOC 和 `wiki/log.md`。
+3. 先根据主题选择既有内容目录；仅 MOC、索引、概念/实体/来源卡、日志和热缓存进入 `wiki/`。
+4. 如有长期导航价值，更新相关领域 MOC；随后更新 `wiki/log.md`。
 
 ### 健康检查（Lint）
 
@@ -92,7 +92,7 @@
 
 1. 搜索 web 获取相关资料。
 2. 抓取高质量来源内容。
-3. 按 Ingest 流程将研究结果综合归档到 `wiki/`。
+3. 按 Ingest 流程将研究主笔记归档到匹配的主题目录，并在 `wiki/` 创建必要的来源、概念或导航链接。
 4. 创建研究综合页，汇总关键发现、矛盾和开放问题。
 
 ## 跨会话上下文
