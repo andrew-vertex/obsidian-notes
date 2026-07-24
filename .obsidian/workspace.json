@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "72c3fcd58ffc8dfb",
+        "id": "8336d4c1e08b26b1",
         "type": "tabs",
         "children": [
           {
-            "id": "59fb10b535bfbb05",
+            "id": "e2126710bba48b19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/AI Developer/OpenCode与DeepSeek多模态代码开发最佳实践.md",
+                "file": "AGENTS.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OpenCode与DeepSeek多模态代码开发最佳实践"
+              "title": "AGENTS"
             }
           }
         ]
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "高杠杆思维模型",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -200,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 279.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,44 +219,44 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "de720f9b7c46c0e3",
+  "active": "e2126710bba48b19",
   "lastOpenFiles": [
-    "AI/AI Developer/OpenCode与DeepSeek多模态代码开发最佳实践.md",
-    "Tech/Architecture/Distributed Design/Spring-State-Machine-分布式落地与局限.md",
-    "Tech/Architecture/Distributed Design/Camunda-工作流引擎详解.md",
-    "Tech/Architecture/Distributed Design/Temporal-io-分布式工作流引擎详解.md",
-    "Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md",
-    "Tech/AI/Java 转 AI 应用开发/03-RAG/RAG 基础.md",
-    "Tech/AI/Java 转 AI 应用开发/03-RAG/GraphRAG.md",
-    "Tech/AI/Java 转 AI 应用开发/03-RAG/RAG 知识库更新.md",
-    "Tech/AI/Java 转 AI 应用开发/03-RAG/RAG 向量索引与向量数据库.md",
-    "Tech/AI/Java 转 AI 应用开发/03-RAG/RAG 文档处理与切分.md",
-    "Tech/AI/Java 转 AI 应用开发/03-RAG/RAG 检索优化.md",
-    "Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/上下文工程.md",
-    "Clippings/JavaGo 开发者 AI 应用开发与 Agent 学习路线（2026 最新版）.md",
-    "Tools/AI/Superpowers 安装使用与 AI 编程工作流实践指南.md",
-    "Tools/Mac/命令行效率工具使用指南.md",
-    "wiki/learning/命令行效率工具使用指南.md",
-    "Inbox/2026-07-12.md",
-    "Tech/AI/Java-to-AI/Java-Go 开发者 AI 应用开发与 Agent 学习路线.md",
-    "Tools/AI/Claude CLI Tool 使用说明.md",
-    "Tools/AI/Codex CLI Tool 使用说明.md",
-    "Inbox/未命名.md",
-    "Work/design/资金与结算专题：冻结、解冻、打款、回传、回销、返还票据、挂账、结算状态.md",
-    "Tech/AI/Java 转 AI 应用开发/index.md",
-    "Tech/AI/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
-    "Tech/AI/Java 转 AI 应用开发/00-转型定位/后端开发者转型 AI Agent.md",
-    "Tech/AI/Java-to-AI",
-    "Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线.md",
-    "wiki/learning/Learn Claude Code Harness Engineering/experiments",
-    "wiki/learning/Learn Claude Code Harness Engineering/concepts",
-    "wiki/learning/Learn Claude Code Harness Engineering/chapters",
-    "wiki/learning/Learn Claude Code Harness Engineering",
-    "config/mcporter.json",
-    "config",
-    "skills-lock.json",
-    "_templates",
-    "wiki/work",
+    "wiki/index.md",
+    "wiki/log.md",
+    "wiki/goals.md",
+    "wiki/hot.md",
+    "wiki/overview.md",
+    "wiki",
+    "6. 收集箱/未命名.md",
+    "6. 收集箱/大语言模型基础-草稿.md",
+    "6. 收集箱/刻意练习与反馈闭环.md",
+    "6. 收集箱/Pending Notes​",
+    "6. 收集箱/JavaGuide 草稿.md",
+    "6. 收集箱/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线.md",
+    "6. 收集箱/2026-07-06.md",
+    "6. 收集箱/2026-06-30.md",
+    "6. 收集箱/如果你的 AI Agent 总是失败，请阅读这篇文章.md",
+    "6. 收集箱/从玩具到生产力：用真实项目讲透 AI Agent 的 Harness Engineering.md",
+    "6. 收集箱/Loop Engineering又是啥？一文讲清企业Agent落地的四层工程进化论.md",
+    "6. 收集箱/JavaGo 开发者 AI 应用开发与 Agent 学习路线（2026 最新版）.md",
+    "6. 收集箱/Agent 评测：方法论与体系设计.md",
+    "4. 思考与认知/语言学习/英语音标 IPA 学习笔记.md",
+    "4. 思考与认知/语言学习/英语单词学习最佳实践：词根词缀、词源与间隔重复.md",
+    "4. 思考与认知/思维模型/高杠杆思维模型实战手册.md",
+    "3. 工作与业务/履历与项目经历/个人简历.md",
+    "3. 工作与业务/履历与项目经历/yuanjianwei-java-backend-resume.tex",
+    "3. 工作与业务/履历与项目经历/sekiro 智能报销审批平台项目经历.md",
+    "3. 工作与业务/履历与项目经历/TPA 商业健康保险智能理赔服务平台项目经历.md",
+    "3. 工作与业务/履历与项目经历/LinkLabel 标注平台项目经历.md",
+    "2. 实用工具/Mac效率工具/Git 实用技巧：worktree、rebase 与日常分支管理.md",
+    "3. 工作与业务/工单与排障/亿保技术支持排障-Agent-落地方案与使用指南.md",
+    "2. 实用工具/AI工具手册/Skills",
+    "1. 技术研发/算法与编程/Java",
+    "1. 技术研发/DevOps与运维/Linux",
+    "1. 技术研发/DevOps与运维/Kubernates",
+    "1. 技术研发/DevOps与运维/Docker",
+    "1. 技术研发/DevOps与运维/CI-CD",
+    "1. 技术研发/后端与架构/Microservices",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 原理/Untitled 6.png",
     "未命名.canvas",
     "未命名 1.canvas",
