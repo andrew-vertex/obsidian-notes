@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGENTS.md",
+                "file": "wiki/index.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "index"
             }
           }
         ]
@@ -200,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5,
-    "collapsed": true
+    "width": 279.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,11 +220,13 @@
   },
   "active": "e2126710bba48b19",
   "lastOpenFiles": [
-    "wiki/index.md",
     "wiki/log.md",
-    "wiki/goals.md",
-    "wiki/hot.md",
     "wiki/overview.md",
+    "wiki/index.md",
+    "wiki/hot.md",
+    "wiki/goals.md",
+    "AGENTS.md",
+    "1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 分词、中文检索与自动提示.md",
     "wiki",
     "6. 收集箱/未命名.md",
     "6. 收集箱/大语言模型基础-草稿.md",
@@ -248,8 +249,6 @@
     "3. 工作与业务/履历与项目经历/sekiro 智能报销审批平台项目经历.md",
     "3. 工作与业务/履历与项目经历/TPA 商业健康保险智能理赔服务平台项目经历.md",
     "3. 工作与业务/履历与项目经历/LinkLabel 标注平台项目经历.md",
-    "2. 实用工具/Mac效率工具/Git 实用技巧：worktree、rebase 与日常分支管理.md",
-    "3. 工作与业务/工单与排障/亿保技术支持排障-Agent-落地方案与使用指南.md",
     "2. 实用工具/AI工具手册/Skills",
     "1. 技术研发/算法与编程/Java",
     "1. 技术研发/DevOps与运维/Linux",
