@@ -1,3 +1,15 @@
+---
+title: "LinkLabel 标注平台项目经历"
+created: 2026-07-24
+updated: 2026-07-24
+tags:
+  - career
+  - resume
+  - project
+type: profile
+status: distilled
+---
+
 # LinkLabel 标注平台项目经历
 
 ## 证据说明

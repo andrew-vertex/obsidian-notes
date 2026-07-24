@@ -1,3 +1,14 @@
+---
+title: "Codex CLI Tool 使用说明"
+created: 2026-07-24
+updated: 2026-07-24
+tags:
+  - tools
+  - productivity
+type: guide
+status: distilled
+---
+
 # Codex CLI Tool 使用说明
 
 ## 目录

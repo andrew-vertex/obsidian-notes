@@ -10,17 +10,6 @@ updated: 2026-07-24
 ### DevOps与运维
 - [[1. 技术研发/DevOps与运维/VPS 自建 VPN 与 Clash 配置指南.md|VPS 自建 VPN 与 Clash 配置指南]]
 
-### 后端与架构/DateBase/elasticsearch
-- [[1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 分词、中文检索与自动提示.md|Elasticsearch 分词、中文检索与自动提示]]
-- [[1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 基础与核心概念.md|Elasticsearch 基础与核心概念]]
-- [[1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 数据同步、别名与重建索引.md|Elasticsearch 数据同步、别名与重建索引]]
-- [[1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 检索原理、NRT 与相关性评分.md|Elasticsearch 检索原理、NRT 与相关性评分]]
-- [[1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 深分页与结果遍历.md|Elasticsearch 深分页与结果遍历]]
-- [[1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 知识索引.md|Elasticsearch 知识索引]]
-- [[1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 索引设计、文档与查询 DSL.md|Elasticsearch 索引设计、文档与查询 DSL]]
-- [[1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 阅读指南.md|Elasticsearch 阅读指南]]
-- [[1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 集群与分布式架构.md|Elasticsearch 集群与分布式架构]]
-
 ### 后端与架构/Distributed Design
 - [[1. 技术研发/后端与架构/Distributed Design/Camunda-工作流引擎详解.md|Camunda-工作流引擎详解]]
 - [[1. 技术研发/后端与架构/Distributed Design/Spring StateMachine 分布式落地与局限.md|Spring StateMachine 分布式落地与局限]]
@@ -128,11 +117,8 @@ updated: 2026-07-24
 - [[3. 工作与业务/履历与项目经历/个人简历.md|个人简历]]
 
 ### 工单与排障
-- [[3. 工作与业务/工单与排障/Yibao飞书工单闭环WorkflowPlugin使用手册.md|Yibao飞书工单闭环WorkflowPlugin使用手册]]
 - [[3. 工作与业务/工单与排障/亿保技术支持排障-Agent-落地方案与使用指南.md|亿保技术支持排障-Agent-落地方案与使用指南]]
-- [[3. 工作与业务/工单与排障/拍照初审问题件保司中台复核.md|拍照初审问题件保司中台复核]]
-- [[3. 工作与业务/工单与排障/核赔中心免责疾病配置及废单详细设计.md|核赔中心免责疾病配置及废单详细设计]]
-- [[3. 工作与业务/工单与排障/核赔和中台分案表使用情况.md|核赔和中台分案表使用情况]]
+- [[3. 工作与业务/工单与排障/飞书工单闭环WorkflowPlugin使用手册.md|飞书工单闭环WorkflowPlugin使用手册]]
 
 ### 保险核赔业务
 - [[3. 工作与业务/保险核赔业务/TPA 理赔业务术语词典.md|TPA 理赔业务术语词典]]
@@ -164,14 +150,10 @@ updated: 2026-07-24
 
 ## 6. 收集箱
 
-- [[6. 收集箱/AI Agent Harness Engineering 实战指南.md|AI Agent Harness Engineering 实战指南]]
-- [[6. 收集箱/AI Agent 常见失败原因与排障指南.md|AI Agent 常见失败原因与排障指南]]
-- [[6. 收集箱/AI 学习随手记-0630.md|AI 学习随手记-0630]]
-- [[6. 收集箱/AI 学习随手记-0706.md|AI 学习随手记-0706]]
-- [[6. 收集箱/Agent 开发杂记.md|Agent 开发杂记]]
-- [[6. 收集箱/Agent 评测：方法论与体系设计.md|Agent 评测：方法论与体系设计]]
-- [[6. 收集箱/Java 与 Go 开发者转 AI 应用学习路线.md|Java 与 Go 开发者转 AI 应用学习路线]]
-- [[6. 收集箱/Java 转 AI 应用开发路线图.md|Java 转 AI 应用开发路线图]]
-- [[6. 收集箱/企业 Agent 落地四层工程进化论.md|企业 Agent 落地四层工程进化论]]
+### Clippings
+- [[6. 收集箱/Clippings/AI Agent Harness Engineering 实战指南.md|AI Agent Harness Engineering 实战指南]]
+- [[6. 收集箱/Clippings/AI Agent 常见失败原因与排障指南.md|AI Agent 常见失败原因与排障指南]]
+- [[6. 收集箱/Clippings/Agent 评测：方法论与体系设计.md|Agent 评测：方法论与体系设计]]
+- [[6. 收集箱/Clippings/企业 Agent 落地四层工程进化论.md|企业 Agent 落地四层工程进化论]]
 
 

@@ -1,3 +1,15 @@
+---
+title: "TPA 商业健康保险智能理赔服务平台项目经历"
+created: 2026-07-24
+updated: 2026-07-24
+tags:
+  - career
+  - resume
+  - project
+type: profile
+status: distilled
+---
+
 # TPA 商业健康保险智能理赔服务平台 项目经历
 
 ## 使用说明

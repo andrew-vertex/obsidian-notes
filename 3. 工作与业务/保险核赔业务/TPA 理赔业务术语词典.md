@@ -1,3 +1,15 @@
+---
+title: "TPA 理赔业务术语词典"
+created: 2026-07-24
+updated: 2026-07-24
+tags:
+  - work
+  - insurance-claims
+  - domain-design
+type: design
+status: distilled
+---
+
 # TPA 理赔业务术语词典
 
 这篇文档不是讲某个功能怎么写，而是把 TPA 理赔平台里最常见、最容易混淆的一批业务术语统一讲清楚。你以后看需求、看案件、看问题件、看理算结果，很多卡点本质上都不是“不懂代码”，而是“不知道同事口中的这个词到底指哪一层对象、哪一个环节、哪一种结果”。

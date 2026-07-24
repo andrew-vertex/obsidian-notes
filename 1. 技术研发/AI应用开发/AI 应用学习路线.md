@@ -1,3 +1,15 @@
+---
+title: "AI 应用学习路线"
+created: 2026-07-24
+updated: 2026-07-24
+tags:
+  - ai
+  - agent
+  - llm
+type: guide
+status: distilled
+---
+
 阶段一：LLM基础认知：
  - Transformer 架构 qkv 和 Attention 机制
  - Token - 成本

@@ -1,3 +1,15 @@
+---
+title: "RAG"
+created: 2026-06-05
+updated: 2026-07-24
+tags:
+  - ai
+  - agent
+  - llm
+type: guide
+status: distilled
+---
+
 > 生产环境中 RAG（检索增强生成）与大模型治理的核心痛点和落地闭环。
 
 ## 1. 如何评估 RAG 效果？指标是什么？

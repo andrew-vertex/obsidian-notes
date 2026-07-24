@@ -1,3 +1,15 @@
+---
+title: "Sekiro 智能报销审批平台项目经历"
+created: 2026-07-24
+updated: 2026-07-24
+tags:
+  - career
+  - resume
+  - project
+type: profile
+status: distilled
+---
+
 # sekiro 智能报销审批平台
 
 **项目定位：** 多租户报销审批与特殊医疗作业平台  
