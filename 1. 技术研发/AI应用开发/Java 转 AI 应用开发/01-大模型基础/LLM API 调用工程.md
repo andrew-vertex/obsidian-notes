@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待精读。目标是把模型调用封装为可替换、可观测、可降级的基础设施组件。
 
-[TOC]
 
 ## Key Takeaways
 

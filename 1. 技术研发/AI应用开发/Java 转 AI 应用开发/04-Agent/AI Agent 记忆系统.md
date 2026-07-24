@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待精读。记忆不是无限追加聊天记录，而是有选择地写入、检索、更正和遗忘。
 
-[TOC]
 
 ## Key Takeaways
 

@@ -24,7 +24,6 @@ tags:
 - GitHub 原始 Markdown：<https://raw.githubusercontent.com/Snailclimb/JavaGuide/main/docs/ai/README.md>
 - 域内 raw 记录：[[.raw/articles/JavaGuide AI 应用开发知识体系来源记录]]
 
-[TOC]
 
 ## 目录
 

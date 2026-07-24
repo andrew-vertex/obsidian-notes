@@ -19,7 +19,6 @@ tags:
 - vault 原始剪藏：[[../../Clippings/从玩具到生产力：用真实项目讲透 AI Agent 的 Harness Engineering]]
 - 域内 raw 记录：[[.raw/articles/Harness Engineering 文章来源记录]]
 
-[TOC]
 
 ## 目录
 

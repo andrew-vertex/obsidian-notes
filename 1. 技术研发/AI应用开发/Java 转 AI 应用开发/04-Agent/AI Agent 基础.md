@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待精读。Agent 的关键不是“能调工具”，而是动态决策过程是否有界、可恢复、可审计。
 
-[TOC]
 
 ## Key Takeaways
 

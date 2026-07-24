@@ -18,7 +18,6 @@ tags:
 - Elasticsearch Guide：<https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html>
 - raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
-[TOC]
 
 ## 目录
 

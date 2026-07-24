@@ -21,7 +21,6 @@ tags:
 - Java API Client：<https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html>
 - 域内 raw 记录：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
-[TOC]
 
 ## 目录
 

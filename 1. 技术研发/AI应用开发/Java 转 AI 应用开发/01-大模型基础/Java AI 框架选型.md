@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待精读。框架能力和版本变化较快，结论需注明验证日期。
 
-[TOC]
 
 ## Key Takeaways
 

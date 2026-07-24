@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待精读。本页面向 Java 转 AI 路线保留提炼；完整方法论同时参考现有专题页。
 
-[TOC]
 
 ## Key Takeaways
 

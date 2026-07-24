@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待精读。本文用于明确转型目标与能力差距。
 
-[TOC]
 
 ## Key Takeaways
 

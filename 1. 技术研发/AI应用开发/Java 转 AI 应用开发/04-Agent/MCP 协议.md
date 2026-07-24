@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待精读。协议与 SDK 演进较快，内容需记录规范版本和验证日期。
 
-[TOC]
 
 ## Key Takeaways
 

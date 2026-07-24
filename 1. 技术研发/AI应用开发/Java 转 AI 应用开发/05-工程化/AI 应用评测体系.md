@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待精读。评测是各阶段的横切能力，不应等到上线前再补。
 
-[TOC]
 
 ## Key Takeaways
 

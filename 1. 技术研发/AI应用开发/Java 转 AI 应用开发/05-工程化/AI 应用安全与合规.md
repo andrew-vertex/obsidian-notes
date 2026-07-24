@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待专题补充。本页根据路线文章先建立骨架，后续应补充权威安全与合规来源。
 
-[TOC]
 
 ## Key Takeaways
 

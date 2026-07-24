@@ -19,7 +19,6 @@ tags:
 - Aliases：<https://www.elastic.co/guide/en/elasticsearch/reference/current/aliases.html>
 - raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
-[TOC]
 
 ## 目录
 

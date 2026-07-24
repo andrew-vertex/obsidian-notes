@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待分阶段使用。面试题用于暴露知识缺口，不用于脱离项目的背诵。
 
-[TOC]
 
 ## Key Takeaways
 

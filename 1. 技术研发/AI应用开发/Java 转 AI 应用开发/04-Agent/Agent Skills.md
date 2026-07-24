@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待精读。重点区分 Skill、Tool、Prompt、Workflow 与 MCP Server 的职责。
 
-[TOC]
 
 ## Key Takeaways
 

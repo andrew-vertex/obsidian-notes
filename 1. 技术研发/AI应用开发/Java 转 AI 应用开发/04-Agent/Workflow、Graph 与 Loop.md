@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待精读。目标是把确定性主流程与不确定性 Agent 子循环分层治理。
 
-[TOC]
 
 ## Key Takeaways
 

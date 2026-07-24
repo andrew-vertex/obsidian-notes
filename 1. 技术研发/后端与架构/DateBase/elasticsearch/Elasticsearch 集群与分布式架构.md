@@ -18,7 +18,6 @@ tags:
 - Node settings and roles：<https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-node.html>
 - raw source：[[.raw/articles/Elasticsearch Notion 导出来源记录]]
 
-[TOC]
 
 ## 目录
 

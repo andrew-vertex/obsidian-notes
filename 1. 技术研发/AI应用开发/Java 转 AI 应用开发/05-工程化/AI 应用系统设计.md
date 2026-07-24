@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待精读。目标是从 Prompt Demo 过渡到有 SLA、成本和安全边界的服务。
 
-[TOC]
 
 ## Key Takeaways
 

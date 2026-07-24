@@ -49,7 +49,6 @@ source: https://javaguide.cn/roadmap/java-to-ai-roadmap.html
 - **3 张 Mermaid 图分别覆盖宏观路线、数据管道和运行时架构**：总览图展示阶段依赖与贯穿线索，RAG 全链路图为横向数据流，Agentic Workflow 图为纵向运行时结构
 - **Java 为主、Go 为辅的双语言视角**：框架选型和代码实践以 Java/Spring 生态为主，Go 方案在关键节点以独立小节补充
 
-[TOC]
 
 ## Key Takeaways
 

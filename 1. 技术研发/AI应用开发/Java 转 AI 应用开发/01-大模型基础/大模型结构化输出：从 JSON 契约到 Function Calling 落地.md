@@ -21,7 +21,6 @@ status: draft
 
 ## 目录
 
-[TOC]
 
 ## Key Takeaways
 

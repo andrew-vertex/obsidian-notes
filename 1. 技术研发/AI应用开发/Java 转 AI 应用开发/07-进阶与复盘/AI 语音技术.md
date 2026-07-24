@@ -9,7 +9,6 @@ status: planned
 
 > 阅读状态：待按需学习。只有项目出现实时语音需求时再投入。
 
-[TOC]
 
 ## Key Takeaways
 
