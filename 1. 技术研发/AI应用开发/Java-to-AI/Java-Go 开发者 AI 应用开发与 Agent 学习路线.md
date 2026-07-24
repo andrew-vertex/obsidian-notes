@@ -125,7 +125,7 @@ flowchart TD
 
 - [[Tech/AI/Java 转 AI 应用开发/01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数|LLM 运行机制]]
 - [[Tech/AI/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地|结构化输出详解]]
-- [[Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？|Prompt 工程实践指南]]
+- [[Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程与实用技巧指南|Prompt 工程实践指南]]
 - [[Tech/AI/Java 转 AI 应用开发/02-Prompt 与上下文/上下文工程|上下文工程实战]]
 
 ## 阶段一：大模型对接层（1~2 周）

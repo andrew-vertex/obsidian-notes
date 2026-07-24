@@ -633,4 +633,4 @@ gstack 和 [[Superpowers 安装使用与 AI 编程工作流实践指南|Superpow
 - [GBrain](https://github.com/garrytan/gbrain)
 - [Andrej Karpathy AI Coding Rules](https://github.com/forrestchang/andrej-karpathy-skills)
 - [[Superpowers 安装使用与 AI 编程工作流实践指南]]
-- [[claude-code-best-practice]]
+- [[Claude Code 最佳实践指南]]

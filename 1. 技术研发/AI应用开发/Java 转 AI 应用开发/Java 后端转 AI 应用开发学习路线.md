@@ -130,7 +130,7 @@ flowchart TD
 
 ### 阶段 0～2：建立最小可靠调用层
 
-按 [[01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数]] → [[01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地]] → [[01-大模型基础/LLM API 调用工程]] → [[02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？]] → [[02-Prompt 与上下文/上下文工程]] 的顺序推进。
+按 [[01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数]] → [[01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地]] → [[01-大模型基础/LLM API 调用工程]] → [[02-Prompt 与上下文/大模型提示词工程与实用技巧指南]] → [[02-Prompt 与上下文/上下文工程]] 的顺序推进。
 
 重点不是记参数，而是回答：为什么结果会漂移、预算为何会爆、JSON 为什么会坏、失败后由谁修复。
 
@@ -220,11 +220,11 @@ flowchart TD
 - [[Tech/AI/AI 应用开发学习体系|AI 应用开发学习体系]]
 - [[Tech/Agent/AI Agent 的 Harness Engineering|AI Agent 的 Harness Engineering]]
 - [[.raw/articles/JavaGuide Java Go 开发者 AI 应用开发路线来源记录|来源记录]]
-- [[../../../Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线|原始阅读笔记]]
+- [[../../../Inbox/Java 转 AI 应用开发路线图|原始阅读笔记]]
 
 ## 参考来源
 
 - Java/Go 开发者 AI 应用开发与 Agent 学习路线：<https://javaguide.cn/roadmap/java-to-ai-roadmap.html>
 - JavaGuide AI 应用开发知识体系：<https://javaguide.cn/ai/>
 - 后端开发者转型 AI Agent 学习建议：<https://javaguide.cn/roadmap/backend-to-ai-agent-roadmap.html>
-- 本地网页剪藏：[[../../../Clippings/JavaGo 开发者 AI 应用开发与 Agent 学习路线（2026 最新版）]]
+- 本地网页剪藏：[[../../../Clippings/Java 与 Go 开发者转 AI 应用学习路线]]

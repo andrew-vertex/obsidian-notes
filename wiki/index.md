@@ -16,8 +16,6 @@ updated: 2026-07-24
 - [[1. 技术研发/后端与架构/Distributed Design/Temporal 分布式工作流引擎详解.md|Temporal 分布式工作流引擎详解]]
 
 ### AI应用开发
-- [[1. 技术研发/AI应用开发/AI Agent 的 Harness Engineering.md|AI Agent 的 Harness Engineering]]
-- [[1. 技术研发/AI应用开发/AI 应用学习路线.md|AI 应用学习路线]]
 - [[1. 技术研发/AI应用开发/AI 应用开发学习体系.md|AI 应用开发学习体系]]
 - [[1. 技术研发/AI应用开发/OpenCode与DeepSeek多模态代码开发最佳实践.md|OpenCode与DeepSeek多模态代码开发最佳实践]]
 
@@ -26,40 +24,15 @@ updated: 2026-07-24
 - [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/index.md|index]]
 - [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/学习进度与实践清单.md|学习进度与实践清单]]
 
-### AI应用开发/Java 转 AI 应用开发/00-转型定位
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/00-转型定位/后端开发者转型 AI Agent.md|后端开发者转型 AI Agent]]
-
 ### AI应用开发/Java 转 AI 应用开发/02-Prompt 与上下文
 - [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程与实用技巧指南.md|大模型提示词工程与实用技巧指南]]
 
-### AI应用开发/Java 转 AI 应用开发/06-项目实战
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/06-项目实战/企业知识库问答项目.md|企业知识库问答项目]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/06-项目实战/多工具 Agent 项目.md|多工具 Agent 项目]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/06-项目实战/智能面试平台项目.md|智能面试平台项目]]
-
 ### AI应用开发/Java 转 AI 应用开发/04-Agent
 - [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/AI Agent 基础.md|AI Agent 基础]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/AI Agent 记忆系统.md|AI Agent 记忆系统]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/Agent Skills.md|Agent Skills]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/Harness Engineering.md|Harness Engineering]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/MCP 协议.md|MCP 协议]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/Workflow、Graph 与 Loop.md|Workflow、Graph 与 Loop]]
-
-### AI应用开发/Java 转 AI 应用开发/05-工程化
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/AI 应用安全与合规.md|AI 应用安全与合规]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/AI 应用系统设计.md|AI 应用系统设计]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/AI 应用评测体系.md|AI 应用评测体系]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/大模型网关.md|大模型网关]]
 
 ### AI应用开发/Java 转 AI 应用开发/01-大模型基础
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/01-大模型基础/Java AI 框架选型.md|Java AI 框架选型]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/01-大模型基础/LLM API 调用工程.md|LLM API 调用工程]]
 - [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/01-大模型基础/LLM 运行机制：Token、上下文窗口与采样参数.md|LLM 运行机制：Token、上下文窗口与采样参数]]
 - [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md|大模型结构化输出：从 JSON 契约到 Function Calling 落地]]
-
-### AI应用开发/Java 转 AI 应用开发/07-进阶与复盘
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/07-进阶与复盘/AI 应用开发面试复盘.md|AI 应用开发面试复盘]]
-- [[1. 技术研发/AI应用开发/Java 转 AI 应用开发/07-进阶与复盘/AI 语音技术.md|AI 语音技术]]
 
 ### AI应用开发/AI Interview
 - [[1. 技术研发/AI应用开发/AI Interview/RAG.md|RAG]]

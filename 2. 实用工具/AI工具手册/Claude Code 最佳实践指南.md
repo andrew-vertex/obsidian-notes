@@ -1,8 +1,8 @@
 ---
 type: source
-title: claude-code-best-practice
+title: Claude Code 最佳实践指南
 source_type: github
-url: https://github.com/shanraisshan/claude-code-best-practice
+url: https://github.com/shanraisshan/Claude Code 最佳实践指南
 author: Shayan (shanraisshan)
 created: 2026-06-30
 updated: 2026-06-30
@@ -16,9 +16,9 @@ tags:
   - commands
   - workflows
 ---
-# claude-code-best-practice
+# Claude Code 最佳实践指南
 
-**GitHub**: [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)
+**GitHub**: [shanraisshan/Claude Code 最佳实践指南](https://github.com/shanraisshan/Claude Code 最佳实践指南)
 **作者**: Shayan (shanraisshan)
 **标语**: from vibe coding to agentic engineering — practice makes claude perfect
 **Stars**: ~100k+ (曾登 GitHub Trending #1)
@@ -43,7 +43,7 @@ tags:
 ## 仓库结构
 
 ```
-claude-code-best-practice/
+Claude Code 最佳实践指南/
 ├── README.md                          # 主文档：概念总览 + 工作流对比 + 资源汇总
 ├── CLAUDE.md                          # 本仓库自身的 Claude 配置（示范）
 ├── .claude/

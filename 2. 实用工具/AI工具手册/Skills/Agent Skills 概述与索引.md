@@ -22,7 +22,7 @@ tags:
 
 | 类型 | 命名建议 | 示例 |
 | --- | --- | --- |
-| 单个 skill / 插件文档 | `{name} 安装使用最佳实践.md` 或 `{name} 安装配置命令与最佳实践.md` | `caveman 安装使用最佳实践.md` |
+| 单个 skill / 插件文档 | `{name} 安装使用最佳实践.md` 或 `{name} 安装配置命令与最佳实践.md` | `Caveman Skill 安装使用指南.md` |
 | 索引文档 | `README.md` | 当前文件 |
 | 对比文档 | `{主题} 对比.md` | `Token 压缩类 Skill 对比.md` |
 
@@ -45,8 +45,8 @@ tags:
 
 | 名称 | 主题 | 状态 | 文档 |
 | --- | --- | --- | --- |
-| caveman | 输出压缩 / token 节省 / terse 模式 | 已整理 | [caveman 安装使用最佳实践.md](./caveman 安装使用最佳实践.md) |
-| graphify | 知识图谱 / 代码库理解 / 多模态语料导航 | 已整理 | [graphify 安装使用最佳实践.md](./graphify 安装使用最佳实践.md) |
+| caveman | 输出压缩 / token 节省 / terse 模式 | 已整理 | [Caveman Skill 安装使用指南.md](./Caveman Skill 安装使用指南.md) |
+| graphify | 知识图谱 / 代码库理解 / 多模态语料导航 | 已整理 | [Graphify Skill 安装使用指南.md](./Graphify Skill 安装使用指南.md) |
 
 ## 后续整理建议
 

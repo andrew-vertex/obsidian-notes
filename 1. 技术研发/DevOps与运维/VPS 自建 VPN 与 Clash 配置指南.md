@@ -7,7 +7,7 @@ tags:
   - clash
   - devops
 ---
-# VPS 自建个人 VPN：3X-UI、VLESS-Reality 与 Clash Verge 配置
+# VPS 自建 VPN 与 Clash 配置指南
 
 面向个人自用场景，记录从购买 VPS、配置 Cloudflare DNS、安装 3X-UI 面板、部署 VLESS-Reality 节点，到 Mac 上用 Clash Verge Rev 和 Loyalsoldier 规则集做白名单分流的完整流程。
 

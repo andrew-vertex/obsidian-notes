@@ -330,5 +330,5 @@ public class OrderService {
 
 ## 七、相关笔记
 
-- [[Spring-State-Machine-分布式落地与局限]]
+- [[Spring StateMachine 分布式落地与局限]]
 - [[Camunda-工作流引擎详解]]

@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8336d4c1e08b26b1",
+        "id": "651f85245117d563",
         "type": "tabs",
         "children": [
           {
-            "id": "e2126710bba48b19",
+            "id": "582afca8eb9cf6ee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. 技术研发/后端与架构/Distributed Design/Temporal 分布式工作流引擎详解.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Temporal 分布式工作流引擎详解"
+              "title": "新标签页"
             }
           }
         ]
@@ -83,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "高杠杆思维模型",
+                "query": "ha",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -94,11 +80,12 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 391.5
   },
   "right": {
     "id": "c50c1d5cf391a429",
@@ -219,34 +206,34 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e2126710bba48b19",
+  "active": "b6b7b5cd6b603e0f",
   "lastOpenFiles": [
-    "1. 技术研发/后端与架构/Distributed Design/Spring StateMachine 分布式落地与局限.md",
-    "1. 技术研发/后端与架构/Distributed Design/Camunda-工作流引擎详解.md",
-    "1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 深分页与结果遍历.md",
-    "1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 检索原理、NRT 与相关性评分.md",
-    "1. 技术研发/后端与架构/DateBase/elasticsearch/Elasticsearch 分词、中文检索与自动提示.md",
-    "2. 实用工具/AI工具手册/Codex CLI Tool 使用说明.md",
-    "2. 实用工具/AI工具手册/Claude Code CLI 安装配置命令与最佳实践.md",
-    "2. 实用工具/AI工具手册/Claude CLI Tool 使用说明.md",
-    "3. 工作与业务/保险核赔业务/案件的理算设计.md",
-    "3. 工作与业务/保险核赔业务/案件排查与诊断手册.md",
-    "3. 工作与业务/保险核赔业务/案件生产系统的全过程.md",
-    "3. 工作与业务/保险核赔业务/核赔、复核、回传与结案分流.md",
-    "3. 工作与业务/保险核赔业务/进件方式、流程类型与对接模式差异.md",
-    "3. 工作与业务/保险核赔业务/票据风控专题与风险处理手册.md",
-    "3. 工作与业务/保险核赔业务/特殊概念、边界场景与历史词汇词典.md",
-    "3. 工作与业务/保险核赔业务/问题件、打回、恢复与回退手册.md",
-    "3. 工作与业务/保险核赔业务/真实案件进件至结案全流程履约.md",
-    "3. 工作与业务/保险核赔业务/资金结算专题与状态流转手册.md",
-    "3. 工作与业务/保险核赔业务/TPA 理赔业务术语词典.md",
-    "3. 工作与业务/工单与排障/亿保技术支持排障-Agent-落地方案与使用指南.md",
-    "3. 工作与业务/工单与排障/飞书工单闭环WorkflowPlugin使用手册.md",
-    "3. 工作与业务/工单与排障/拍照初审问题件保司中台复核.md",
-    "3. 工作与业务/工单与排障/核赔中心免责疾病配置及废单详细设计.md",
-    "3. 工作与业务/工单与排障/核赔和中台分案表使用情况.md",
-    "4. 思考与认知/思维模型/高杠杆思维模型实战手册.md",
-    "4. 思考与认知/语言学习/英语单词学习最佳实践：词根词缀、词源与间隔重复.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/Harness Engineering.md",
+    "wiki/index.md",
+    "1. 技术研发/DevOps与运维/VPS 自建 VPN 与 Clash 配置指南.md",
+    "1. 技术研发/AI应用开发/OpenCode与DeepSeek多模态代码开发最佳实践.md",
+    "1. 技术研发/AI应用开发/AI Agent 的 Harness Engineering.md",
+    "1. 技术研发/AI应用开发/AI 应用学习路线.md",
+    "1. 技术研发/AI应用开发/AI 应用开发学习体系.md",
+    "1. 技术研发/AI应用开发/Java-to-AI/Java-Go 开发者 AI 应用开发与 Agent 学习路线.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/index.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/学习进度与实践清单.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/07-进阶与复盘/AI 语音技术.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/07-进阶与复盘/AI 应用开发面试复盘.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/06-项目实战/智能面试平台项目.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/06-项目实战/企业知识库问答项目.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/06-项目实战/多工具 Agent 项目.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/AI 应用系统设计.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/AI 应用评测体系.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/AI 应用安全与合规.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/大模型网关.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/Workflow、Graph 与 Loop.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/MCP 协议.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/AI Agent 记忆系统.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/Agent Skills.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程与实用技巧指南.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
     "6. 收件箱/Clippings",
     "6. 收件箱",
     "Clippings",

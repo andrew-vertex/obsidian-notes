@@ -1,5 +1,5 @@
 ---
-title: "Loop Engineering又是啥？一文讲清企业Agent落地的四层工程进化论"
+title: "企业 Agent 落地四层工程进化论"
 source: "https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247696119&idx=1&sn=ae1b830002ae285cd1cd67970194ab34&poc_token=HC4KR2qjd9--cvLYbqn0hC4ZicyiKTGUEEBEIt-0"
 author:
   - "[[李伟山]]"

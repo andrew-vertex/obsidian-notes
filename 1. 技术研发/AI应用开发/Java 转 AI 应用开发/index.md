@@ -39,7 +39,7 @@ tags:
 
 ## 阶段 2：Prompt 与上下文
 
-- [[02-Prompt 与上下文/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？]]
+- [[02-Prompt 与上下文/大模型提示词工程与实用技巧指南]]
 - [[02-Prompt 与上下文/上下文工程]]
 
 ## 阶段 3：RAG 与知识库
@@ -89,12 +89,8 @@ tags:
 
 ## 相关页面
 
-- [[wiki/learning/_index|Tech 领域索引]]
-- [[.raw/articles/JavaGuide Java Go 开发者 AI 应用开发路线来源记录|来源记录]]
-- [[../../../Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线|原始阅读笔记]]
 
 ## 参考来源
 
 - Java/Go 开发者 AI 应用开发与 Agent 学习路线：<https://javaguide.cn/roadmap/java-to-ai-roadmap.html>
 - JavaGuide AI 应用开发知识体系：<https://javaguide.cn/ai/>
-- 本地网页剪藏：[[../../../Clippings/JavaGo 开发者 AI 应用开发与 Agent 学习路线（2026 最新版）]]

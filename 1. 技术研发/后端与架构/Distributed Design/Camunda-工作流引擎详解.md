@@ -171,5 +171,5 @@ public class OrderService {
 
 ## 六、相关笔记
 
-- [[Spring-State-Machine-分布式落地与局限]]
-- [[Temporal-io-分布式工作流引擎详解]]
+- [[Spring StateMachine 分布式落地与局限]]
+- [[Temporal 分布式工作流引擎详解]]
