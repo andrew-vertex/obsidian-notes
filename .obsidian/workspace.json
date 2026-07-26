@@ -4,17 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "651f85245117d563",
+        "id": "ed9edbc7ecac0fa9",
         "type": "tabs",
         "children": [
           {
-            "id": "582afca8eb9cf6ee",
+            "id": "4ce15666f8ac46ba",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/yuanjianwei/knowledge/notes",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "environment": [],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "profileSourceId": "darwinIntegratedDefault",
+                  "serial": null,
+                  "userTitle": ""
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "yuanjianwei@yuanjianweidebijibendiannao:~/knowledge/notes"
             }
           }
         ]
@@ -69,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ha",
+                "query": "we",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -80,8 +115,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,8 +221,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5,
-    "collapsed": true
+    "width": 279.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,10 +239,21 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b6b7b5cd6b603e0f",
+  "active": "b35b5611f8d455dc",
   "lastOpenFiles": [
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/Harness Engineering.md",
+    "2. 实用工具/n8n/n8n 第一个工作流实战.md",
+    "1. 技术研发/n8n/n8n声明式存储与事件驱动引擎解析.md",
+    "1. 技术研发/n8n",
+    "2. 实用工具/n8n/n8n集成MCP与AI工作流生成指南.md",
+    "2. 实用工具/n8n",
+    "2. 实用工具/AI工具手册/n8n 第一个工作流实战.md",
+    "2. 实用工具/AI工具手册/n8n 第一个工作流：NASA 太阳耀斑周报实战.md",
+    "2. 实用工具/AI工具手册/AI短视频与漫剧制作全流程指南.md",
+    "2. 实用工具/AI工具手册/AI短视频与漫剧制作自动化 Workflow 与 HitL 落地指南.md",
+    "1. 技术研发/后端与架构/DateBase/MySQL 海量数据查询性能退化机制：B+树树高跃迁与页分裂深度剖析.md",
+    "未命名.md",
     "wiki/index.md",
+    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/Harness Engineering.md",
     "1. 技术研发/DevOps与运维/VPS 自建 VPN 与 Clash 配置指南.md",
     "1. 技术研发/AI应用开发/OpenCode与DeepSeek多模态代码开发最佳实践.md",
     "1. 技术研发/AI应用开发/AI Agent 的 Harness Engineering.md",
@@ -225,15 +269,6 @@
     "1. 技术研发/AI应用开发/Java 转 AI 应用开发/06-项目实战/企业知识库问答项目.md",
     "1. 技术研发/AI应用开发/Java 转 AI 应用开发/06-项目实战/多工具 Agent 项目.md",
     "1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/AI 应用系统设计.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/AI 应用评测体系.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/AI 应用安全与合规.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/大模型网关.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/Workflow、Graph 与 Loop.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/MCP 协议.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/AI Agent 记忆系统.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/Agent Skills.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/02-Prompt 与上下文/大模型提示词工程与实用技巧指南.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/01-大模型基础/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
     "6. 收件箱/Clippings",
     "6. 收件箱",
     "Clippings",
@@ -242,8 +277,6 @@
     "6. 收集箱/Pending Notes​",
     "3. 工作与业务/履历与项目经历/yuanjianwei-java-backend-resume.tex",
     "2. 实用工具/AI工具手册/Skills",
-    "1. 技术研发/算法与编程/Java",
-    "1. 技术研发/DevOps与运维/Linux",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 原理/Untitled 6.png",
     "未命名.canvas",
     "未命名 1.canvas",

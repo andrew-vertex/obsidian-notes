@@ -7,8 +7,14 @@ updated: 2026-07-24
 
 ## 1. 技术研发
 
+### n8n
+- [[1. 技术研发/n8n/n8n声明式存储与事件驱动引擎解析.md|n8n 核心架构：声明式存储与事件驱动引擎解析]]
+
 ### DevOps与运维
 - [[1. 技术研发/DevOps与运维/VPS 自建 VPN 与 Clash 配置指南.md|VPS 自建 VPN 与 Clash 配置指南]]
+
+### 后端与架构/DateBase
+- [[1. 技术研发/后端与架构/DateBase/MySQL 海量数据查询性能退化机制：B+树树高跃迁与页分裂深度剖析.md|MySQL 海量数据查询性能退化机制：B+树树高跃迁与页分裂深度剖析]]
 
 ### 后端与架构/Distributed Design
 - [[1. 技术研发/后端与架构/Distributed Design/Camunda-工作流引擎详解.md|Camunda-工作流引擎详解]]
@@ -52,6 +58,10 @@ updated: 2026-07-24
 
 ## 2. 实用工具
 
+### n8n
+- [[2. 实用工具/n8n/n8n 第一个工作流实战.md|n8n 第一个工作流实战]]
+- [[2. 实用工具/n8n/n8n集成MCP与AI工作流生成指南.md|n8n 集成 MCP 与 AI 自动工作流生成指南]]
+
 ### Mac效率工具
 - [[2. 实用工具/Mac效率工具/Git 实用技巧：worktree、rebase 与日常分支管理.md|Git 实用技巧：worktree、rebase 与日常分支管理]]
 - [[2. 实用工具/Mac效率工具/Homebrew 安装配置使用最佳实践.md|Homebrew 安装配置使用最佳实践]]
@@ -62,6 +72,8 @@ updated: 2026-07-24
 - [[2. 实用工具/Mac效率工具/命令行效率工具使用指南.md|命令行效率工具使用指南]]
 
 ### AI工具手册
+- [[2. 实用工具/AI工具手册/AI短视频与漫剧制作自动化 Workflow 与 HitL 落地指南.md|AI短视频与漫剧制作自动化 Workflow 与 HitL 落地指南]]
+- [[2. 实用工具/AI工具手册/AI短视频与漫剧制作全流程指南.md|AI短视频与漫剧制作全流程指南]]
 - [[2. 实用工具/AI工具手册/Claude CLI Tool 使用说明.md|Claude CLI Tool 使用说明]]
 - [[2. 实用工具/AI工具手册/Claude Code CLI 安装配置命令与最佳实践.md|Claude Code CLI 安装配置命令与最佳实践]]
 - [[2. 实用工具/AI工具手册/Claude Code 最佳实践指南.md|Claude Code 最佳实践指南]]
@@ -128,5 +140,3 @@ updated: 2026-07-24
 - [[6. 收集箱/Clippings/AI Agent 常见失败原因与排障指南.md|AI Agent 常见失败原因与排障指南]]
 - [[6. 收集箱/Clippings/Agent 评测：方法论与体系设计.md|Agent 评测：方法论与体系设计]]
 - [[6. 收集箱/Clippings/企业 Agent 落地四层工程进化论.md|企业 Agent 落地四层工程进化论]]
-
-
