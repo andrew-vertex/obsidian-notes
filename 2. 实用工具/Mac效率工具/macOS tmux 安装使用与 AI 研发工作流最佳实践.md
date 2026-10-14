@@ -9,6 +9,7 @@ tags:
   - ssh
   - ai-workflow
   - deep-learning
+updated: 2026-08-12
 ---
 
 # macOS tmux 安装使用与 AI 研发工作流最佳实践
@@ -179,7 +180,10 @@ tmux kill-session -t llm_train
 
 ## 命令与快捷键速查
 
-下面表格默认 `Prefix = C-b`。
+下面表格默认 `Prefix = C-b`。如果你在 `~/.tmux.conf` 里改过 prefix，就按你改的键来（改法见「[推荐配置](#推荐配置)」）。
+
+> [!tip] 快捷键体系：两层结构
+> tmux 快捷键分两层：**先按前缀键（默认 `Ctrl + b`），松开，再按后续功能键**。面板 / 窗口 / 会话的所有操作都发生在前缀键之后，例如「左右分屏」= `Ctrl + b` 松开后按 `%`。
 
 ### 会话管理
 
@@ -218,7 +222,7 @@ tmux kill-session -t llm_train
 | 显示面板编号 | - | `C-b q` | 输入编号可跳转 |
 | 最大化/恢复面板 | - | `C-b z` | 查看长日志时很常用 |
 | 切换布局 | - | `C-b Space` | 自动轮换布局 |
-| 关闭面板 | `tmux kill-pane` | `C-b x` | 或在 shell 中输入 `exit` |
+| 关闭面板 | `tmux kill-pane` | `C-b x` | 最常用是在 pane 中直接 `Ctrl + d` 或输入 `exit`；`C-b x` 会先弹确认 |
 | 调整大小 | `tmux resize-pane` | `C-b` 后按住 `Ctrl+方向键` | 部分终端快捷键可能冲突 |
 
 ### 复制、滚动与查找
@@ -231,6 +235,20 @@ tmux kill-session -t llm_train
 | 向后搜索 | copy-mode 中 `/关键词` | 类似 less/vim |
 | 向前搜索 | copy-mode 中 `?关键词` | 反向搜索 |
 | 保存当前 pane 输出 | `tmux capture-pane -p -S -2000 > pane.log` | 保存最近 2000 行 |
+
+### 新手最小记忆集（生存包）
+
+如果只记 5 个，记住下面这张表就能跑起来日常任务：
+
+| 快捷键 | 功能 |
+| --- | --- |
+| `C-b %` | 左右分屏 |
+| `C-b "` | 上下分屏 |
+| `C-b 方向键` | 切换面板 |
+| `C-b z` | 面板放大 / 还原 |
+| `C-b d` | 脱离会话（后台继续跑） |
+
+起手式小贴士：`C-b %`（左右分屏）和 `C-b "`（上下分屏）是最常用的两个分屏操作。
 
 ## AI 研发常用布局
 

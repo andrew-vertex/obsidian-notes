@@ -653,3 +653,20 @@ cp /etc/x-ui/x-ui.db /root/backup/3x-ui/x-ui.db.$(date +%Y%m%d_%H%M%S)
 - Clash Verge Rev Script 文档：<https://getclashvergerev.org/guide/script.html>
 - Loyalsoldier/clash-rules：<https://github.com/Loyalsoldier/clash-rules>
 - Cloudflare Proxied DNS records：<https://developers.cloudflare.com/dns/manage-dns-records/reference/proxied-dns-records/>
+- Youtube: <https://www.youtube.com/watch?v=MuWTmEiNe1g&list=PLZgVXkbnPcNzWhFHuuDTbmzIeoTDU3LIA>
+
+## 相关记录
+
+```
+═══════════════════════════════════════════
+     Panel Installation Complete!         
+═══════════════════════════════════════════
+Username:    YnRGwZ2YoQ
+Password:    2qyIJXVRTF
+Port:        8443
+WebBasePath: wSOltEyGXsrJneTLnn
+Database:    SQLite (/etc/x-ui/x-ui.db)
+Access URL:  http://107.172.87.116:8443/wSOltEyGXsrJneTLnn
+API Token:   Th8g7o6Un13WkLHy1g5VpbY7A7z60bI41Xnlp8RXjEmVp0aC
+═══════════════════════════════════════════
+```

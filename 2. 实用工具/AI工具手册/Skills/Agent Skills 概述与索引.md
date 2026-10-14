@@ -47,6 +47,7 @@ tags:
 | --- | --- | --- | --- |
 | caveman | 输出压缩 / token 节省 / terse 模式 | 已整理 | [Caveman Skill 安装使用指南.md](./Caveman Skill 安装使用指南.md) |
 | graphify | 知识图谱 / 代码库理解 / 多模态语料导航 | 已整理 | [Graphify Skill 安装使用指南.md](./Graphify Skill 安装使用指南.md) |
+| ui-ux-pro-max | UI/UX 设计智能 / 设计规范 / 前端美化 | 已整理 | [UI UX Pro Max Skill 安装使用指南.md](./UI UX Pro Max Skill 安装使用指南.md) |
 
 ## 后续整理建议
 

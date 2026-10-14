@@ -4,55 +4,92 @@
     "type": "split",
     "children": [
       {
-        "id": "ed9edbc7ecac0fa9",
-        "type": "tabs",
+        "id": "9b31bda0ef831ab2",
+        "type": "split",
         "children": [
           {
-            "id": "4ce15666f8ac46ba",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/yuanjianwei/knowledge/notes",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "environment": [],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
+            "id": "f85f4c497aa8b9f8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c36bcde24a674ad8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/index.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
-                  "profileSourceId": "darwinIntegratedDefault",
-                  "serial": null,
-                  "userTitle": ""
+                  "icon": "lucide-file",
+                  "title": "index"
                 }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "yuanjianwei@yuanjianweidebijibendiannao:~/knowledge/notes"
-            }
+              }
+            ]
+          },
+          {
+            "id": "00cd7c0773f4ee80",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "801fd97667c9316c",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/yuanjianwei/knowledge/notes",
+                      "focus": false,
+                      "profile": {
+                        "args": [
+                          "--login"
+                        ],
+                        "environment": [],
+                        "executable": "/bin/zsh",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "darwinIntegratedDefault",
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "yuanjianwei@yuanjianweidebijibendiannao:~/knowledge/notes"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -72,10 +109,12 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -83,7 +122,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "书签"
             }
@@ -104,7 +146,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "we",
+                "query": "super",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -112,7 +154,7 @@
                 "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           }
         ]
@@ -164,13 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/AI/Spec Kit 与 SDD 规范驱动开发实践指南.md",
+                "file": "wiki/index.md",
                 "followCursor": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Spec Kit 与 SDD 规范驱动开发实践指南 的大纲"
+              "title": "Outline"
             }
           },
           {
@@ -189,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线.md",
+                "file": "Clippings/RAG 核心概念与原理：Chunking、Embedding、相似度、HNSW 与多路召回｜得物技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +241,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Java-to-AI-roadMap - AI 应用开发与 Agent 学习路线 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -225,22 +267,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "notebook-navigator:Notebook Navigator": false,
       "obsidian-importer:Open Importer": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
       "terminal:Open terminal": false,
-      "notebook-navigator:笔记本导航器": false,
-      "hide-folders:Show hidden folders": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "hide-folders:Show hidden folders": false
     }
   },
   "active": "b35b5611f8d455dc",
   "lastOpenFiles": [
+    "2. 实用工具/AI工具手册/Superpowers 安装使用与 AI 编程工作流实践指南.md",
+    "2. 实用工具/AI工具手册/Spec Kit 与 SDD 规范驱动开发实践指南.md",
+    "Clippings/企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术.md",
+    "2. 实用工具/硬件与装机/DIY 电脑主机八大件选购与配置指南.md",
+    "2. 实用工具/硬件与装机",
+    "安诺住院结算单影像处理业务流程.drawio",
+    "Clippings/RAG 核心概念与原理：Chunking、Embedding、相似度、HNSW 与多路召回｜得物技术.md",
+    "2. 实用工具/Mac效率工具/macOS tmux 安装使用与 AI 研发工作流最佳实践.md",
+    "1. 技术研发/DevOps与运维/VPS 自建 VPN 与 Clash 配置指南.md",
+    "2. 实用工具/AI工具手册/awesome-design-md 安装使用与 AI 前端设计规范实践指南.md",
+    "2. 实用工具/AI工具手册/Skills/UI UX Pro Max Skill 安装使用指南.md",
+    "2. 实用工具/AI工具手册/Skills/Graphify Skill 安装使用指南.md",
+    "docs/superpowers/plans/2026-07-24-broken-links-and-index-cleanup.md",
+    "ui-ux-pro-max-skill-guide.md",
+    "4. 思考与认知/思维模型/第一性原理视角下的人际社交与情商模型.md",
+    "4. 思考与认知/思维模型/高杠杆思维模型实战手册.md",
+    "4. 思考与认知/思维模型/任性性格的本质成因与心理重塑.md",
+    "4. 思考与认知/思维模型/人际社交与第一性原理情商模型.md",
+    "1. 技术研发/AI应用开发/Agent/Agent 应用中的意图识别与实现方案.md",
+    "Clippings",
     "2. 实用工具/n8n/n8n 第一个工作流实战.md",
     "1. 技术研发/n8n/n8n声明式存储与事件驱动引擎解析.md",
     "1. 技术研发/n8n",
@@ -252,31 +314,11 @@
     "2. 实用工具/AI工具手册/AI短视频与漫剧制作自动化 Workflow 与 HitL 落地指南.md",
     "1. 技术研发/后端与架构/DateBase/MySQL 海量数据查询性能退化机制：B+树树高跃迁与页分裂深度剖析.md",
     "未命名.md",
-    "wiki/index.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/04-Agent/Harness Engineering.md",
-    "1. 技术研发/DevOps与运维/VPS 自建 VPN 与 Clash 配置指南.md",
-    "1. 技术研发/AI应用开发/OpenCode与DeepSeek多模态代码开发最佳实践.md",
-    "1. 技术研发/AI应用开发/AI Agent 的 Harness Engineering.md",
-    "1. 技术研发/AI应用开发/AI 应用学习路线.md",
-    "1. 技术研发/AI应用开发/AI 应用开发学习体系.md",
-    "1. 技术研发/AI应用开发/Java-to-AI/Java-Go 开发者 AI 应用开发与 Agent 学习路线.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/Java 后端转 AI 应用开发学习路线.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/index.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/学习进度与实践清单.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/07-进阶与复盘/AI 语音技术.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/07-进阶与复盘/AI 应用开发面试复盘.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/06-项目实战/智能面试平台项目.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/06-项目实战/企业知识库问答项目.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/06-项目实战/多工具 Agent 项目.md",
-    "1. 技术研发/AI应用开发/Java 转 AI 应用开发/05-工程化/AI 应用系统设计.md",
     "6. 收件箱/Clippings",
     "6. 收件箱",
-    "Clippings",
     "6. 收集箱/Clippings",
     "wiki",
     "6. 收集箱/Pending Notes​",
-    "3. 工作与业务/履历与项目经历/yuanjianwei-java-backend-resume.tex",
-    "2. 实用工具/AI工具手册/Skills",
     "Tech/_kb/raw/elasticsearch-notion-export/ElasticSearch/ElasticSearch 原理/Untitled 6.png",
     "未命名.canvas",
     "未命名 1.canvas",
