@@ -228,7 +228,7 @@ OPTIMIZE TABLE table_name;
 ## 关联概念
 
 - [[1. 技术研发/后端与架构/Performance/MySQL 数据库性能调优与索引设计指南|MySQL 数据库性能调优与索引设计指南]]
-- [[1. 技术研发/后端与架构/DateBase/InnoDB 存储引擎架构与 Buffer Pool 内存管理|InnoDB 存储引擎架构与 Buffer Pool 内存管理]]
+- [[1. 技术研发/后端与架构/Database/InnoDB 存储引擎架构与 Buffer Pool 内存管理|InnoDB 存储引擎架构与 Buffer Pool 内存管理]]
 
 ---
 

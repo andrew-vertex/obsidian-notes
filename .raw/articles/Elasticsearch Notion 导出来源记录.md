@@ -10,7 +10,7 @@ tags:
 ---
 # Elasticsearch Notion 导出来源记录
 
-这份 source record 对应一组从 `Temp/` 提升到 `Tech/_kb/raw/` 的 Elasticsearch 历史笔记导出。原始导出保持不改写，正式知识页在 `Tech/Backend/DateBase/elasticsearch/` 下维护。
+这份 source record 对应一组从 `Temp/` 提升到 `Tech/_kb/raw/` 的 Elasticsearch 历史笔记导出。原始导出保持不改写，正式知识页在 `Tech/Backend/Database/elasticsearch/` 下维护。
 
 [TOC]
 
@@ -37,15 +37,15 @@ tags:
 
 ## Compilation Targets
 
-- [[../../Backend/DateBase/elasticsearch/Elasticsearch 阅读指南]]
-- [[../../Backend/DateBase/elasticsearch/Elasticsearch 知识索引]]
-- [[../../Backend/DateBase/elasticsearch/Elasticsearch 基础与核心概念]]
-- [[../../Backend/DateBase/elasticsearch/Elasticsearch 索引设计、文档与查询 DSL]]
-- [[../../Backend/DateBase/elasticsearch/Elasticsearch 分词、中文检索与自动提示]]
-- [[../../Backend/DateBase/elasticsearch/Elasticsearch 检索原理、NRT 与相关性评分]]
-- [[../../Backend/DateBase/elasticsearch/Elasticsearch 深分页与结果遍历]]
-- [[../../Backend/DateBase/elasticsearch/Elasticsearch 集群与分布式架构]]
-- [[../../Backend/DateBase/elasticsearch/Elasticsearch 数据同步、别名与重建索引]]
+- [[../../Backend/Database/elasticsearch/Elasticsearch 阅读指南]]
+- [[../../Backend/Database/elasticsearch/Elasticsearch 知识索引]]
+- [[../../Backend/Database/elasticsearch/Elasticsearch 基础与核心概念]]
+- [[../../Backend/Database/elasticsearch/Elasticsearch 索引设计、文档与查询 DSL]]
+- [[../../Backend/Database/elasticsearch/Elasticsearch 分词、中文检索与自动提示]]
+- [[../../Backend/Database/elasticsearch/Elasticsearch 检索原理、NRT 与相关性评分]]
+- [[../../Backend/Database/elasticsearch/Elasticsearch 深分页与结果遍历]]
+- [[../../Backend/Database/elasticsearch/Elasticsearch 集群与分布式架构]]
+- [[../../Backend/Database/elasticsearch/Elasticsearch 数据同步、别名与重建索引]]
 
 ## Curation Rules
 
@@ -56,4 +56,4 @@ tags:
 ## 参考来源
 
 - vault raw：`Tech/_kb/raw/elasticsearch-notion-export/`
-- compiled wiki：[[../../Backend/DateBase/elasticsearch/Elasticsearch 阅读指南]]
+- compiled wiki：[[../../Backend/Database/elasticsearch/Elasticsearch 阅读指南]]
