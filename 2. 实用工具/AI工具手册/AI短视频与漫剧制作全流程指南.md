@@ -243,4 +243,4 @@ A character sheet and turn-around view of a 25-year-old male assassin, full body
 ## 🔗 关联资源与索引
 - [[2. 实用工具/AI工具手册/AI短视频与漫剧制作自动化 Workflow 与 HitL 落地指南.md|AI短视频与漫剧制作自动化 Workflow 与 HitL 落地指南]]
 - [[2. 实用工具/AI工具手册/Skills/Agent Skills 概述与索引.md|Agent Skills 概述与索引]]
-- [[1. 技术研发/AI应用开发/OpenCode与DeepSeek多模态代码开发最佳实践.md|OpenCode与DeepSeek多模态代码开发最佳实践]]
+- [[2. 实用工具/AI工具手册/OpenCode与DeepSeek多模态代码开发最佳实践.md|OpenCode与DeepSeek多模态代码开发最佳实践]]
